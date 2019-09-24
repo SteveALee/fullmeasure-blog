@@ -22,7 +22,7 @@
   "scripts": {
     "start": "hexo generate && hexo serve",
     "clean": "hexo clean",
-    "build": "npm run clean && hexo generate",
+    "build": "npm run clean && hexo generate && touch docs/.nojekyll",
     "publish": "hexo publish",
     "deploy": "echo Run build and then push to git hub"
   }
