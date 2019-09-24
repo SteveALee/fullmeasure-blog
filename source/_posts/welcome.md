@@ -4,7 +4,7 @@ date: 2019-09-24 14:50:07
 tags:
 ---
 
-## Steve's little music and tech emporium
+## Welcome to Steve's little music and tech emporium
 
 Welcome to FullMeasure. My place on the "interwebs" where I blog about my experiences as an adult learn of music. I'll also share any useful tools I develop to help me on the way.
 
