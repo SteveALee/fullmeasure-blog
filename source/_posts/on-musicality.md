@@ -33,12 +33,12 @@ More recently I've managed, with the help of an awesome teacher, to get Grade 1 
 
 ## Perspective
 
-So I've read quite a lot of books on theory, a natural tendency of myself and I suspect many adult learners. As an adult who like to learn new things, music was different in that the usual approach of fitting new concepts into the framework of my existing knowledge didn't work. Most books I ead fudged the explanation of concepts like "key" and describe them in terms of other musical concepts. Not helpfull to a complete newbie. To some extent you right back at square one as when learning the alphabet or numbers. You just have to take some things as just being so and memorise them. Then you build on those. That's hard for someone like me who always wants to understand 'why' something is so.
+So I've read quite a lot of books on theory, a natural tendency of myself and I suspect many adult learners. As an adult who like to learn new things, music was different in that the usual approach of fitting new concepts into the framework of my existing knowledge didn't work. Most books I ead fudged the explanation of concepts like "key" and describe them in terms of other musical concepts. Not helpful to a complete newbie. To some extent you right back at square one as when learning the alphabet or numbers. You just have to take some things as just being so and memorise them. Then you build on those. That's hard for someone like me who always wants to understand 'why' something is so.
 
-But I've finally come to realise it is actually engaging in making music, and so developing musicality as an internal understanding, that matters more than anything. Like any skill this takes a lot of persistent, applied practice and driving through the frustration of feeling "I'll never get this". This drifts into self improvement psychology terratory.
+But I've finally come to realise it is actually engaging in the making music that matters most. Developing musicality as an internal understanding requires making music. Like any skill this takes a lot of persistent, applied practice and driving through the frustration of feeling "I'll never get this". This drifts into self improvement psychology terratory.
 
 ## FullMeasure
 
-That then is the background to FullMeasure and what I'll try to address here. We'll cover things that help with developing a Full Measure of 'musicality' through exploring skills, psychology along with useful tools, services and technology.
+That then is the background to FullMeasure and what I'll try to address here. We'll cover things that help with developing a Full Measure of 'musicality' through exploring skills development plus psychology along with useful tools, services and technology.
 
-It's definitely NOT going to be "Tech for tech's sake, Money for God's sake" as 10 CC almost sang. Or I'll just get distracted for mmaking music
+It's definitely NOT going to be "Tech for tech's sake, Money for God's sake" as 10 CC almost sang. Or I'll just get distracted for making music
