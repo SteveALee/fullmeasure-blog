@@ -8,16 +8,19 @@ Following the common practice in open source projects, here is a collection of a
 ## Develop Skills
 
 - [Musical U](https://www.musical-u.com/) excellent musicality learning resources. Pick your own course from many modules or follow courses like 'The Musician's Ear', 'Foundations of a Musical Mind' and 'The Circle of Fifths'. Instrument specific packs include bass by Steve Lawson. Reasonable price given the quantity and quality of modules.
+- [Luke from Become A Bassist](https://www.youtube.com/channel/UCxX8-X5XeOTSlXQZERNWrog) clear bass lessons on YouTube
 - [Play Bass – for Beginners & Improvers](https://www.basslinepublishing.com/product/play-bass-for-beginners-improvers/) Stuart Claytons latest book
 - [studybass.com](http://www.studybass.com/) a website chock full of solid bass lessons, tools and more. Mostly free.
+- [Talking Bass with Mark J Smith](https://www.youtube.com/channel/UCDfStxwji-22A_bvY280UIg) great music lessons on youtube
 - [Trinity Rock and Pop Bass](https://www.trinityrock.com/instruments/bass) performance based graded exam syllabus
 
-## Watch and Listen
+## Relax, Watch and Listen
 
 - [Musicality Now podcast](https://www.musical-u.com/learn/topic/podcast/) - full of interviews about musicality and more by the Musical U team. More recent episodes include video as well as audio.
 
 ## People
 
+- [Rick Beato](https://www.youtube.com/channel/UCJquYOG5EL82sKTfH9aMA9Q) great breakdowns of classic songs and more.
 - [Steve Lawson - Solo Bass Steve](https://www.stevelawson.net/) Mr awesome himself, pushing the boundaries of bass playing and musical sustainability. Oh, and a really nice guy too. Do yourself a favour and subscribe to his bandcamp.
 - [Bill Vencil - Chords of Orion](https://www.youtube.com/channel/UCx0irbDsRLjMvEXaW56cqlQ) YouTube channel with loads of gorgeous ambient guitar and well explained musicality tips and skills.
 
