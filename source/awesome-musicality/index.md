@@ -7,8 +7,10 @@ Following the common practice in open source projects, here is a collection of a
 
 ## Develop Skills
 
-- [studybass.com](http://www.studybass.com/) a website chock full of solid bass lessons, tools and more. Mostly free.
 - [Musical U](https://www.musical-u.com/) excellent musicality learning resources. Pick your own course from many modules or follow courses like 'The Musician's Ear', 'Foundations of a Musical Mind' and 'The Circle of Fifths'. Instrument specific packs include bass by Steve Lawson. Reasonable price given the quantity and quality of modules.
+- [Play Bass – for Beginners & Improvers](https://www.basslinepublishing.com/product/play-bass-for-beginners-improvers/) Stuart Claytons latest book
+- [studybass.com](http://www.studybass.com/) a website chock full of solid bass lessons, tools and more. Mostly free.
+- [Trinity Rock and Pop Bass](https://www.trinityrock.com/instruments/bass) performance based graded exam syllabus
 
 ## Watch and Listen
 
