@@ -28,12 +28,12 @@ Following the common practice in open source projects, here is a collection of a
 
 For no particular reason here is some of the stuff I use.
 
-- [Peavey Millenium Bass](https://peavey.com/products/index.cfm/item/670/118908/) my first bass and great entry level value
-- [Ibanez SR650 bass](https://www.ibanez.com/usa/products/detail/sr650_04.html) my current bass
-- [PJB Double Four (BG-75) practice amp] small with great quality and perfect for home use.
+- [Peavey Millenium](https://peavey.com/products/index.cfm/item/670/118908/) my first bass and great entry level value
+- [Ibanez SR650](https://www.ibanez.com/usa/products/detail/sr650_04.html) my current bass
+- [PJB Double Four (BG-75)](http://pjbworld.com/cms/index.php/product_bg-75/) small  practice amp with great quality and perfect for home use.
 - [ModDevice DuoX](https://www.moddevices.com/products/mod-duo-x) Truely awesome virtual pedal-board with infinite possibilities. Mostly open source too.
 - Windows PC
 - [Transcribe!](https://www.seventhstring.com/xscribe/overview.html) the original and best music transcription tool that rocks for learning music by ear from recordings. Desktop, not touch enabled.
 - [iReal Pro](https://irealpro.com/) chord chart based backing track generator and player. Can run on Windows using the [Bluestacks Android emulator](https://www.bluestacks.com)
 - [YouTube](https://www.youtube.com/) a great source of music (but you knew that)
-- [Yamaha PSS 680 keyboard](https://sonicstate.com/synth/yamaha_pss680/) The review says it all but it just about does MIDI and my daughter has nabbed my [Roland XP-50](https://en.wikipedia.org/wiki/Roland_XP-50)
+- [Yamaha PSS 680 ](https://sonicstate.com/synth/yamaha_pss680/) The review says it all about this early workstation but it just about does MIDI and my daughter has nabbed my [Roland XP-50](https://en.wikipedia.org/wiki/Roland_XP-50)
