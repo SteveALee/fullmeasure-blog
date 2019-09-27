@@ -5,14 +5,19 @@ date: 2019-09-26 20:20:13
 
 Following the common practice in open source projects, here is a collection of awesome musicality tools, resources, videos and shiny things. For now I'm only including bass guitar related awesomeness.
 
-## Develop Skills
+## Skills Development
 
-- [Musical U](https://www.musical-u.com/) excellent musicality learning resources. Pick your own course from many modules or follow courses like 'The Musician's Ear', 'Foundations of a Musical Mind' and 'The Circle of Fifths'. Instrument specific packs include bass by Steve Lawson. Reasonable price given the quantity and quality of modules.
 - [Luke from Become A Bassist](https://www.youtube.com/channel/UCxX8-X5XeOTSlXQZERNWrog) clear bass lessons on YouTube
+- [Musical U](https://www.musical-u.com/) excellent musicality learning resources. Pick your own course from many modules or follow courses like 'The Musician's Ear', 'Foundations of a Musical Mind' and 'The Circle of Fifths'. Instrument specific packs include bass by Steve Lawson. Reasonable price given the quantity and quality of modules.
 - [Play Bass – for Beginners & Improvers](https://www.basslinepublishing.com/product/play-bass-for-beginners-improvers/) Stuart Claytons latest book
 - [studybass.com](http://www.studybass.com/) a website chock full of solid bass lessons, tools and more. Mostly free.
 - [Talking Bass with Mark J Smith](https://www.youtube.com/channel/UCDfStxwji-22A_bvY280UIg) great music lessons on youtube
-- [Trinity Rock and Pop Bass](https://www.trinityrock.com/instruments/bass) performance based graded exam syllabus
+- [Trinity Rock and Pop Bass](https://www.trinityrock.com/instruments/bass) the performance based graded exam syllabus
+
+# Mind Games
+
+- [The inner Game of Music by Barry Green](https://www.amazon.co.uk/Inner-Game-Music-Timothy-Gallwey/dp/1447291727/ref=sr_1_1?keywords=the+inner+game+of+music&qid=1569585679&s=gateway&sr=8-1) the original book on the fight against elusive opponents such as nervousness, self-doubt and fear of failure.
+- [This is Your Brain on Music: Understanding a Human Obsession by Daniel Levitin](https://www.amazon.co.uk/dp/B07PPD6989/ref=pe_385721_48724741_TE_M1DP) an explanation of how humans experience music and our perennial love affair with it.
 
 ## Relax, Watch and Listen
 
