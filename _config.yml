@@ -85,3 +85,6 @@ theme_config:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# talkyard.io
+talkyard_server_url: https://comments-demo.talkyard.io
