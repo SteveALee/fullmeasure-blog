@@ -87,4 +87,5 @@ deploy:
   type:
 
 # talkyard.io
-talkyard_server_url: https://comments-demo.talkyard.io
+talkyard_server_url: https://comments-for-fullmeasure-uk.talkyard.net
+# https://comments-for-fullmeasure-uk.talkyard.net 
