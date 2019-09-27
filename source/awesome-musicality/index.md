@@ -14,7 +14,7 @@ Following the common practice in open source projects, here is a collection of a
 - [Talking Bass with Mark J Smith](https://www.youtube.com/channel/UCDfStxwji-22A_bvY280UIg) great music lessons on youtube
 - [Trinity Rock and Pop Bass](https://www.trinityrock.com/instruments/bass) the performance based graded exam syllabus
 
-# Mind Games
+## Mind Games
 
 - [The inner Game of Music by Barry Green](https://www.amazon.co.uk/Inner-Game-Music-Timothy-Gallwey/dp/1447291727/ref=sr_1_1?keywords=the+inner+game+of+music&qid=1569585679&s=gateway&sr=8-1) the original book on the fight against elusive opponents such as nervousness, self-doubt and fear of failure.
 - [This is Your Brain on Music: Understanding a Human Obsession by Daniel Levitin](https://www.amazon.co.uk/dp/B07PPD6989/ref=pe_385721_48724741_TE_M1DP) an explanation of how humans experience music and our perennial love affair with it.
