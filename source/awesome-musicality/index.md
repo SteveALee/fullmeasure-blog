@@ -3,7 +3,7 @@ title: Awesome Musicality
 date: 2019-09-26 20:20:13
 ---
 
-Following the common practice in open source projects, here is a collection of awesome musicality tools, resources, videos and shiny things. For now I'm only including bass guitar related awesomeness.
+Following the common practice in open source projects, here is a collection of awesome musicality tools, resources, videos and shiny things. There's an unashamed emphasis on resources for bass.
 
 ## Skills Development
 
