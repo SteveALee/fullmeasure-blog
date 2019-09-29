@@ -16,9 +16,11 @@ Following the common practice in open source projects, here is a collection of a
 
 ## Mind Games
 
+- [Making Improv a Game, with Jeffrey Agrell](https://www.musical-u.com/learn/making-improv-a-game-with-jeffrey-agrell/) break free of metal constraints that stop you having fun with music. See the 'Links and Resources' section for more.
 - [The inner Game of Music by Barry Green](https://www.amazon.co.uk/Inner-Game-Music-Timothy-Gallwey/dp/1447291727/ref=sr_1_1?keywords=the+inner+game+of+music&qid=1569585679&s=gateway&sr=8-1) the original book on the fight against elusive opponents such as nervousness, self-doubt and fear of failure.
-- [The Practicing Mind by T M Sterner](https://www.amazon.co.uk/Practicing-Mind-Developing-Discipline-Challenge-ebook/dp/B007C8NRSA/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1569689342&sr=8-1) Developing Focus and Discipline in Your Life and Master Any Skill or Challenge by Learning to Love the Process
 - [This is Your Brain on Music: Understanding a Human Obsession by Daniel Levitin](https://www.amazon.co.uk/dp/B07PPD6989/ref=pe_385721_48724741_TE_M1DP) an explanation of how humans experience music and our perennial love affair with it.
+- [The Practicing Mind by T M Sterner](https://www.amazon.co.uk/Practicing-Mind-Developing-Discipline-Challenge-ebook/dp/B007C8NRSA/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1569689342&sr=8-1) Developing Focus and Discipline in Your Life and Master Any Skill or Challenge by Learning to Love the Process
+
 
 ## Relax, Watch and Listen
 
