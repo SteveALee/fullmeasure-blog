@@ -1,0 +1,27 @@
+<!-- 
+<  script src="https://utteranc.es/client.js"
+        repo="SteveALee/fullmeasure-blog"
+        issue-term="pathname"
+        label="comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+-->
+
+<!-- modified talkyard integration -->
+<h2 id="comments">Comments</h2>
+<% if (page.comments && config.talkyard_server_url){ %>
+<script>
+console.info('discussion_id', '<%= page.discussion_id %>')
+</script>
+<section id="comments">
+<script>talkyardServerUrl='<%= config.talkyard_server_url %>';</script>
+<script async defer src="<%= config.talkyard_script_url || 'https://c1.ty-cdn.net/-/talkyard-comments.min.js' %>"></script>
+<div class="talkyard-comments" data-discussion-id="<%= page.discussion_id %>" style="margin-top: 45px;">
+<noscript>Please enable Javascript to view comments.</noscript>
+<p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+<a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div>
+</section>
+<% } %>
