@@ -5,11 +5,11 @@
   "private": true,
   "licence": "MIT",
   "hexo": {
-    "version": "3.9.0"
+    "version": "4.2.0"
   },
   "dependencies": {},
   "devDependencies": {
-    "hexo": "3.9.0",
+    "hexo": "4.2.0",
     "hexo-generator-archive": "1.0.0",
     "hexo-generator-category": "1.0.0",
     "hexo-generator-index": "1.0.0",
