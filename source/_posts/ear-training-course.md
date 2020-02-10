@@ -1,5 +1,5 @@
 ---
-title: Ear Training for Beginners
+title: Ear Training Course
 date: 2020-02-10 20:19:07
 tags:
 ---
