@@ -8,7 +8,7 @@ tags:
 
 I've just completed Musical U's latest course [Ear Training For Beginners](https://secure.musical-u.com/etbp-offer-1) and I'm **very** happy with the results. I really do feel my ears are starting to recognize relative pitches, intervals and chords. Plus I can pick out tunes by ear much more easily now having gained quite a few skills from the course.
 
-I've previously tried using apps, including Musical U's own, but have found this to be a depressing and fruitless endeavor. Perhaps I was laying foundations but progress was almost imperceptible and felt like it was nothing what-so-ever to do with music.
+Previously I've tried using various ear training apps, including Musical U's own, but have found this to be a depressing and fruitless endeavor. Perhaps I was laying foundations but progress was almost imperceptible and felt like it was nothing what-so-ever to do with music.
 
 Musical U have a few ear training modules which have been useful but this course takes it to a whole new level. While i agree with the teams approach of everyone will best benefit from a personal route through the masses of excellent modules on offer at Musical U, sometimes a structured course gives the best results. 
 
