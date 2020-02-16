@@ -14,4 +14,4 @@ So this was a great opportunity to get my screwdriver and multimeter out to see 
 
 ![Dismantled KB80 showing the spring reverb unit, amp and speaker](/images/spring-reverb.jpg)
 
-It seems I was rather too keen to dismantle it all as the problem turned out to be a dirty connection between the phono socket on the lead from the reverb unit and the socket on the amp PCB. But if I had just used the multi meter after whipping the amp out of the cab I would have missed all that extra fun :)
+It seems I was rather too keen to dismantle it all as the problem turned out to be a dirty connection between the phono socket on the lead from the reverb unit and the socket on the amp PCB. You ca nsee these as the red and white connectors at the top right of the photograph. But if I had just used the multi meter after whipping the amp out of the cab I would have missed all that extra fun :)
