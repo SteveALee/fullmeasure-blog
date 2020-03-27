@@ -1,5 +1,5 @@
 ---
-title: K-mix and WIndows
+title: K-mix and Windows
 date: 2020-03-27 16:47:00
 tags:
 ---
@@ -10,7 +10,7 @@ Since giving my old Spirit Folio Notepad mixer to the charity I work for that re
 
 In addition, I'd like to get creative with digital music using a DAW and flexible digital interface. Last time I messed around live this was on an Atari.
 
-Having chatted to Steve it's clear he holds the McMillen products in high regard and the K-mix sounded unique in its capabilities and flexibility. And at a good price too. Windows support is now available in the form of a Windows version of the editor and a ASIO driver.
+Having chatted to Steve it's clear he holds the McMillen products in high regard and the K-mix sounded unique in its capabilities and flexibility. And at a good price too. Windows support is now available in the form of a Windows version of the editor and an ASIO driver.
 
 ![Laney KB80 combo](/images/k-mix.jpg)
 
@@ -31,6 +31,10 @@ While McMillen work on a fix to the problems caused by the Windows update, a tem
 - check "Override high DPI scaling behaviour. Scaling performed by:"
 - choose "System (Enhanced)"
 
+My second task has been to record some vinyl records by connecting up my Dual 505 record deck via a home made RIAA preamp. Again this worked really well after some experimentation as I learnt the k-Mix features. Inputs 3 & 4 are a good choice as they are less sensitive than 1 & 2. Setting 3 & 4 as a stereo pair pans them to the main 1 & 2 bus as required by simpler PC recording software like audacity which only use these channels (ie stereo in). The last step was to set inputs 1 & 2 to be post fader so the PC sees them. It seems the k-mix also supports the RIAA curve equalisation so I'll give that a go, directly connecting the Ortofon moving coil cartridge output to the k-mix. That should give less noise than my old pre amp.
+
+I also use the K-mix as a sort of hig quality external sound card, connecting Outputs 1 & 2 to my ancient NAD amplifier. The sound quality is excellent. I tried using a USB 3.0 extension cable but the sound was awful; the unbranded, unknown quality cable is going right back to Amazon.
+
 Having spent time playing with the k-mix I'm highly impressed with all aspects of it's quality and flexibility. For example, not only is it highly configurable, but control can be achieved via MIDI for automation. I'd highly recommend it as both a small mixer and digital interface. I've not tried the midi pad controller aspect yet. The only small thing I miss is a display of the levels but to be honest that isn't actually necessary when using recording, only when standalone mixing where gain structure matters. Still If you avoid clipping, which is shown on the channel lights, you'll be good.
 
-Oh, another tip. The K-mix can get it's power from two sources, so plugging in a wall wart supply to the second socket when the k-mix is connected to a PC means that when the PC turns off the K-mix stays powered up and keeps it's settings. Of course, you can turn off the k-mix to save the settings too.
+On final tip. The K-mix can get it's power from two sources, so plugging in a wall wart supply to the second socket when the k-mix is connected to a PC means that when the PC turns off the K-mix stays powered up and keeps it's settings. Of course, you can turn off the k-mix to save the settings too.
