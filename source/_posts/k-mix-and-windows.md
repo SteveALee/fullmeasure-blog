@@ -4,13 +4,13 @@ date: 2020-03-27 16:47:00
 tags:
 ---
 
-Watching [Steve Lawson playing](https://youtu.be/l2zWzpvhOVQ?t=24) playing you may notice a couple of interesting devices in his setup with  white shapes on them. These are the Keith McMillen [k-mix](https://www.keithmcmillen.com/products/k-mix/) mixer, digital interface plus control surface and the [QuNeo](https://www.keithmcmillen.com/products/quneo/) pad controller. The white areas are McMillen's unique touch 'fabric' which provides unique touch control dynamics.
+Watching [Steve Lawson playing](https://youtu.be/l2zWzpvhOVQ?t=24) you may notice a couple of interesting devices in his setup with  white shapes on them. These are the Keith McMillen [k-mix](https://www.keithmcmillen.com/products/k-mix/) mixer, digital interface plus control surface and the [QuNeo](https://www.keithmcmillen.com/products/quneo/) pad controller. The white areas are McMillen's unique touch 'fabric' which provides unique touch control dynamics.
 
-Since giving my old Spirit Folio Notepad mixer to the charity I work for that records news for the blind I have occasionally required a small mixer suitable for connecting a Rode NT-1 condenser mic and bass guitar to a WIndows PC for recording.
+Since giving my old Spirit Folio Notepad mixer to the charity I work for that records news for the blind I have occasionally required a small mixer suitable for connecting a Rode NT-1 condenser mic and bass guitar to a Windows PC for recording.
 
-In addition, I'd like to get creative with digital music using a DAW and flexible digital interface. Last time I messed around live this was on an Atari.
+In addition, I'd like to get creative with digital music using a DAW and flexible digital interface. Last time I messed around like this was on an Atari.
 
-Having chatted to Steve it's clear he holds the McMillen products in high regard and the K-mix sounded unique in its capabilities and flexibility. It's a decent price and compact too. Windows support is now available in the form of a Windows version of the editor and an ASIO driver.
+Having chatted to Steve, it's clear he holds the McMillen products in high regard and the K-mix sounded unique in its capabilities and flexibility. It's a decent price and compact too. Windows support is now available in the form of a Windows version of the editor and an ASIO driver.
 
 ![Laney KB80 combo](/images/k-mix.jpg)
 
