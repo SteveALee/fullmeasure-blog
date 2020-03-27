@@ -4,7 +4,7 @@ date: 2020-03-27 16:47:00
 tags:
 ---
 
-Watching [Steve Lawson playing](https://youtu.be/l2zWzpvhOVQ?t=24) playing with his setup you may notice a couple of interesting devices with white shapes on them. These are Keith McMillen [k-mix(https://www.keithmcmillen.com/products/k-mix/)] mixer, digital interface come control surface and [QuNeo](https://www.keithmcmillen.com/products/quneo/) pad controller. The white areas are McMillen's unique touch 'fabric' which provides unique touch control dynamics.
+Watching [Steve Lawson playing](https://youtu.be/l2zWzpvhOVQ?t=24) playing with his setup you may notice a couple of interesting devices with white shapes on them. These are Keith McMillen [k-mix](https://www.keithmcmillen.com/products/k-mix/)] mixer, digital interface come control surface and [QuNeo](https://www.keithmcmillen.com/products/quneo/) pad controller. The white areas are McMillen's unique touch 'fabric' which provides unique touch control dynamics.
 
 Since giving my old Spirit Folio Notepad mixer to the charity I work for that records news for the blind I have occasionally required a small mixer suitable for connecting a Rode NT-1 condenser mic and bass guitar to a WIndows PC for recording.
 
