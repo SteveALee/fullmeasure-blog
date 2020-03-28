@@ -10,8 +10,8 @@ When using Audacity with [k-mix](../../27/k-mix-and-windows) I found there was a
 
 ![Audacity showing 8 channels using the ASIO driver](/images/audacity-ASIO.png)
 
-Eventually I discovered that the ASIO build was actually not much use for my requirements as I could use the k-mix flexibilioty to send channnels 3 & 4 to 1 &2 and use the release Audacity. But, in case others are interested in using it, I provide a simple [Windows cmd script](https://gist.github.com/SteveALee) to help automate the build.
+Eventually I discovered that the ASIO build was actually not much use for my requirements as I could use the k-mix flexibility to send channnels 3 & 4 to 1 &2 and use the release Audacity. But, in case others are interested in using it, I provide a simple [Windows cmd script](https://gist.github.com/SteveALee) to help automate the build.
 
 It's worth emphasising that the ASIO build does not provide any improvement in recording quality over using the MME option. ASIO drivers do provide lower latency but that is unlikely to be relevant. More useful, is the access to all 8 k-mix channels.
 
-Whilst having access to all 8 channels might seem useful, Audacity's support for more than 2 channels is poor. To record channels 3 & 4, say, you have to record 1, 2, 3 & 4 and the level meters are fixed to channels 1 & 2. Other features like pan control for Left or right make little sense.
+Whilst having access to all 8 channels might seem useful, Audacity's support for more than 2 channels is poor. To record channels 3 & 4, say, you have to record 1, 2, 3 & 4 and the level meters are fixed to channels 1 & 2. Other features like pan control for Left or right on each track make little sense.
