@@ -4,7 +4,9 @@ date: 2020-03-27 16:47:00
 tags:
 ---
 
-## Keith McMillen Instruments products
+[[Skip to Work-around for Editor issues on Windows](#Work-around-for-Editor-issues-on-Windows)].
+
+## Keith McMillen Instruments k-mix
 
 Watching [Steve Lawson playing](https://youtu.be/l2zWzpvhOVQ?t=24) you may notice a couple of interesting devices in his setup with prominent white shapes on a black background. These are the Keith McMillen Instruments (KMI) [k-mix](https://www.keithmcmillen.com/products/k-mix/) mixer, digital interface plus control surface and the [QuNeo](https://www.keithmcmillen.com/products/quneo/) pad controller. The white areas are KMI's touch 'fabric' which provides unique touch control dynamics.
 
