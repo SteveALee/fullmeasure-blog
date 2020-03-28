@@ -8,7 +8,7 @@ Whenever I want to do a quick recording, possibly with a few tweaks, my goto pro
 
 When using Audacity with [k-mix](../27/k-mix-and-windows) I found there was a bit of a driver issue. The current ASIO k-mix driver only works with Audacity's MME mode and is restricted to 2 channels. I wanted to record channels 3 & 4 so looked into building Audacity with ASIO support as the option is only available for self build and not redistribution for licensing reasons.
 
-![Audacity showing 8 channels using the ASIO driver](/images/audacity-ASIO.jpg)
+![Audacity showing 8 channels using the ASIO driver](/images/audacity-ASIO.png)
 
 Eventually I discovered that the ASIO build was actually not much use for my requirements as I could use the k-mix flexibilioty to send channnels 3 & 4 to 1 &2 and use the release Audacity. But, in case others are interested in using it, I provide a simple [Windows cmd script](https://gist.github.com/SteveALee) to help automate the build.
 
