@@ -6,7 +6,7 @@ tags:
 
 Whenever I want to do a quick recording, possibly with a few tweaks, my goto programme is the venerable open source success story [Audacity](https://www.audacityteam.org/). This multi track audio recorder with processing effects is powerful enough to do much audio editing. It's simple enough to get your head round and so ideal for a quick recording when you don't need a full DAW (eg Reaper).
 
-When using Audacity with [k-mix](../27/k-mix-and-windows) I found there was a bit of a driver issue. The current ASIO k-mix driver only works with Audacity's MME mode and is restricted to 2 channels. I wanted to record channels 3 & 4 so looked into building Audacity with ASIO support as the option is only available for self build and not redistribution for licensing reasons.
+When using Audacity with [k-mix](../../27/k-mix-and-windows) I found there was a bit of a driver issue. The current ASIO k-mix driver only works with Audacity's MME mode and is restricted to 2 channels. I wanted to record channels 3 & 4 so looked into building Audacity with ASIO support as the option is only available for self build and not redistribution for licensing reasons.
 
 ![Audacity showing 8 channels using the ASIO driver](/images/audacity-ASIO.png)
 
