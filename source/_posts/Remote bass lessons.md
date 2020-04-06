@@ -16,6 +16,8 @@ Luckily video calling services are really solid now and bandwidth is generally f
 
 ## Student Set Up
 
+![Remote Bass Lesson set up](/images/remote-bass-lession.jpg)
+
 Accordingly, I've set up my end of the call so my teacher and I can interact with bass and voice. Zoom is flexible enough to work reliably out of the box for voice calls. But for music there are a few extra things to consider. Again, Zoom has you covered with the options you need. This then, is a summary of what I did.
 
 - **Disabled all the clever voice signal processing that zoom does**. In Preferences -> Audio -> Advanced make sure 'Show use Original Sound' is checked and then when in a call it can be selected top left of the display.
