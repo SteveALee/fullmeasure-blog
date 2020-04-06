@@ -18,9 +18,9 @@ Thus, Zoom is definitely my first choice for remote bass lessons. A free account
 
 ## Mixing it up
 
-In my last attempt to play bass over Zoom I played it through my bass combo using the PC's built in mic. Now one could hear me. Zoom is flexible enough to work reliably out of the box for voice calls. But for music there are a few extra things to consider.
+In my last attempt to play bass over Zoom I played it through my bass combo using the PC's built in mic. No one could hear me. Zoom is flexible enough to work reliably out of the box for voice calls. But for music there are a few extra things to consider.
 
-So this time I decided I needed more control and DI-ing the bass while using a mic with a mixer would be the most flexible approach. Having the excellent McMillen K-Mix combine mixer and digital interface meant I had high hopes I could achieve this pretty easily.
+So this time I decided I needed more control and DI-ing the bass while using a mic with a mixer would be the most flexible approach. Having the excellent McMillen K-Mix combined mixer and digital interface meant I had high hopes I could achieve this pretty easily.
 
 Fortunately, Zoom also has you covered with the options you need to work with music and a mixer. 
 
