@@ -15,7 +15,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://fullmeasure.uk/images/ASIOBridge.png">
 <meta property="article:published_time" content="2020-12-08T16:47:00.000Z">
-<meta property="article:modified_time" content="2020-12-08T21:42:44.174Z">
+<meta property="article:modified_time" content="2020-12-08T21:54:54.552Z">
 <meta property="article:author" content="Steve Lee">
 <meta property="article:tag" content="music,technology,education">
 <meta name="twitter:card" content="summary">
@@ -149,10 +149,10 @@
 
   <div class="content" itemprop="articleBody">
     <h2 id="My-problem"><a href="#My-problem" class="headerlink" title="My problem"></a>My problem</h2><p>The <a target="_blank" rel="noopener" href="https://www.keithmcmillen.com/products/k-mix/">McMillen K-Mix</a> is an awesome piece of Kit; an audio interface, mixer and MIDI control surface all in one. The first two features are proving to be perfect for various configurations of kit during my remote music lessons and practice. Now that I’m starting to record as I play along my required setup has become a more little complex.</p>
-<p>But here’s the thing. THe K-Mix uses channel 1 &amp; 2 for the ballanced mic and Hi Z instrument inputs. </p>
-<p>In addition the PC main audio output always appears on channels 1 &amp; 2 when using the K-mix Windows sound driver.</p>
+<p>The PC main audio output always appears on channels 1 &amp; 2 when using the K-mix Windows sound driver.</p>
+<p>But here’s the thing. THe K-Mix uses channel 1 &amp; 2 for the balanced mic and Hi Z instrument inputs. </p>
 <p>So that’s a clash and I spent a significant amount of time exploring options for routing the PC non ASIO sound out to channels 3 &amp; 4 (say) of the K-Mix ASIO driver.</p>
-<p>Nada. There are solutions for routing ASIO from DAWs to non ASIO drivers and apps. There are also a few software “cables” that provide a connection between virtual outputs and inputs. But nothing to provide the simple non ASIO to ASIO device driver with channel routing.</p>
+<p>Nada! There are solutions for routing ASIO from DAWs to non ASIO drivers and apps. There are also a few software “cables” that provide a connection between virtual outputs and inputs. But nothing to provide the simple non ASIO to ASIO device driver with channel routing.</p>
 <h2 id="Huzzah"><a href="#Huzzah" class="headerlink" title="Huzzah"></a>Huzzah</h2><p>But, TADA, final I found VB Audio <a target="_blank" rel="noopener" href="https://www.keithmcmillen.com/products/k-mix/">Hi-Fi CABLE &amp; ASIO Bridge</a>.This nifty little driver and app combination alows routing from it’s virtual output sound device through to a ASIO device and from the ASIO device input to the virtual input sound device. And all with channel mapping just as I required.</p>
 <h2 id="Getting-set-up"><a href="#Getting-set-up" class="headerlink" title="Getting set up"></a>Getting set up</h2><p>It’s really easy to setup.</p>
 <p><img src="/images/ASIOBridge.png" alt="ASIO Bridge settings and sound output"></p>
@@ -162,15 +162,15 @@
 <li>click on the speaker icon in system tray and select <code>HiFi Cable input</code></li>
 <li>run <code>ASIO Bridge</code></li>
 <li>click the central button so it says <code>ASIO On</code></li>
-<li>click on <code>Select A.S.I.O device</code> below the button and seelct your ASIO device (K-mix in my case)</li>
+<li>click on <code>Select A.S.I.O device</code> below the button and select your ASIO device (K-mix in my case)</li>
 <li>on the left, click on the 3 until it shows 1 and then the 4 until it shows 2</li>
 <li>repeat so 1 says 3 and 2 says 4</li>
-<li>adjust mixer levels so chanell 3 &amp; 4 can be heard</li>
+<li>adjust mixer levels so chanel 3 &amp; 4 can be heard</li>
 </ul>
 <p>That’s it.</p>
 <p>Note, you need to have the ASIO Bridge app running in order to hear any sound.</p>
-<h2 id="Outcome"><a href="#Outcome" class="headerlink" title="Outcome"></a>Outcome</h2><p>Now I can plug my bass into the mixer channel 1, set the eq etc. and jam along to iReal Pro (Android app playing in bluestacks) or other things on YouTube. Recording in Audacity is also possible and here’s my script solution for <a href="../../../03/28/audacity-with-asio/">building Audacity with ASIO support</a>. I can also play my flac files with Plex in Firefox.  </p>
-<p>I recently upgraded my old Tannoy speakers and NAD Amp to Presonus Eris E8 XT Active Studio Monitors using ballanced TRS cable direct from the K-Mix.<br>the sound is fantastic.</p>
+<h2 id="Outcome"><a href="#Outcome" class="headerlink" title="Outcome"></a>Outcome</h2><p>Now I can plug my bass into the mixer channel 1, set the eq etc. and jam along to iReal Pro (Android app playing in Bluestacks) or other things on YouTube. Recording in Audacity is also possible and here’s my script solution for <a href="../../../03/28/audacity-with-asio/">building Audacity with ASIO support</a>. I can also play my flac files with Plex in Firefox.  </p>
+<p>I recently upgraded my old Tannoy HiFi speakers and NAD Amp to Presonus Eris E8 XT Active Studio Monitors using balanced TRS cable direct from the K-Mix. The sound is fantastic.</p>
 
   </div>
 </article>
