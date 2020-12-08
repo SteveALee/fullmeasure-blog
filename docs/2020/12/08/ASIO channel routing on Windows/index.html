@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="My problemThe McMillen K-Mix is an awesome piece of Kit; an audio interface, mixer and MIDI control surface all in one. The first two features are proving to be perfect for various configurations of k">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ASIO channel routing on Windows">
+<meta property="og:url" content="https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/index.html">
+<meta property="og:site_name" content="FullMeasure">
+<meta property="og:description" content="My problemThe McMillen K-Mix is an awesome piece of Kit; an audio interface, mixer and MIDI control surface all in one. The first two features are proving to be perfect for various configurations of k">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://fullmeasure.uk/images/ASIOBridge.png">
+<meta property="article:published_time" content="2020-12-08T16:47:00.000Z">
+<meta property="article:modified_time" content="2020-12-08T21:42:44.174Z">
+<meta property="article:author" content="Steve Lee">
+<meta property="article:tag" content="music,technology,education">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://fullmeasure.uk/images/ASIOBridge.png">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>ASIO channel routing on Windows</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/awesome-musicality/">Awesome</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2020/04/06/Remote%20bass%20lessons/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&text=ASIO channel routing on Windows"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&title=ASIO channel routing on Windows"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&is_video=false&description=ASIO channel routing on Windows"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=ASIO channel routing on Windows&body=Check out this article: https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&title=ASIO channel routing on Windows"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&title=ASIO channel routing on Windows"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&title=ASIO channel routing on Windows"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&title=ASIO channel routing on Windows"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&name=ASIO channel routing on Windows&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#My-problem"><span class="toc-number">1.</span> <span class="toc-text">My problem</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Huzzah"><span class="toc-number">2.</span> <span class="toc-text">Huzzah</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Getting-set-up"><span class="toc-number">3.</span> <span class="toc-text">Getting set up</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Outcome"><span class="toc-number">4.</span> <span class="toc-text">Outcome</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        ASIO channel routing on Windows
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">FullMeasure</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2020-12-08T16:47:00.000Z" itemprop="datePublished">2020-12-08</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="My-problem"><a href="#My-problem" class="headerlink" title="My problem"></a>My problem</h2><p>The <a target="_blank" rel="noopener" href="https://www.keithmcmillen.com/products/k-mix/">McMillen K-Mix</a> is an awesome piece of Kit; an audio interface, mixer and MIDI control surface all in one. The first two features are proving to be perfect for various configurations of kit during my remote music lessons and practice. Now that I’m starting to record as I play along my required setup has become a more little complex.</p>
+<p>But here’s the thing. THe K-Mix uses channel 1 &amp; 2 for the ballanced mic and Hi Z instrument inputs. </p>
+<p>In addition the PC main audio output always appears on channels 1 &amp; 2 when using the K-mix Windows sound driver.</p>
+<p>So that’s a clash and I spent a significant amount of time exploring options for routing the PC non ASIO sound out to channels 3 &amp; 4 (say) of the K-Mix ASIO driver.</p>
+<p>Nada. There are solutions for routing ASIO from DAWs to non ASIO drivers and apps. There are also a few software “cables” that provide a connection between virtual outputs and inputs. But nothing to provide the simple non ASIO to ASIO device driver with channel routing.</p>
+<h2 id="Huzzah"><a href="#Huzzah" class="headerlink" title="Huzzah"></a>Huzzah</h2><p>But, TADA, final I found VB Audio <a target="_blank" rel="noopener" href="https://www.keithmcmillen.com/products/k-mix/">Hi-Fi CABLE &amp; ASIO Bridge</a>.This nifty little driver and app combination alows routing from it’s virtual output sound device through to a ASIO device and from the ASIO device input to the virtual input sound device. And all with channel mapping just as I required.</p>
+<h2 id="Getting-set-up"><a href="#Getting-set-up" class="headerlink" title="Getting set up"></a>Getting set up</h2><p>It’s really easy to setup.</p>
+<p><img src="/images/ASIOBridge.png" alt="ASIO Bridge settings and sound output"></p>
+<ul>
+<li>download and install the Hi-Fi CABLE &amp; ASIO Bridge</li>
+<li>reboot</li>
+<li>click on the speaker icon in system tray and select <code>HiFi Cable input</code></li>
+<li>run <code>ASIO Bridge</code></li>
+<li>click the central button so it says <code>ASIO On</code></li>
+<li>click on <code>Select A.S.I.O device</code> below the button and seelct your ASIO device (K-mix in my case)</li>
+<li>on the left, click on the 3 until it shows 1 and then the 4 until it shows 2</li>
+<li>repeat so 1 says 3 and 2 says 4</li>
+<li>adjust mixer levels so chanell 3 &amp; 4 can be heard</li>
+</ul>
+<p>That’s it.</p>
+<p>Note, you need to have the ASIO Bridge app running in order to hear any sound.</p>
+<h2 id="Outcome"><a href="#Outcome" class="headerlink" title="Outcome"></a>Outcome</h2><p>Now I can plug my bass into the mixer channel 1, set the eq etc. and jam along to iReal Pro (Android app playing in bluestacks) or other things on YouTube. Recording in Audacity is also possible and here’s my script solution for <a href="../../../03/28/audacity-with-asio/">building Audacity with ASIO support</a>. I can also play my flac files with Plex in Firefox.  </p>
+<p>I recently upgraded my old Tannoy speakers and NAD Amp to Presonus Eris E8 XT Active Studio Monitors using ballanced TRS cable direct from the K-Mix.<br>the sound is fantastic.</p>
+
+  </div>
+</article>
+<!-- 
+<  script src="https://utteranc.es/client.js"
+        repo="SteveALee/fullmeasure-blog"
+        issue-term="pathname"
+        label="comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+-->
+
+<!-- modified talkyard integration -->
+<h2 id="comments">Comments</h2>
+
+<script>
+console.info('discussion_id', '')
+</script>
+<section id="comments">
+<script>talkyardServerUrl='https://comments-for-fullmeasure-uk.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+<noscript>Please enable Javascript to view comments.</noscript>
+<p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+<a target="_blank" rel="noopener" href="https://www.talkyard.io">Talkyard</a>.</p>
+</div>
+</section>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/awesome-musicality/">Awesome</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#My-problem"><span class="toc-number">1.</span> <span class="toc-text">My problem</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Huzzah"><span class="toc-number">2.</span> <span class="toc-text">Huzzah</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Getting-set-up"><span class="toc-number">3.</span> <span class="toc-text">Getting set up</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Outcome"><span class="toc-number">4.</span> <span class="toc-text">Outcome</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&text=ASIO channel routing on Windows"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&title=ASIO channel routing on Windows"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&is_video=false&description=ASIO channel routing on Windows"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=ASIO channel routing on Windows&body=Check out this article: https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&title=ASIO channel routing on Windows"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&title=ASIO channel routing on Windows"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&title=ASIO channel routing on Windows"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&title=ASIO channel routing on Windows"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://fullmeasure.uk/2020/12/08/ASIO%20channel%20routing%20on%20Windows/&name=ASIO channel routing on Windows&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2020 Steve Lee
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/awesome-musicality/">Awesome</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight .code pre").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      target: function(trigger) {
+        return trigger.nextElementSibling;
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>
