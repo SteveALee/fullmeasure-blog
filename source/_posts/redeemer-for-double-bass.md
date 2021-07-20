@@ -4,7 +4,7 @@ date: 2021-07-10 12:01:00
 tags:
 ---
 
-I found the output level of the [Realist LifeLine piezo pickup](https://www.davidgage.com/lifeline.php2) on my double bass to be way too low for the [PJB double Four amp](https://www.pjbworld.com/cms/index.php/product_bg-75/) or Boss looper pedal I use for home practice.
+I found the output level of the [Realist LifeLine piezo pickup](https://www.davidgage.com/lifeline.php) on my double bass to be way too low for the [PJB double Four amp](https://www.pjbworld.com/cms/index.php/product_bg-75/) or Boss looper pedal I use for home practice.
 
 From my electronics days I recall that the piezo idea of high impedance (Z) is much higher than wire wound pickups and so I needed a buffer amp designed for these. I looked around for a simple and convenient amp I could definitely use and was just about to give up when I stumbled upon the [Creation Audio Labs Redeemer](https://www.creationaudiolabs.com/redeemer), with its 20 MOhm input Z (note several reviews say 2). The only other one I found that appeared to come close to my requirements is the similarly priced [Fishman Platinum Stage Analog Preamp](https://www.fishman.com/portfolio/platinum-stage-eq-di-analog-preamp-pro-plt-301/). While it's extra controls might be useful when [eventually] gigging, for my home use I didn't want all the extra controls, preferring simple electronics. EQ can be handled elsewhere in the signal chain.
 
