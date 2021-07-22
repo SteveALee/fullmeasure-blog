@@ -4,13 +4,13 @@ date: 2021-07-10 12:01:00
 tags:
 ---
 
-[ UPDATE: 2021-07-22] Alex Welti of Creation Audio Labs pointed out the captured cable was old stock and the photos on the website are correct. I guess that's what Bass Direct had.
+[ UPDATE: 2021-07-22] Alex Welti of Creation Audio Labs pointed out the captured cable was old stock and the photos on the website are correct.
 
 I found the output level of the [Realist LifeLine piezo pickup](https://www.davidgage.com/lifeline.php) on my double bass to be way too low for the [PJB double Four amp](https://www.pjbworld.com/cms/index.php/product_bg-75/) or Boss looper pedal that I use for home practice. 
 
-In retrospect when trying the PJB on my bass tutor's bass it sounded a) quiet and b) surprisingly lacking in treble. Jim uses am [Acoustic Image UpShot](https://acousticimg.com/product/upshot) which is designed for acoustic and I guess tha translates to piezo, whereas the PJB is for electric (wire wound). From my electronics days I recall that the piezo idea of high impedance (Z) is much higher than wire wound pickups and the mismatch would explain both issues. So I needed a buffer / pre amp to offer high to the pickup and low Z output to drive the cable and inputs.
+In retrospect when trying the PJB on my bass tutor's bass it sounded a) quiet and b) surprisingly lacking in treble. He uses an amp which is designed for acoustic, and I guess tha translates to piezo, whereas the PJB is probably for electric (wire wound). From my electronics days I recall that the piezo idea of high impedance (Z) is much higher than wire wound pickups and the mismatch would explain both issues. So I needed a buffer / pre amp to offer high to the pickup and low Z output to drive the cable and inputs.
 
-I looked around for a simple and convenient amp I could definitely use and was just about to give up when I stumbled upon the [Creation Audio Labs Redeemer](https://www.creationaudiolabs.com/redeemer), with its 20 MOhm input Z (note several reviews say 2). The only other one I found that appeared to come close to my requirements is the similarly priced [Fishman Platinum Stage Analog Preamp](https://www.fishman.com/portfolio/platinum-stage-eq-di-analog-preamp-pro-plt-301/). While it's extra controls might be useful when [eventually] gigging, for my home use I didn't want the complexity, preferring simple electronics. The EQ can be handled elsewhere in the signal chain.
+I looked around for a simple and convenient amp I could definitely use with piezo and was just about to give up when I stumbled upon the [Creation Audio Labs Redeemer](https://www.creationaudiolabs.com/redeemer), with its 20 MOhm input Z (note several reviews say 2). The only other one I found that appeared to come close to my requirements is the similarly priced [Fishman Platinum Stage Analog Preamp](https://www.fishman.com/portfolio/platinum-stage-eq-di-analog-preamp-pro-plt-301/). While it's extra controls might be useful when [eventually] gigging, for my home use I didn't want the complexity, preferring simple electronics. The EQ can be handled elsewhere in the signal chain.
 
 In the end I went for the Belt version of the Redeemer as it comes with low capacitance cable and that seemed safer than the inline version, which might be different as quoted as being designed for pedal board use. It's probably identical electronics though as the redeemer looks to be very flexible. I'd prefer a power supply option but as I use rechargeable PP3 batteries the Belt version's lack should be OK.
 
@@ -24,4 +24,4 @@ I was planning to try other cable lengths once I sourced some short decent low c
 
 Another niggle is that if I touch the case I get noticeable hum. Perhaps the case is not linked to the cable shield? Shouldn't be a problem when playing though.
 
-But all in all, a great solution to my need for a Peizo buffer amp.
+But all in all, a great solution to my need for a Piezo buffer amp.
