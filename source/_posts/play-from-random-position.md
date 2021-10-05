@@ -42,6 +42,8 @@ SET /a _start=(%_rand%/%_incr%*%_incr%)
 %_play% -ss %_start%
 ```
 
+It uses `ffprobe` to get the duration of the file in seconds. Then it generates a random number of seconds in the audio which it uses as the starting position for `ffplay`.
+ 
 To deploy, the script file is put in a folder along with the `ffplay` and `ffprobe` windows exes downloaded from [ffmpeg.org](https://ffmpeg.org/). A Windows shortcut on the desktop references the script and is the drag and drop target.
 
 This works OK, at least for now. The random generator doesn't seem ideal so I might change it at some point. Also the `_incr` value probably needs tuning better to compromise between not being too small and giving a good variation within repeating chord patterns.
