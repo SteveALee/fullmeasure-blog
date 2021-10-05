@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="I’m currently practicing a Bb Jazz blues ready for my first Jazz jam with an audience. It’s going well but an issue I’m facing is getting back to the correct place in the form after making a mistake o">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Play Audio Files From Random Position">
+<meta property="og:url" content="https://fullmeasure.uk/2021/10/05/play-from-random-position/index.html">
+<meta property="og:site_name" content="FullMeasure">
+<meta property="og:description" content="I’m currently practicing a Bb Jazz blues ready for my first Jazz jam with an audience. It’s going well but an issue I’m facing is getting back to the correct place in the form after making a mistake o">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-10-05T11:01:00.000Z">
+<meta property="article:modified_time" content="2021-10-05T21:48:00.931Z">
+<meta property="article:author" content="Steve Lee">
+<meta property="article:tag" content="music,technology,education">
+<meta name="twitter:card" content="summary">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Play Audio Files From Random Position</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/awesome-musicality/">Awesome</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2021/07/10/redeemer-for-double-bass/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://fullmeasure.uk/2021/10/05/play-from-random-position/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&text=Play Audio Files From Random Position"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&title=Play Audio Files From Random Position"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&is_video=false&description=Play Audio Files From Random Position"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Play Audio Files From Random Position&body=Check out this article: https://fullmeasure.uk/2021/10/05/play-from-random-position/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&title=Play Audio Files From Random Position"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&title=Play Audio Files From Random Position"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&title=Play Audio Files From Random Position"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&title=Play Audio Files From Random Position"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&name=Play Audio Files From Random Position&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Play Audio Files From Random Position
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">FullMeasure</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2021-10-05T11:01:00.000Z" itemprop="datePublished">2021-10-05</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>I’m currently practicing a Bb Jazz blues ready for my first Jazz jam with an audience.</p>
+<p>It’s going well but an issue I’m facing is getting back to the correct place in the form after making a mistake or drifting off from being in the moment. I find my mind jumps at any excuse to get in the way of playing.</p>
+<p>My strategy is twofold:</p>
+<ul>
+<li>practicing getting back into the moment as soon as I make a mistake or realise I’ve drifted off. This involves developing a recovery strategy. For me that’s means taking a breath, feeling the strings and thinking about the current notes. Mistakes are harder to recover from as you have to avoid an emotional response and then forget about the past mistake,</li>
+<li>practicing figuring out where in the form or chord sequence you are given a random starting place. This requires someone else to manage the volume and brining it up at a random time or doing it yourself. Both approaches allow estimation of position by counting beats which rather reduces the effectiveness</li>
+</ul>
+<p>I decided to try automating the second approach. Ideally I’d use iReal Pro as this provides a great varying backing track based on the chords. However, it doesn’t offer any programability and I’m not aware of Android scripting tools. In addition, I run in in the Blues Stacks Android emulator on Windows, adding more complexity. Once Windows 11 runs Android apps directly the configuration will be less complex.</p>
+<p>So I decide to create something to play audio files starting from a random position. That will work with any audio files I already have on hard disc, ripped CDs, youtube conversions, downloads and even exported audio from iReal Pro.</p>
+<p>I wanted a quick, low code solution. Exploring the options I decided to create a <code>cmd</code> script using the windows ports of the powerful <code>ffmpeg</code> tools to do the work. It’s possible to drag files onto a cmd icon (or a shortcut to one) thus giving a more GUI way of working than command line.</p>
+<p>Here’s the script.</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> _sdir=%~dP0</span><br><span class="line"><span class="built_in">set</span> _file=%<span class="number">1</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem seconds increment</span></span><br><span class="line"><span class="built_in">set</span> _incr=<span class="number">3</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem The ffmpeg commands</span></span><br><span class="line"><span class="built_in">set</span> _getd=<span class="variable">%_sdir%</span>ffprobe -v error -show_entries <span class="built_in">format</span>=duration -i <span class="variable">%_file%</span> -of default=noprint_wrappers=<span class="number">1</span>:nokey=<span class="number">1</span></span><br><span class="line"><span class="built_in">set</span> _play=<span class="variable">%_sdir%</span>ffplay -v error -i <span class="variable">%_file%</span> -autoexit</span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">rem get random starting position</span></span><br><span class="line"><span class="keyword">for</span> /f &quot;usebackq tokens=*&quot; <span class="variable">%%a</span> <span class="keyword">in</span> (`&quot;<span class="variable">%_getd%</span>&quot;`) <span class="keyword">do</span> <span class="built_in">set</span> /a _dura=<span class="variable">%%a</span></span><br><span class="line"><span class="built_in">SET</span> /a _rand=(<span class="variable">%RANDOM%</span>*<span class="variable">%_dura%</span>/<span class="number">32767</span>)</span><br><span class="line"><span class="built_in">SET</span> /a _start=(<span class="variable">%_rand%</span>/<span class="variable">%_incr%</span>*<span class="variable">%_incr%</span>)</span><br><span class="line"></span><br><span class="line"><span class="variable">%_play%</span> -ss <span class="variable">%_start%</span></span><br></pre></td></tr></table></figure>
+
+<p>To deploy, the script file is put in a folder along with the <code>ffplay</code> and <code>ffprobe</code> windows exes downloaded from <a target="_blank" rel="noopener" href="https://ffmpeg.org/">ffmpeg.org</a>. A Windows shortcut on the desktop references the script and is the drag and drop target.</p>
+<p>This works OK, at least for now. The random generator doesn’t seem ideal so I might change it at some point. Also the <code>_incr</code> value probably needs tuning better to compromise between not being too small and giving a good variation within repeating chord patterns.</p>
+
+  </div>
+</article>
+<!-- 
+<  script src="https://utteranc.es/client.js"
+        repo="SteveALee/fullmeasure-blog"
+        issue-term="pathname"
+        label="comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+-->
+
+<!-- modified talkyard integration -->
+<h2 id="comments">Comments</h2>
+
+<script>
+console.info('discussion_id', '')
+</script>
+<section id="comments">
+<script>talkyardServerUrl='https://comments-for-fullmeasure-uk.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+<noscript>Please enable Javascript to view comments.</noscript>
+<p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+<a target="_blank" rel="noopener" href="https://www.talkyard.io">Talkyard</a>.</p>
+</div>
+</section>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/awesome-musicality/">Awesome</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://fullmeasure.uk/2021/10/05/play-from-random-position/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&text=Play Audio Files From Random Position"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&title=Play Audio Files From Random Position"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&is_video=false&description=Play Audio Files From Random Position"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Play Audio Files From Random Position&body=Check out this article: https://fullmeasure.uk/2021/10/05/play-from-random-position/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&title=Play Audio Files From Random Position"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&title=Play Audio Files From Random Position"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&title=Play Audio Files From Random Position"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&title=Play Audio Files From Random Position"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://fullmeasure.uk/2021/10/05/play-from-random-position/&name=Play Audio Files From Random Position&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2021 Steve Lee
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/awesome-musicality/">Awesome</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight .code pre").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      target: function(trigger) {
+        return trigger.nextElementSibling;
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>
