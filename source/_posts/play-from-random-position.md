@@ -23,23 +23,31 @@ Here's the script.
 
 ``` cmd
 @echo off
+rem Plays an audio file froma random starting position
+rem requires ffprobe and ffplay from ffmpeg https://ffmpeg.org/
+rem drag audio file onto this script or a shortcut to it
 
+setlocal
 set _sdir=%~dP0
 set _file=%1
 
 rem seconds increment
 set _incr=3
 
-rem The ffmpeg commands
-set _getd=%_sdir%ffprobe -v error -show_entries format=duration -i %_file% -of default=noprint_wrappers=1:nokey=1
-set _play=%_sdir%ffplay -v error -i %_file% -autoexit
+rem calculate a random starting position 
+rem need to escape parenthesis in filenames to avoid problems with for /f
+rem need " or else the = are lost
+rem /a does a floor but with a "Missing operator." message
+rem can't use %random% as it is seeded every cmd run with the time so hardly varies at all
+set _efile=%_file:(=^(% 
+set _efile=%_efile:)=^)%
+for /f "usebackq tokens=*" %%a in (`"%_sdir%ffprobe -v error -show_entries format=duration -i %_efile% -of default=noprint_wrappers=1:nokey=1"`) do set _dura=%%a
+set /a _dura=_dura
+for /f "usebackq tokens=*" %%a in (`PowerShell.exe -command "Get-Random -Maximum %_dura%"`) do set _rand=%%a
+set /a _start=(%_rand%/%_incr%*%_incr%)
 
-rem get random starting position
-for /f "usebackq tokens=*" %%a in (`"%_getd%"`) do set /a _dura=%%a
-SET /a _rand=(%RANDOM%*%_dura%/32767)
-SET /a _start=(%_rand%/%_incr%*%_incr%)
-
-%_play% -ss %_start%
+rem play from starting position
+%_sdir%ffplay -v error -i %_file% -autoexit -ss %_start%
 ```
 
 It uses `ffprobe` to get the duration of the file in seconds. Then it generates a random number of seconds in the audio which it uses as the starting position for `ffplay`.
