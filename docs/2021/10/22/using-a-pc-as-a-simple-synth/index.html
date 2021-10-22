@@ -15,7 +15,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://fullmeasure.uk/images/AKAI-LPK25.jpg">
 <meta property="article:published_time" content="2021-10-22T11:01:00.000Z">
-<meta property="article:modified_time" content="2021-10-22T16:32:33.234Z">
+<meta property="article:modified_time" content="2021-10-22T16:47:31.004Z">
 <meta property="article:author" content="Steve Lee">
 <meta property="article:tag" content="music,technology,education">
 <meta name="twitter:card" content="summary">
@@ -149,11 +149,11 @@
 
   <div class="content" itemprop="articleBody">
     <p>Now and then I want to play notes on a keyboard to help with my double bass practice. For example, to hear intervals in order to sing them and to check my intonation.</p>
-<p>One solution would be to use a simple on-screen virtual piano or syth. That’s great if you also have a touch screen.</p>
-<p>However I already have an Akai LPK25 25 key mini (micro) keyboard and liked the idea of having real keys, even though they take up desk space.<br>And that’s despite the fact the LPK25’s key are tiny and feel horribly springy compared to a piano or weighted controller keyboard. </p>
+<p>One solution would be to use a simple on-screen virtual piano or syth. That’s great if you also have a touch screen, which I do.</p>
+<p>However I already have an Akai LPK25 25 key mini (micro) keyboard and liked the idea of having real keys, even though they take up desk space.<br>And that’s despite the fact the LPK25’s keys are tiny and feel horribly springy compared to a piano or weighted controller keyboard. </p>
 <p><img src="/images/AKAI-LPK25.jpg" alt="AKAI LPK25"></p>
 <p>It’s also possible to use full DAW like Reaper but that’s a lot of extra complexity that’s totally unneeded and would no doubt be a big distraction.</p>
-<h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><p>Like most moder controllers, the LPK25 connects to a PC using USB midi which makes life simpler that the old MIDI connectors. It also sends on MIDI ch 1. AKIA provide a little settings editor but I found it was unecessary in this case. The setup steps are.</p>
+<h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><p>Like most modern controllers, the LPK25 connects to a PC using USB midi which makes life simpler than the old 5 pin DIN connectors. It also sends on MIDI ch 1 by default so should be fine. AKIA provide a little settings editor but I found it was unecessary in this case. The setup steps are:</p>
 <ul>
 <li>Connect the keyboard to the laptop using a USB cable (mini plug at AKAI end)</li>
 <li>Install a MIDI Synth to make the sounds. Windows has long shipped with one but it’s truely aweful</li>
@@ -161,7 +161,7 @@
 </ul>
 <p>The Midi Synth I used is <a target="_blank" rel="noopener" href="https://coolsoft.altervista.org/en/virtualmidisynth">CoolSoft’s</a> and it requires you to also <a target="_blank" rel="noopener" href="https://coolsoft.altervista.org/en/virtualmidisynth#soundfonts">install a SoundFont</a>. I used the recommended FluidR3_GM General Midi font as I’ve used it nbefore and its good enough.</p>
 <p>To connect the keyboard to the synth I used the venerable <a target="_blank" rel="noopener" href="http://www.midiox.com/">MIDI-OX</a> midi toolkit which works fine on Windows 10. One installed you select the input an output dvices using <code>Options -&gt; Midi Devices</code>.</p>
-<p>That’s it. As long as MIDI-OX is running any key press should be heard in your audio output. The default GM voice is Piano which is fine for me. Note with such a simple non ASIO driver set up there is a small but noticable latency.</p>
+<p>That’s it. As long as MIDI-OX is running any key press should be heard in your audio output. The default GM voice is <code>1 Acoustic Grand Piano</code> which is fine for me. Note though that with such a simple non ASIO driver set up there is a small but noticable latency.</p>
 
   </div>
 </article>
