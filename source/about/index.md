@@ -17,4 +17,6 @@ My partial solution was to play around with audio electronics in my teens. I bec
 
 So the idea of this little site, FullMeasure, is to be a place to collect my thoughts, share discoveries, learnings and projects I explore developing my musicality. I'll also share projects that I develop in order to scratch any itches I get on the way (there's already one available).
 
+My other site [musicpracticetools.net](https://musicpracticetools.net/) is an experiment in using web technology for supporing my music practice sessions. It's basically a blog with a few interactive widgets that add things like playable music score, youtube video book marks or even metronomes.
+
 So without further delay, let the show begin....
