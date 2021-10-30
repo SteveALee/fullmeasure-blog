@@ -4,7 +4,7 @@ date: 2021-10-22 12:01:00
 tags:
 ---
 
-## The simplest way to play sounds with a MIDI keyboard controller connected to a Widows PC
+## The simplest way to play sounds with a MIDI keyboard controller connected to a Windows PC
 
 [Update 2010/10/30] Added using Musecore music notation program. See below.
 
