@@ -6,7 +6,7 @@ tags:
 
 ## The simplest way to play sounds with a MIDI keyboard controller connected to a Widows PC
 
-[Update 2010/10/30] The Musecore music notation program also functions as a simple synth. See below.
+[Update 2010/10/30] Added using Musecore music notation program. See below.
 
 Now and then I want to play notes on a keyboard to help with my double bass practice. For example, to hear intervals in order to sing them and to check my intonation. Also a keyboard is often the most natural way to visualise scales and harmony. So I required a simple way to play notes and perhaps chords with a keyboard.
 
@@ -32,7 +32,7 @@ To connect the keyboard to the synth in the PC via software I used the venerable
 
 That's it. As long as MIDI-OX is running any key press should be heard in your audio output. The default GM voice is **1 Acoustic Grand Piano** which is fine for me. Note though that with such a simple non ASIO driver set up there is a small but noticable latency.
 
-## Altenrative Solution - using Musescore
+## Alternative Solution - using Musescore
 
 Thanks to Arash Zargamy for pointing out that the free and open source [Musescore](https://musescore.org/en) notation and compostition program will also act as a simple MIDI synth. There's no need to install an extra synth or route the midi as muscore includes a synth and picks up the MIDI input device.
 
