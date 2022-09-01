@@ -8,7 +8,7 @@ I'm studying [ABRSM Practical Double Bass Grade 1](https://gb.abrsm.org/en/our-e
 
 I was about to manually enter the dots into MuseScore when I wondered if I might be able to scan in. I expected the answer to be be "yes if you purchase expensive software" but my first web search threw up MuseScore's own [free experimental conversion service](https://musescore.com/user/login?destination=%2Fimport) (you need a free account to access). This service is built on the [Audiveris](https://github.com/Audiveris/audiveris) open source project and works much better than I expected.
 
-To get working backing track you simply:
+To get a working backing track you simply:
 
 1. Scan the score to pdf - I used Epson Scan which handles multiple pages.
 2. Upload to the MuseScore service and wait for the MuseScore file to become available for download.
