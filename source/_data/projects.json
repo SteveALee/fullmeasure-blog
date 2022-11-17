@@ -3,5 +3,11 @@
        "name":"youtube-current-time",
        "url":"https://github.com/music-practice-tools/youtube-current-time",
        "desc":"Displays current youtube video time as the page is scrolled"
+    },
+
+    {
+       "name":"Build Audacity with ASIO drivers",
+       "url":"https://gist.github.com/SteveALee/da24c2be633340b8791066dd98eb5d0b",
+       "desc":"Instructions and script to simplify building Audacity with ASIO driver"
     }
 ]
