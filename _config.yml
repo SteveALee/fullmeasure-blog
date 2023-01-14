@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: FullMeasure
+title: FullMeasure Blog
 subtitle:
-description: Ideas and tools for developing musicality with Steve Lee
+description: Experience, ideas and tools on developing personal musicality by Steve Lee
 keywords: music,technology,education
 author: Steve Lee
 language: en
@@ -87,8 +87,8 @@ deploy:
   type:
 
 # talkyard.io
-talkyard_server_url: https://comments-for-fullmeasure-uk.talkyard.net
-talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
+#talkyard_server_url: https://comments-for-fullmeasure-uk.talkyard.net
+#talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
 
 server:
   cache: true

@@ -26,11 +26,11 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  twitter: https://twitter.com/SteveALee
+#  twitter: https://twitter.com/SteveALee
   facebook: https://www.facebook.com/steve.o.lee
-  linkedin: https://www.linkedin.com/in/stevealee
+#  linkedin: https://www.linkedin.com/in/stevealee
   github: https://github.com/SteveALee
-  mail: mailto:steve@opendirective.com
+  mail: mailto:steve@fullmeasure.co.uk
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud

@@ -7,6 +7,7 @@ Following the common practice in open source projects, here is a collection of a
 
 ## Skills Development
 
+- [Improvise for Real](https://improviseforreal.com/) possibly the best way to internalise harmony and more
 - [Luke from Become A Bassist](https://www.youtube.com/channel/UCxX8-X5XeOTSlXQZERNWrog) clear bass lessons on YouTube
 - [Musical U](https://www.musical-u.com/) excellent musicality learning resources. Pick your own course from many modules or follow courses like 'The Musician's Ear', 'Foundations of a Musical Mind' and 'The Circle of Fifths'. Instrument specific packs include bass by Steve Lawson. Reasonable price given the quantity and quality of modules.
 - [Play Bass – for Beginners & Improvers](https://www.basslinepublishing.com/product/play-bass-for-beginners-improvers/) Stuart Claytons latest book
