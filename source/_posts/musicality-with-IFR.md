@@ -48,7 +48,7 @@ The hardest part for me is the next exercise of identifying notes by singing the
 
 As a bass player I was concerned the backing tracks' bass would clash with my exploratory notes. But that's not the case, especially if I use my bow for arco playing rather than pizzo on the double bass. That is great fun. With the electric bass it's possible to go up and octave or two, even with my limited neck knowledge. I also have a Boss octave pedal that has a +1 option to try.
 
-The quality of the course is excellent. It's really well organised and clearly presented, with everything well explained with a reassuring tone. There's a lesson video and multiple audio tracks for Sing the Numbers and jamming. There's just enough text to get you going making music. Mireia is an excellent teacher and clearly passionate about musicality and enabling us to enjoy it personally.
+The production quality of the course is excellent. It's really well organised and clearly presented, with everything well explained with a reassuring tone. There's a lesson video and multiple audio tracks for Sing the Numbers and jamming. There's just enough text to get you going making music. Mireia is an excellent teacher and clearly passionate about musicality and enabling us to enjoy it personally.
 
 So in conclusion, if you want to be able to creatively engage in creative and interactive music making, alome or with others, then the IFR resources are some of the best available. Certainly the most enjoyable I have found.
 
