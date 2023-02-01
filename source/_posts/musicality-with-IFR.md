@@ -8,7 +8,7 @@ I've reached the stage in my musical journey of realising I'd like to play with 
 
 I'm now trying the [Ear Training for Musical Creativity](https://improviseforreal.com/products/ear-training-musical-creativity) course from Improvise for Real to see how it helps.
 
-# Musical Frustration
+## Musical Frustration
 
 As an adult learner I've faffed about with keyboards and acoustic guitar, but really never got very far. The last few years I've been studying electric bass guitar and double bass with a teacher and have developed basic instrument skills. As a "left brained" engineer type I find music theory fairly straightforward at an intellectual level. Furthermore, the excellent resources from the [Musical U](https://www.musical-u.com/) team have helped me grow in general musicality and approaches to learning. In fact, these are fantastic times to be an adult learner with many new practical scientific concepts like "growth mindset" and skills learning with focus and errors enabling neuroplasticity for adults. 
 
@@ -18,7 +18,7 @@ When the kids were young we attended several fun sessions run by the wonderful [
 
 Ear training appeared to potentially be the key skill required for reaching my goal. Yet my experience with it so far has been that it's pretty boring and painfully slow. Even worse than learning to read "the dots" (notation). Listening to random pitch pairs and identifying the interval really didn't float my boat. I did enjoy Musical U's beginner course where we sang simple songs using the so called "movable do" Solfège system via the Kodály method. I don't have a great voice but singing is very personal and immediate, just what I'm after. It's also fun. By the way, MU, have many, many excellent training modules on [musicallity](https://www.musical-u.com/modules/) and I have not explored them all, despite being a VIP member and ex team. 
 
-# Improvise for Real 
+## Improvise for Real 
 
 Just before Christmas I rediscovered [Improvise for Real](https://improviseforreal.com) and their accessible approach to musicality. I say "rediscovered" as it turns out I purchased the [core e-book](https://improviseforreal.com/learning-materials) several years ago. I read a few chapters and them quite forgot it. I suspect I did not feel I was ready to "improvise" as I had a fixed and inaccurate view of what that meant. I imagined it was something only very advanced musicians do, for example Jazz players. Now that I've developed a little more musicality and after re reading the IFR book I realised that's not what IFR have in mind and it appears they might have exactly what I'm reaching for after all.
 
@@ -30,7 +30,7 @@ The book indicates this simple structure supports a deep level of musicality, in
 
 I was impressed enough that I got a bit carried away and purchased quite a lot of resources (helped by an enticing discount). Central to my new practice regime is the ear training course. I could probably have worked through the book with the Sing the Numbers and Jam Track resources, but I liked the idea of the fully structured course. I do not regret that at all!
 
-## First impressions of Ear Training for Musical Creativity
+### First impressions of Ear Training for Musical Creativity
 
 "Imagine being able to listen to a song and recognize every note of the melody by ear. What would that do for your musical creativity and improvising? In this video course you will learn how to develop this ability, adding a whole new creative dimension to your improvising."
 
@@ -55,4 +55,3 @@ As a bass player I was concerned the backing tracks' bass would clash with my ex
 The production quality of the course is excellent. It's really well organised and clearly presented, with everything well explained with a reassuring tone. There's a lesson video and multiple audio tracks for Sing the Numbers and jamming. There's just enough text to get you going making music. Mireia is an excellent teacher and clearly passionate about musicality and enabling us to enjoy it personally.
 
 So in conclusion, if you want to be able to engage in creative and interactive music making, alone or with others, then the IFR resources are some of the best available. Certainly the most enjoyable I have found.
-
