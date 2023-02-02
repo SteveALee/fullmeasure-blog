@@ -8,6 +8,8 @@ I've reached the stage in my musical journey of realising I'd like to play with 
 
 I'm now trying the [Ear Training for Musical Creativity](https://improviseforreal.com/products/ear-training-musical-creativity) course from Improvise for Real to see how it helps.
 
+![Improvise for Real](/images/trumpet-tree.png)
+
 ## Musical Frustration
 
 As an adult learner I've faffed about with keyboards and acoustic guitar, but really never got very far. The last few years I've been studying electric bass guitar and double bass with a teacher and have developed basic instrument skills. As a "left brained" engineer type I find music theory fairly straightforward at an intellectual level. Furthermore, the excellent resources from the [Musical U](https://www.musical-u.com/) team have helped me grow in general musicality and approaches to learning. In fact, these are fantastic times to be an adult learner with many new practical scientific concepts like "growth mindset" and skills learning with focus and errors enabling neuroplasticity for adults. 
