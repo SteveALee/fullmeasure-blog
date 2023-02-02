@@ -1,6 +1,6 @@
 ---
 title: Developing Musicality with Improvise for Real
-date: 2023-00-012 12:01:00
+date: 2023-01-12 12:01:00
 tags:
 ---
 
