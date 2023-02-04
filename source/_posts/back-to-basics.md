@@ -1,5 +1,5 @@
 ---
-title: Back to Musical Basics
+title: Back to Musical Basics with Ear Training
 date: 2023-02-04 12:01:00
 tags:
 ---
