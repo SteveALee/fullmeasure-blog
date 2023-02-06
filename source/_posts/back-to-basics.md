@@ -4,13 +4,13 @@ date: 2023-02-04 12:01:00
 tags:
 ---
 
-A surprising advantage of my current condition of post concussion syndrome is it's the perfect justification for reigning back my musical ambitions and shining a light on the basics. Much good practice advice is to always work on the basics and I've been feeling the pull of some serious ear training for a while. So I've changed my practice sessions to be a "workout" of some ear training basics.
+A surprising advantage of my current condition of post concussion syndrome is it's the perfect justification for reigning back my musical ambitions and shining a light on the basics. Much good practice advice is to always work on the basics. I've been thinking about serious ear training for a while to avoid the growing feeling I might be [Trying To Learn Jazz Improvisation in Reverse](https://www.jazzadvice.com/lessons/are-you-trying-to-learn-jazz-improvisation-in-reverse). So I've changed my practice sessions to be a "workout" of some ear training basics with [Improvise for Real](https://improviseforreal.com).
 
 ![Improvise for Real](/images/ear-workout.jpg)
 
 So far I can play pizz and arco on my double bass in half position and want to advance beyond playing roots and fifths, especially in our duo jam sessions. I learnt the Bb jazz blues triads and am now looking at learning the 7th chords for standards we play. Plus I'm starting to explore walking basslines using the chords and approach notes in the jazz style.
 
-But the thing that was really starting to bother me was that learning chords was turning into an instrument technique and intellectual process based on musical theory. My brain works slowly, though we can all develop so called "muscle memory" for speed. However, I feel strongly playing needs to be musically based on hearing and musical knowledge.
+But the thing that was really starting to bother me was that learning chords was turning into an instrument technique and intellectual process based on musical theory. My brain works slowly, though we can all develop so called "muscle memory" for speed. However, I feel strongly that I want playing to be musically based on hearing. Not as Jazz Advice say can be the feeling of "Trying to piece together related notes, scales, and chord tones to somehow create interesting musical ideas".
 
 My vision is to improvise walking and other bass lines in the moment according to what others are playing and mood. That requires a good musical ear. I imagine if I can hear notes and have internalised appropriate musical language I should be able to "hear" the good notes to play. Instrument technique then takes care of actually playing those notes.
 
