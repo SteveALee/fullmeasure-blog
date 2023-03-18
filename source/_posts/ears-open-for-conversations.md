@@ -33,6 +33,7 @@ I have a picture of musical learning that is closely analogous to learning a lan
     - relative to tonal centre
     - AKA functional ear training
   - feeling rhythm
+- theory and notation
 - harmony and counterpoint
 - instrument skills
 - musical languages and improvisation
