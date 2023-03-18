@@ -56,7 +56,7 @@ The first modern resource that really impressed me in many ways. They have a kee
 
 Josh is a musician and neuroscientist and has produced a book and website that really present learning to play well and are very enjoyable read. 
 
-# Mark Morely-Fletcher's Play in The Zone
+## Mark Morely-Fletcher's Play in The Zone
 
 A couple of excellent courses focussing on the "inner game" of practice and performance. Plus many free resources including youtube videos.
 
