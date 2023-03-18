@@ -6,7 +6,9 @@ tags:
 
 The great thing about being an adult learner of music is that you get to pick your own learning approach. At this stage in my adventure I have some instrument skills on bass guitar and double bass, along with basic pitch, rhythm and harmonic understanding. As a result of exploring various learning resources I've arrived at what I think is a good set of learning objectives. While this is different to typical school music education it is not at all revolutionary. Rather, it builds on traditional musical techniques and the more recent better understanding of effective learning techniques for adults. 
 
-This post summarises some of the resources that keep me engaged and moving in the right direction. But first I outline the key learning objectives that I think will lead to my vision of
+This post summarises some of the resources that keep me engaged and moving in the right direction. But first I outline the key learning objectives that I think will lead to my vision
+
+# Vision
 
   "Being able to have musical conversations with others"
 
