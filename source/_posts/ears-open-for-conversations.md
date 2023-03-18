@@ -62,11 +62,11 @@ Josh is a musician and neuroscientist and has produced a book and website that r
 
 A couple of excellent courses focussing on the "inner game" of practice and performance. Plus many free resources including youtube videos.
 
-## Brent Vaartstra's Learn Jazz standards
+## Brent Vaartstra's Learn Jazz Standards
 
 With a core course promoting learning a jazz standard each month for maximum progress speed. Plus other great free resources including weekly youtube videos that could beyond jazz. The free PDF on his LIST process for learning by ear is a must have. 
 
-## Dave Smith' sRhythm Academy
+## Dave Smith's Rhythm Academy
 
 A great course and some free resources on a method to really internalise rhythm.
 
@@ -89,7 +89,6 @@ The tool for playing along to the chords of Jazz Standards and other tunes. As i
 ## Transcribe!
 
 The original and excellent tool for learning songs by ear and transcribing. Slow down, filter and loop.
-
 
 ## Sight Reading Factory
 
