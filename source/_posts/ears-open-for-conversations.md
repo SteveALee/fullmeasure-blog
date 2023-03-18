@@ -20,7 +20,7 @@ I have a picture of musical learning that is closely analogous to learning a lan
 
 - growth mindset and mindfulness
 - body mechanics and breathing
- - eq Alexander technique
+  - eq Alexander technique
 - practice techniques and learning to learn
 - mindset and mindfulness
 - effective practice techniques
@@ -28,10 +28,14 @@ I have a picture of musical learning that is closely analogous to learning a lan
     - desirable difficulty
     - spaced recall
 - critical listening
-- hearing notes and feeling rhythm
+- audiation and producing noise
+  - hearing and identifying notes
+    - relative to tonal centre
+    - AKA functional ear training
+  - feeling rhythm
 - harmony and counterpoint
-- musical languages and improvisation
 - instrument skills
+- musical languages and improvisation
 - performance skills
   - including interpersonal
 - teachers, courses and tools
