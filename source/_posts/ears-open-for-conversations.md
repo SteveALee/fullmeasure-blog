@@ -16,7 +16,7 @@ That means being able to play by ear in the moment, reacting to what others are 
 
 The key aspect here is being "ear first", listening and creating in the moment. While theory, notation and instrument learnt specific licks or scales are all important, they support the ear first approach. Not the other way round. 
 
-I have a picture of musical learning that is closely analogous to learning a language. Luckily we now know how to get the adult brain to learn effectively. It means learning to listen, audiate and reproduce using musical "atoms" and language rules. Our voice is our natural instrument with which we are intimately familiar for generating sound and pitches. Our body is primed to respond to and generate rhythm. So singing and body movement are going to be key, even though I'm not really happy with my ability to do either in a pleasant way.
+I have a picture of musical learning that is closely analogous to learning a language. It means learning to listen, audiate and reproduce using musical "atoms" and language rules. Our voice is our natural instrument with which we are intimately familiar for generating sound and pitches. Our body is primed to respond to and generate rhythm. So singing and body movement are going to be key, even though I'm not really happy with my ability to do either in a pleasant way. Luckily we now know how to get the adult brain to learn effectively. 
 
 # Critical Learning Topics
 
@@ -24,7 +24,6 @@ I have a picture of musical learning that is closely analogous to learning a lan
 - body mechanics and breathing
   - eq Alexander technique
 - practice techniques and learning to learn
-- mindset and mindfulness
 - effective practice techniques
     - intentional practice
     - desirable difficulty
