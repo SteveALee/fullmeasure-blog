@@ -68,8 +68,26 @@ A great course and some free resources on a method to really internalise rhythm.
 
 Ear and voice training with a method book, resources and courses providing on a simple and effective approach to internalise melody and harmony.
 
-## Geoff Chalmers Discover DOuble Dass#
+## Geoff Chalmers Discover Double Bass
 
-A wealth of courses and workshops covering everything double bass. Many free toutube videos too.
+A wealth of courses and workshops covering everything double bass. Many free youtube videos too.
+
+## Jazz Advice
+
+Excellent resources and courses on Jazz playing and improvising. Often quite a bit beyond my ability but still educational.
+
+## iReal Pro
+
+The tool for playing along to the chords of Jazz Standards and other tunes. As it's an android app for Windows I use the Blue Stacks Android emulator.
+
+## Transcribe!
+
+The original and excellent tool for learning songs by ear and transcribing. Slow down, filter and loop.
+
+
+## Sight Reading Factory
+
+An excellent interactive tool for learning to sight read notation.
+
 
 **TODO add links**
