@@ -12,7 +12,7 @@ This post summarises some of the resources that keep me engaged and moving in th
 
   "Being able to have musical conversations"
 
-That means being able to play by ear in the moment, reacting to what others are playing (saying). In other words "improvisation" in a very broad sense, not just impressive jazz solos by master musicians. Rather the ability to hear, think of something to say and play it. It might be a bass line in an unstructured "Jam Session", a solo in the content of a Jazz group playing a standard, a new chorus melody for a song or even a full on composition.
+That means being able to play by ear in the moment, reacting to what others are playing (saying). In other words "improvisation" in a very broad sense, not just impressive jazz solos by master musicians. Rather the ability to hear, think of something to say and play it. It might be a bass line in an unstructured "Jam Session", a solo in the content of a Jazz group playing a standard, a new chorus melody for a song, even a full on composition or just noodling my myself.
 
 The key aspect here is being "ear first", listening and creating in the moment. While theory, notation and instrument learnt specific licks or scales are all important, they support the ear first approach. Not the other way round. 
 
