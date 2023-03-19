@@ -47,13 +47,13 @@ These are the resources I have found to be and still find to be the most useful 
 
 Essential, at least to start with to set you on the right path and later to address specific issues.
 
-## MusicalU
+## Christopher Sutton and team's MusicalU
 
 https://www.musical-u.com/
 
 The first modern resource that really impressed me in so many ways. With a background in ear training apps they now cover most topics in ear first musicality. A keen team suported by excellent tutors delivering fantastic courses and instrument packs, along with an active and supportive community. There is also an excellent podcast on music learning. For me as a bass player having the unique Steve Lawson as the resident bass pack tutor is incredibly good fortune. I took up the VIP full access option and admire them so much I have even been on the technical team. Do check them out!
 
-## David Reed's Improvise for Real
+## David Reed and Miriea Clua's Improvise for Real
 
 https://improviseforreal.com/
 
