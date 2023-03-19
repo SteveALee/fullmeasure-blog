@@ -4,9 +4,9 @@ date: 2023-03-17 12:01:00
 tags:
 ---
 
-The great thing about being an adult learner of music is that you get to pick your own learning approach. At this stage in my adventure I have some instrument skills on bass guitar and double bass, along with basic pitch, rhythm and harmonic understanding. As a result of exploring various learning resources I've arrived at what I think is a good set of learning objectives. While this is different to typical school music education it is not at all revolutionary. Rather, it builds on traditional musical techniques and the more recent better understanding of effective learning techniques for adults. 
+The great thing about being an adult learner of music is that you get to pick your own learning approach. At this stage in my adventure I have some instrument skills on bass guitar and double bass, as well as being able to poke a keyboard. Further I have some basic pitch, rhythm and harmonic understanding. Along side this I've learnt about neuroscience and how to apply it for effective adult learning. Now, as a result of exploring various learning resources I've arrived at what I think is a good set of learning objectives. While this is different to typical school music education it is not revolutionary, rather, it builds on traditional ear first musical techniques and the latest understanding of adult learning. 
 
-This post summarises some of the resources that keep me engaged and moving in the right direction. But first I outline the key learning objectives that I think will lead to my vision
+This post summarises some of the resources that keep me engaged and moving in the right direction. But first I outline my vision and the key learning objectives that I think will lead to it.
 
 # Vision
 
@@ -18,28 +18,25 @@ The key aspect here is being "ear first", listening and creating in the moment. 
 
 I have a picture of musical learning that is closely analogous to learning a language. It means learning to listen, audiate and reproduce using musical "atoms" and language rules. Our voice is our natural instrument with which we are intimately familiar for generating sound and pitches. Our body is primed to respond to and generate rhythm. So singing and body movement are going to be key, even though I'm not really happy with my ability to do either in a pleasant way. Luckily we now know how to get the adult brain to learn effectively. 
 
-# Critical Learning Topics
+# Learning Topics for Ear First
 
 - growth mindset and mindfulness
-- body mechanics and breathing
-  - eq Alexander technique
-- practice techniques and learning to learn
-- effective practice techniques
+- body mechanics and breath control
+- critical listening
+- effective practice for learning
     - intentional practice
     - desirable difficulty
     - spaced recall
-- critical listening
-- audiation and producing noise
-  - hearing and identifying notes
-    - relative to tonal centre
-    - AKA functional ear training
+    - visualisation
+- audiation and production
+  - pitch relative to tonal centre
   - feeling rhythm
-- theory and notation
-- harmony and counterpoint
 - instrument skills
+- notation reading and writing
+  - to support ear first
+- harmony and counterpoint
 - musical languages and improvisation
-- performance skills
-  - including interpersonal
+- performing
 - teachers, courses and tools
 
 # Resources
@@ -50,49 +47,68 @@ These are the resources I have found to be and still find to be the most useful 
 
 Essential, at least to start with to set you on the right path and later to address specific issues.
 
-## Musical U
+## MusicalU
 
-The first modern resource that really impressed me in many ways. They have a keen team and many excellent tutors delivering fantastic courses and instrument packs, along with an active and supportive community. There is also an excellent podcast on music leanring. As a bass player, having the unique Steve Lawson as the resident tutor is incredibly good fortune. I took up the VIP full access option and have even been on the technical team. Do check them out!
+https://www.musical-u.com/
 
-## Josh Turknett's BrainJo 
+The first modern resource that really impressed me in so many ways. With a background in ear training apps they now cover most topics in ear first musicality. A keen team suported by excellent tutors delivering fantastic courses and instrument packs, along with an active and supportive community. There is also an excellent podcast on music learning. For me as a bass player having the unique Steve Lawson as the resident bass pack tutor is incredibly good fortune. I took up the VIP full access option and admire them so much I have even been on the technical team. Do check them out!
 
-Josh is a musician and neuroscientist and has produced a book and website that really present learning to play well and are very enjoyable read. 
+## David Reed's Improvise for Real
+
+https://improviseforreal.com/
+
+Ear and voice training with a method book, resources and courses providing a simple and effective approach to internalise melody and harmony. Keeping the key central avoids the need to learn chord scales modes. The ear training course is my current focus of attention and is the most effective and enjoyable approach I have found so far.
+
+## Josh Turknett's BrainJo
+
+https://www.brainjo.academy/
+
+Josh is a musician and neuroscientist and has produced a book, website and method that teach learning to play well by growing a musical brain. I'm currently reading the Laws of BrainJo book and it is a very enjoyable. 
 
 ## Mark Morely-Fletcher's Play in The Zone
+
+https://playinthezone.com/
 
 A couple of excellent courses focussing on the "inner game" of practice and performance. Plus many free resources including youtube videos.
 
 ## Brent Vaartstra's Learn Jazz Standards
 
+https://www.learnjazzstandards.com/
+
 With a core course promoting learning a jazz standard each month for maximum progress speed. Plus other great free resources including weekly youtube videos that could beyond jazz. The free PDF on his LIST process for learning by ear is a must have. 
 
 ## Dave Smith's Rhythm Academy
 
-A great course and some free resources on a method to really internalise rhythm.
+https://www.davesmithdrums.com/home
 
-## David Reed's Improvise for Real
-
-Ear and voice training with a method book, resources and courses providing on a simple and effective approach to internalise melody and harmony.
+A great course and resources on a method to really internalise rhythm.
 
 ## Geoff Chalmers Discover Double Bass
 
-A wealth of courses and workshops covering everything double bass. Many free youtube videos too.
+https://discoverdoublebass.com
 
-## Jazz Advice
+A wealth of courses and workshops covering everything double bass with exceptional quality. Many free youtube videos too.
+
+## Forrest and Eric's Jazz Advice
+
+https://www.jazzadvice.com/
 
 Excellent resources and courses on Jazz playing and improvising. Often quite a bit beyond my ability but still educational.
 
-## iReal Pro
+## Massimo Biolcati's iRealPro
+
+https://www.irealpro.com/
 
 The tool for playing along to the chords of Jazz Standards and other tunes. As it's an android app for Windows I use the Blue Stacks Android emulator.
 
-## Transcribe!
+## Andy Robinsons's Transcribe!
+
+https://www.seventhstring.com/
 
 The original and excellent tool for learning songs by ear and transcribing. Slow down, filter and loop.
 
 ## Sight Reading Factory
 
-An excellent interactive tool for learning to sight read notation.
+https://www.sightreadingfactory.com
 
-
-**TODO add links**
+An excellent interactive web app for learning to sight read notation.
