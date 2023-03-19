@@ -12,9 +12,9 @@ This post summarises some of the resources that keep me engaged and moving in th
 
   "Being able to have musical conversations"
 
-That means being able to play by ear in the moment, reacting to what others are playing (saying). In other words "improvisation" in a very broad sense, not just impressive jazz solos by master musicians. Rather the ability to hear, think of something to say and play it. It might be a bass line in an unstructured "Jam Session", a solo in the content of a Jazz group playing a standard, a new chorus melody for a song, even a full on composition or just noodling my myself.
+That means being able to play by ear in the moment, reacting to what others are playing (saying). In other words "improvisation" in a very broad sense, not just impressive jazz solos by master musicians. Rather the ability to hear, think of something to say and play it. It might be a bass line in an unstructured "Jam Session", a solo in the context of a Jazz group playing a standard, a melody for a new song chorus, even a full-on composition, or just noodling by myself.
 
-The key aspect here is being "ear first", listening and creating in the moment. While theory, notation and instrument learnt specific licks or scales are all important, they support the ear first approach. Not the other way round. 
+The key aspect here is being "ear first", listening to internal or external music and creating in the moment. While theory, notation and instrument learnt specific licks or scales are all important, they support the ear first approach. Not the other way round. 
 
 I have a picture of musical learning that is closely analogous to learning a language. It means learning to listen, audiate and reproduce using musical "atoms" and language rules. Our voice is our natural instrument with which we are intimately familiar for generating sound and pitches. Our body is primed to respond to and generate rhythm. So singing and body movement are going to be key, even though I'm not really happy with my ability to do either in a pleasant way. Luckily we now know how to get the adult brain to learn effectively. 
 
