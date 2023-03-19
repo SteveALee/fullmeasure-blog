@@ -10,7 +10,7 @@ This post summarises some of the resources that keep me engaged and moving in th
 
 # Vision
 
-  "Being able to have musical conversations with others"
+  "Being able to have musical conversations"
 
 That means being able to play by ear in the moment, reacting to what others are playing (saying). In other words "improvisation" in a very broad sense, not just impressive jazz solos by master musicians. Rather the ability to hear, think of something to say and play it. It might be a bass line in an unstructured "Jam Session", a solo in the content of a Jazz group playing a standard, a new chorus melody for a song or even a full on composition.
 
