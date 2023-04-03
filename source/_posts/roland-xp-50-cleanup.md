@@ -14,7 +14,7 @@ The Roland XP-50 is a really nice workstation released in the mid 90's, consisti
 
 Decoding the XP-50's serial number it appears it was made in Dec. 97. It has CPU version 1.01 and ROM firmware 1.03 but I don't intend to look for firmware updates. Though it appears an update floppy might be available. 
 
-The strip down was easy enough. Just 24 self tapping screws on the bottom to remove enabling it to be lifted off, giving access. I no longer have a can of compressed air for cleaning but it was not that bad and a good old fashiond blow and a brush shifted the worse muck. I decided not to strip the keys down as could clean them externally and didn't want to risk causing playing problems. The keyboard feels OK if not brilliant and is velocity sensitive with after touch.
+The strip down was easy enough. Just 24 self tapping screws on the bottom to remove enabling it to be lifted off, giving access. I was greeted by a long overdue sight of a couple of TTL logic ICs, which brought back memories of breadboarding circuits.  I no longer have a can of compressed air for cleaning but it was not that bad and a good old fashioned blow and a brush shifted the worse muck. I decided not to strip the keys down as could clean them externally and didn't want to risk causing playing problems. The keyboard feels OK if not brilliant and is velocity sensitive with after touch.
 
 I popped in a new 2032 battery, the kind used in PC motherboards, and thankfully could find no leaking caps. There is a slight 100Hz-ish noise from the power supply, almost certainly transformer core lamination buzz. It's only just noticeable though in a quiet room so not anything to fix .
 
