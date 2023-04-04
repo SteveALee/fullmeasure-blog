@@ -10,7 +10,23 @@ After 40 years the internal battery was on it's last legs, though seem to be jus
 
 ![XP-50](/images/XP-50/20230403_112125.jpg)
 
-The Roland XP-50 musical workstation was released in the mid 90's, consisting of a JV-1080 sound module, a MC-50 MkII type sequencer and a 61 key synth-style keyboard plus other controllers. I think I paid about £800 and they still appear on ebay for around £300 so was a good investment (as my tutor told me it would be). 
+The Roland XP-50 musical workstation was released in the mid 90's, consisting of a JV-1080 sound module, a MRC Pro sequencer and a 61 key synth-style keyboard plus other controllers. I think I paid about £800 and they still appear on ebay for around £300 so was a good investment (as my tutor told me it would be). 
+
+<blockquote>The XP-50 Music Workstation is a powerful new
+instrument based on a 32-bit RISC processor with
+8 Mb ROM waveforms. It is 64 note polyphonic, 16
+part multitimbral, GM compatible, and contains 512
+Preset Patches and 128 User Patches. Up to four
+SR-JV80 Wave Expansion boards can be installed,
+providing up to 40 Mb and 1,660 Patches. The
+XP-50 also includes Reverb, Chorus, and 40 other
+effects including Rotary, Distortion, Flanging,
+Phasing, and MultiTap Delays. Its MRC-Pro
+Sequencer features 16 Track linear and loop
+recording, plus 100 Patterns, real time nondestructive editing, event editing, and Direct from
+Disk song playback. The XP-50's Realtime Phrase
+Sequencer (RPS) allows recorded Patterns to be
+triggered from specific keys</blockquote>
 
 The voices are Roland's sample + subtractive synthesis which produces some great sounds. They were top of thir game then with many sounds being designed by [Eric Persing](https://www.soundonsound.com/people/eric-persing-creating-spectrasonics). Some are definitely of the period having a strong techno feel. Expansion boards are available though I have none.
 
