@@ -30,7 +30,7 @@ triggered from specific keys</blockquote>
 
 The voices are Roland's sample + subtractive synthesis which produces some great sounds. They were top of thir game then with many sounds being designed by [Eric Persing](https://www.soundonsound.com/people/eric-persing-creating-spectrasonics). Some are definitely of the period having a strong techno feel. Expansion boards are available though I have none.
 
-It uses Midi internally to connect the tree components and also has comprehensive external MIDI support. Sadly, it uses 3.5 inch floppy disks for storage and I managed to throw out the demos discs with all my old redundant floppys and drives. Maybe MIDI sysex can be used or some sort of drive emulator might be available, Else saving and loading files is going to be difficult.
+It uses Midi internally to connect the three components and also has comprehensive external MIDI support. Sadly, it uses 3.5 inch floppy disks for storage and I managed to throw out the demos discs with all my old redundant floppys and drives. Maybe MIDI sysex can be used or some sort of drive emulator might be available, Else saving and loading files is going to be difficult.
 
 Decoding the XP-50's serial number it appears it was made in Dec. 97. It has CPU version 1.01 and ROM firmware 1.03 but I don't intend to look for firmware updates. Though it appears an update floppy might be available. 
 
