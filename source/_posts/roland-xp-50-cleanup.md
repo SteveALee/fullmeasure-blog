@@ -10,7 +10,11 @@ After 40 years the internal battery was on it's last legs, though seem to be jus
 
 ![XP-50](/images/XP-50/20230403_112125.jpg)
 
-The Roland XP-50 is a really nice workstation released in the mid 90's, consisting of a JV-1080 sound module, a MRC-PRO sequencer and a 61 key synth-style keyboard. I think I paid about £800 and they still appear on ebay for around £300 so was a good investment (as my tutor told me it would be). It also has comprehensive MIDI but sadly also uses 3.5 inch floppy disks for storage. I managed to throw out the demos discs with all my old redundant floppys and of course do not have any 3.5" drives. Maybe MIDI sysex can be used or else saving and loading files is going to be difficult. Otherwise, it's game on with a nice tool.
+The Roland XP-50 musical workstation was released in the mid 90's, consisting of a JV-1080 sound module, a MC-50 MkII type sequencer and a 61 key synth-style keyboard plus other controllers. I think I paid about £800 and they still appear on ebay for around £300 so was a good investment (as my tutor told me it would be). 
+
+The voices are Roland's sample + subtractive synthesis which produces some great sounds. They were top of thir game then with many sounds being designed by [Eric Persing](https://www.soundonsound.com/people/eric-persing-creating-spectrasonics). Some are definitely of the period having a strong techno feel. Expansion boards are available though I have none.
+
+It uses Midi internally to connect the tree components and also has comprehensive external MIDI support. Sadly, it uses 3.5 inch floppy disks for storage and I managed to throw out the demos discs with all my old redundant floppys and drives. Maybe MIDI sysex can be used or some sort of drive emulator might be available, Else saving and loading files is going to be difficult.
 
 Decoding the XP-50's serial number it appears it was made in Dec. 97. It has CPU version 1.01 and ROM firmware 1.03 but I don't intend to look for firmware updates. Though it appears an update floppy might be available. 
 
@@ -25,9 +29,22 @@ I had a slight panic when, on powering up, the screen remained blank though back
 Now to figure out how to record using the sequencer. Of course, I could just use a DAW with the MIDI but having an appliance is so much more satisfying then yet more work on a computer.
 
 ![ROM version screen](/images/XP-50/20230403_112227.jpg)
+<figcaption>ROM version Screen</figcaption>
+
 ![Power supply](/images/XP-50/20230403_112915.jpg)
+<figcaption>Power Supply</figcaption>
+
 ![Expansion sockets](/images/XP-50/20230403_112936.jpg)
+<figcaption>Expansion sockets</figcaption>
+
 ![Main PCB](/images/XP-50/20230403_112945.jpg)
+<figcaption>Main PCB</figcaption>
+
 ![Floppy drive and pitch bend controller](/images/XP-50/20230403_112949.jpg)
+<figcaption>Floppy drive and pitch bend controller</figcaption>
+
 ![Keys](/images/XP-50/20230403_113002.jpg)
+<figcaption>Keys</figcaption>
+
 ![Cleaned and squirted](/images/XP-50/20230403_121754.jpg)
+<figcaption>Cleaned and squirted</figcaption>
