@@ -4,7 +4,7 @@ date: 2023-03-03 16:47:00
 tags:
 ---
 
-In the late 90's I had a few keyboard lesson's, centred around learning Billy Taylor's "I Wish I Knew How It Would Feel To Be Free". I brought a Roland XP-50 Music Workstation to play as my existing Yamaha PSS 680 had rubbish mini keys. It spent most of its time in the loft, though had a brief reprise when our daughter Keziah decided to learn Piano. I've just decided to dust it down and use it for ear training and a little tinkling with backing tracks for when I get back to bass. 
+In the late 90's I had a few keyboard lessons with John Loose, centred around learning Billy Taylor's "I Wish I Knew How It Would Feel To Be Free". I brought a Roland XP-50 Music Workstation to play as my existing Yamaha PSS 680 had rubbish mini keys. It spent most of its subsequent life in the loft, though had a brief reprise when our daughter Keziah decided to learn Piano. I've just dusted it down to use for ear training pitch checking and a little tinkling with backing tracks for when I get back to bass. 
 
 After 40 years the internal battery was on it's last legs, though seem to be just about working. Given the age there's the usual risk of leaking electrolytic capacitors warranting an inspection. Plus there's a few years of fluff to clear out. 
 
