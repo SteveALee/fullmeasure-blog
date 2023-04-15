@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Further to my last post on recommissioning my Roland XP-50 workstation, I replaced the floppy drive with a Gotek floppy emulator so I can now use USB memory sticks to store files and transfer between">
+    <meta name="description" content="Further to my last post on recommissioning my Roland XP-50 workstation, I replaced the floppy drive with a Gotek floppy emulator. I can now use USB memory sticks to store files and transfer them betwe">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Using a Gotek USB Floppy Emulator in a Roland XP-50">
 <meta property="og:url" content="https://fullmeasure.uk/2023/03/15/gotek-in-xp-50/index.html">
 <meta property="og:site_name" content="FullMeasure Blog">
-<meta property="og:description" content="Further to my last post on recommissioning my Roland XP-50 workstation, I replaced the floppy drive with a Gotek floppy emulator so I can now use USB memory sticks to store files and transfer between">
+<meta property="og:description" content="Further to my last post on recommissioning my Roland XP-50 workstation, I replaced the floppy drive with a Gotek floppy emulator. I can now use USB memory sticks to store files and transfer them betwe">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://fullmeasure.uk/images/XP-50/gotek.jpg">
 <meta property="article:published_time" content="2023-03-15T16:47:00.000Z">
-<meta property="article:modified_time" content="2023-04-14T20:59:22.219Z">
+<meta property="article:modified_time" content="2023-04-15T10:10:40.998Z">
 <meta property="article:author" content="Steve Lee">
 <meta property="article:tag" content="music,technology,education">
 <meta name="twitter:card" content="summary">
@@ -148,32 +148,36 @@
   
 
   <div class="content" itemprop="articleBody">
-    <p>Further to my last post on recommissioning my Roland XP-50 workstation, I replaced the floppy drive with a Gotek floppy emulator so I can now use USB memory sticks to store files and transfer between my PC. For example MIDI .mid files can be put on a virtual floppy on a USB via my PC and then accessed by the XP-50.</p>
-<p>The <a target="_blank" rel="noopener" href="https://www.gotekemulator.com/">Gotek USB Floppy Emulators</a> are well proven replacements for 3.5 inch floppy drives. They use ubiquitous USB memory sticks to hold a large number of virtual floppies using image files. Replacing the stock firmware with FastFloppy provides a reliable solution that works in almost all possible applications, including old Roland workstations</p>
-<p>The WinImage program is useful for management of the images on a PC, including inserting and removing files.</p>
+    <p>Further to my last post on recommissioning my Roland XP-50 workstation, I replaced the floppy drive with a Gotek floppy emulator. I can now use USB memory sticks to store files and transfer them between my PC. For example MIDI .mid files can be put on a virtual floppy on a USB via my PC and then accessed by the XP-50.</p>
+<p>The <a target="_blank" rel="noopener" href="https://www.gotekemulator.com/">Gotek USB Floppy Emulators</a> are well proven replacements for 3.5 inch floppy drives. They use ubiquitous USB memory sticks to hold a large number of virtual floppies using image files. Replacing the stock firmware with FastFloppy provides a reliable solution that works in almost all possible applications, including old Roland workstations like my XP-50.</p>
+<p>Additionally, the WinImage program is useful for working with the images on a PC, including inserting and removing files.</p>
+<p>It took me a while to figure out the correct and current info so I provide a summary here. It should also apply to other musical instruments with floppy drives.</p>
 <p><img src="/images/XP-50/gotek.jpg" alt="The Gotek in situ"></p>
 <figcaption>Gotek Floppy Emulator working in the XP-50</figcaption>
 
-<h2 id="Acquiring-a-Gotek"><a href="#Acquiring-a-Gotek" class="headerlink" title="Acquiring a Gotek"></a>Acquiring a Gotek</h2><p>Gotek only supply in bulk but there many, many suppliers that will sell to end users. Confusingly, there are many models available from gotek and several variations have appeared over time. Many suppliers to not specify which they provide. It is possible to upgrade the stock Goteks with a better display and a rotory control. Some suppliers provide these updates ready made.</p>
-<p>Fortunately, most of this conmplexity is covered in the <a target="_blank" rel="noopener" href="https://github.com/keirf/flashfloppy/wiki/Gotek-Models">FastFloppy Gotek model documentation</a>.</p>
-<p>I played safe a purchased a device specifically listed as <a target="_blank" rel="noopener" href="https://www.gotekemulator.com/P_view.asp?pid=55">SFR1M44-U100K GoTek 1.44MB USB SSD Floppy Drive Emulator for YAMAHA KORG ROLAND Electronic Keyboard</a> but didn’t know about the significant variation over time that FastFloppy details. Fortunately, the model I received was a recent SFRKC30AT3 using the slightly less powerful Artery AT32F415 chip.</p>
-<h2 id="Setting-up-the-Gotek"><a href="#Setting-up-the-Gotek" class="headerlink" title="Setting up the Gotek"></a>Setting up the Gotek</h2><p>The first thing to do is Install FastFloppy. The Gotek is the installed replacing the floppy drive.</p>
-<p>Installing FastFloppy on the Gotek is straightforward. Connect the Gotek to a PC with a USB cable, install the Artery driver and flashing software and use it to install FastFloppy. Full details provided in the <a target="_blank" rel="noopener" href="https://github.com/keirf/flashfloppy/wiki/Firmware-Programming">FastFloppy Firmware Programming docs</a>.</p>
-<p>Swapping the drives is also straightforward as you’d expect. In my case 4 screws and after some confusion over jumper settings only a S0 jumper was needed. The floppy was configured for S0 (first drive) and Ready signal on pin 24 but FastFloppy just required the S0. </p>
-<p>After installation, when the XP-50 is turned on the Gotek display shows “F-F” if all is well.</p>
-<h2 id="Testing-and-Using-the-Gotek"><a href="#Testing-and-Using-the-Gotek" class="headerlink" title="Testing and Using the Gotek"></a>Testing and Using the Gotek</h2><p>After some confusion caused by various aged articles, the latest FastFloppy makes it “easy peasy” to use the drive. Both in the XP-50 and transferring files between the XP-50 and a PC. My initial test approach was as follows</p>
+<h2 id="Acquiring-a-Gotek"><a href="#Acquiring-a-Gotek" class="headerlink" title="Acquiring a Gotek"></a>Acquiring a Gotek</h2><p>Gotek only supply in bulk but there many, many suppliers who will sell individual units to end users. Confusingly, there are many models available from Gotek and several variations have appeared over time. Many suppliers badge them and do not specify which version they provide. In addition, it is possible to upgrade the stock Gotek hardware with a better display and a rotary control. Some suppliers provide these updates pre installed.</p>
+<p>Fortunately, this complexity is well covered in the <a target="_blank" rel="noopener" href="https://github.com/keirf/flashfloppy/wiki/Gotek-Models">FastFloppy Gotek model documentation</a>.</p>
+<p>I played safe and purchased a device specifically listed as <a target="_blank" rel="noopener" href="https://www.gotekemulator.com/P_view.asp?pid=55">SFR1M44-U100K GoTek 1.44MB USB SSD Floppy Drive Emulator for YAMAHA KORG ROLAND Electronic Keyboard</a> with 7 segment display and two buttons. However, I didn’t know about the significant variation over time that FastFloppy details. Fortunately though, the model I received was a recent SFRKC30AT3 using the Artery AT32F415 chip (not the very latest). Gotek changed chip manufactures to Artery due to escalating costs.</p>
+<h2 id="Setting-up-the-Gotek"><a href="#Setting-up-the-Gotek" class="headerlink" title="Setting up the Gotek"></a>Setting up the Gotek</h2><p>The first thing to do is Install FastFloppy. The Gotek rive is then installed replacing the floppy drive.</p>
+<p>Installing FastFloppy on the Gotek is straightforward. Connect the Gotek to a PC with a USB cable, install the Artery driver and flashing software on the PC and use it to install FastFloppy to the Gotek. Full details are provided in the <a target="_blank" rel="noopener" href="https://github.com/keirf/flashfloppy/wiki/Firmware-Programming">FastFloppy Firmware Programming docs</a>.</p>
+<p>Swapping the drives is also straightforward, as you’d expect. In my case just 4 screws and after finding conflicting advice over jumper settings only a single S0 jumper was needed. The floppy drive was configured for S0 (first drive) and Ready signal on pin 24, but FastFloppy just required the S0 jumper. </p>
+<p>Turning on the XP-50 after installation, the Gotek display showed “F-F” (for FastFloppy) if all is well.</p>
+<h2 id="Testing-and-Using-the-Gotek"><a href="#Testing-and-Using-the-Gotek" class="headerlink" title="Testing and Using the Gotek"></a>Testing and Using the Gotek</h2><p>After some confusion caused by various aged articles, I was pleased to discover the latest FastFloppy firmware makes it “easy peasy” to use the drive. Both in the XP-50 and transferring files between the XP-50 and a PC. I performed an initial “smoke test” as follows:</p>
 <ul>
-<li>Format the USB stick as FAT using Windows Explorer to DiskManager</li>
-<li>Grab the FastFloppy empty 1.44MB image file from the <a target="_blank" rel="noopener" href="https://github.com/keirf/flashfloppy-images/blob/master/README.md">image library</a> and copy it twice to the stick</li>
+<li>Format the USB stick as FAT using DiskManager (or Windows Explorer)</li>
+<li>Grab the FastFloppy empty 1.44MB image file from the <a target="_blank" rel="noopener" href="https://github.com/keirf/flashfloppy-images/blob/master/README.md">image library</a> and put two copies on the stick</li>
 <li>Plug the stick into the Gotek and turn the XP-50 on</li>
-<li>After startup the Gotext buttons allow switching between “000” and “001” indicating the two images are seen</li>
-<li>Use XP-50 Disk utilities to format the image - takes over a minute but then the Gotek is emulating a slow floppy</li>
-<li>Plug the stick into a a PC running WinImage</li>
-<li>Grab a MIDI .mid file and add it to the formatted image file (I used Bach’s Air on A G String from MidiWorld)</li>
-<li>Pop the stick back in the XP-50, select the image, load the file and play it</li>
+<li>After startup, the Gotext buttons allow switching between slot “000” and “001” indicating the two images are seen</li>
+<li>Use XP-50 Disk utilities to check the images can be seen format one - takes over a minute but then the Gotek is emulating a slow floppy</li>
+<li>Plug the stick into a PC running WinImage</li>
+<li>Grab a MIDI .mid file, test it on MuseScore and add it to the formatted image file (I used Bach’s Air on a G String from MidiWorld)</li>
+<li>Pop the stick back in the XP-50, select the image, load the file, select General Midi mode and play it</li>
+<li>Enjoy the cheesy GM sounds</li>
 </ul>
-<p>That’s it. We can read and write files to the floppy images on both devices.</p>
-<h2 id="Unknowns"><a href="#Unknowns" class="headerlink" title="Unknowns"></a>Unknowns</h2><p>Unless I upgrade the Gotek hardware I will need to keep track of the slot numbers for each image file. By default, FastFloppy assigns them automatically but does not explain how. Perhaps based on FAT directory order? It is possible to use a config file to change to using image filenames that include the slot number.</p>
+<p>That’s it. I ca read and write files to the floppy images on both devices.</p>
+<h2 id="Unknowns"><a href="#Unknowns" class="headerlink" title="Unknowns"></a>Unknowns</h2><p>It’s not clear if FastFloppy has any restrictions on the type or size of USB memory stick used. I used a 32GB SansDisk without problems. </p>
+<p>Access on the XP-50 is fairly slow but I guess FastFloppy is emulating timings to keep the host hardware happy. There are some notes on how to mitigate slow Roland access which I’ll keep in mind in case I feel I needed it.</p>
+<p>Unless I upgrade the Gotek hardware I will need to keep track of the slot numbers for each image file. By default, FastFloppy assigns slot numbers automatically but does not explain how. Perhaps based on FAT directory order? It is also possible to use a config file to change to using image filenames that include the slot number.</p>
 <p>The green LED is on all the time. I’m not sure if this is expected or it should flash during access. Not an issue at all.</p>
 
   </div>
