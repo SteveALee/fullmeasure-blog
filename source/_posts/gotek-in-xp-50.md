@@ -1,6 +1,6 @@
 ---
 title: Using a Gotek USB Floppy Emulator in a Roland XP-50
-date: 2023-03-15 16:47:00
+date: 2023-04-15 16:47:00
 tags:
 ---
 
