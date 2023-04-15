@@ -8,7 +8,7 @@ Further to my last post on recommissioning my Roland XP-50 workstation, I replac
 
 The [Gotek USB Floppy Emulators](https://www.gotekemulator.com/) are well proven replacements for 3.5 inch floppy drives. They use ubiquitous USB memory sticks to hold a large number of virtual floppies using image files. Replacing the stock firmware with FastFloppy provides a reliable solution that works in almost all possible applications, including old Roland workstations like my XP-50.
 
-Additionally, the WinImage program is useful for working with the images on a PC, including inserting and removing files.
+Additionally, the [WinImage](https://www.winimage.com/winimage.htm) program is useful for working with the images on a PC, including inserting and removing files. It is shareware, but only cost $30 for the basic version which seems quite adequate.
 
 It took me a while to figure out the correct and current info so I provide a summary here. It should also apply to other musical instruments with floppy drives.
 
@@ -31,11 +31,11 @@ Installing FastFloppy is straightforward. Connect the Gotek to a PC with a USB c
 
 Swapping the drives is also straightforward, as you'd expect. In my case just 4 screws and after finding conflicting advice over jumper settings only a single S0 jumper was needed. The floppy drive was configured for S0 (first drive) and Ready signal on pin 24, but FastFloppy just required the S0 jumper. 
 
-Turning on the XP-50 after installation, the Gotek display showed "F-F" (for FastFloppy) if all is well.
+Turning on the XP-50 after installation, the Gotek display showed "F-F" indicating for FastFloppy was installed and running.
 
 ## Testing and Using the Gotek
 
-After some confusion caused by various aged articles, I was pleased to discover the latest FastFloppy firmware makes it "easy peasy" to use the drive. Both in the XP-50 and transferring files between the XP-50 and a PC. I performed an initial "smoke test" as follows:
+After some confusion caused by various aged articles, I was pleased to discover the latest FastFloppy firmware makes it "easy peasy" to use the drive. Both in the XP-50 and when transferring files between the XP-50 and a PC. I performed an initial "smoke test" as follows:
 
 - Format the USB stick as FAT using DiskManager (or Windows Explorer)
 - Grab the FastFloppy empty 1.44MB image file from the [image library](https://github.com/keirf/flashfloppy-images/blob/master/README.md) and put two copies on the stick
@@ -47,13 +47,13 @@ After some confusion caused by various aged articles, I was pleased to discover 
 - Pop the stick back in the XP-50, select the image, load the file, select General Midi mode and play it
 - Enjoy the cheesy GM sounds
 
-That's it. I ca read and write files to the floppy images on both devices.
+That's it. I can now read and write files to the floppy images on both devices. And no nasty, unreliable and now expensive floppy discs required.
 
 ## Unknowns
 
-It's not clear if FastFloppy has any restrictions on the type or size of USB memory stick used. I used a 32GB SansDisk without problems. 
+It's not clear if FastFloppy has any restrictions on the type or size of USB memory stick used. I used a 32GB SansDisk job without problems. 
 
-Access on the XP-50 is fairly slow but I guess FastFloppy is emulating timings to keep the host hardware happy. There are some notes on how to mitigate slow Roland access which I'll keep in mind in case I feel I needed it.
+Access on the XP-50 is fairly slow but I guess FastFloppy is emulating timings to keep the host hardware happy. There are some FastFloppy notes on how to mitigate slow Roland access which I'll keep in mind in case I feel I needed it.
 
 Unless I upgrade the Gotek hardware I will need to keep track of the slot numbers for each image file. By default, FastFloppy assigns slot numbers automatically but does not explain how. Perhaps based on FAT directory order? It is also possible to use a config file to change to using image filenames that include the slot number.
 
