@@ -43,7 +43,7 @@ After some confusion caused by various aged articles, I was pleased to discover 
 - After startup, the Gotext buttons allow switching between slot "000" and "001" indicating the two images are seen
 - Use XP-50 Disk utilities to check the images can be seen format one - takes over a minute but then the Gotek is emulating a slow floppy
 - Plug the stick into a PC running WinImage
-- Grab a MIDI .mid file, test it on MuseScore and add it to the formatted image file (I used Bach's Air on a G String from MidiWorld)
+- Grab a MIDI .mid file, test it on [MuseScore](https://musescore.org/en) and add it to the formatted image file with WinImage (I used Bach's Air on a G String from [MidiWorld](https://www.midiworld.com))
 - Pop the stick back in the XP-50, select the image, load the file, select General Midi mode and play it
 - Enjoy the cheesy GM sounds
 
