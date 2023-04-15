@@ -8,7 +8,7 @@ Further to my last post on recommissioning my Roland XP-50 workstation, I replac
 
 The [Gotek USB Floppy Emulators](https://www.gotekemulator.com/) are well proven replacements for 3.5 inch floppy drives. They use ubiquitous USB memory sticks to hold a large number of virtual floppies using image files. Replacing the stock firmware with FastFloppy provides a reliable solution that works in almost all possible applications, including old Roland workstations like my XP-50.
 
-Additionally, the [WinImage](https://www.winimage.com/winimage.htm) program is useful for working with the images on a PC, including inserting and removing files. It is shareware, but only cost $30 for the basic version which seems quite adequate.
+Additionally, the [WinImage](https://www.winimage.com/winimage.htm) program is useful for working with the images on a PC, including inserting and removing files. 
 
 It took me a while to figure out the correct and current info so I provide a summary here. It should also apply to other musical instruments with floppy drives.
 
@@ -58,3 +58,5 @@ Access on the XP-50 is fairly slow but I guess FastFloppy is emulating timings t
 Unless I upgrade the Gotek hardware I will need to keep track of the slot numbers for each image file. By default, FastFloppy assigns slot numbers automatically but does not explain how. Perhaps based on FAT directory order? It is also possible to use a config file to change to using image filenames that include the slot number.
 
 The green LED is on all the time. I'm not sure if this is expected or it should flash during access. Not an issue at all.
+
+The docs say WinImage is shareware (cost $30 after 30 days) but as it's no longer developed that might not be required. A possible alternative seems to be freeware ImgBurn but I have not tried it.
