@@ -25,9 +25,9 @@ I played safe and purchased a device specifically listed as [SFR1M44-U100K GoTek
 
 ## Setting up the Gotek
 
-The first thing to do is Install FastFloppy. The Gotek rive is then installed replacing the floppy drive.
+The first thing to do is install the FastFloppy firmware on the Gotek. The Gotek drive is then installed replacing the floppy drive.
 
-Installing FastFloppy on the Gotek is straightforward. Connect the Gotek to a PC with a USB cable, install the Artery driver and flashing software on the PC and use it to install FastFloppy to the Gotek. Full details are provided in the [FastFloppy Firmware Programming docs](https://github.com/keirf/flashfloppy/wiki/Firmware-Programming).
+Installing FastFloppy is straightforward. Connect the Gotek to a PC with a USB cable, install the Artery driver and flashing software on the PC and use it to flash FastFloppy on the Gotek. Full details are provided in the [FastFloppy Firmware Programming docs](https://github.com/keirf/flashfloppy/wiki/Firmware-Programming).
 
 Swapping the drives is also straightforward, as you'd expect. In my case just 4 screws and after finding conflicting advice over jumper settings only a single S0 jumper was needed. The floppy drive was configured for S0 (first drive) and Ready signal on pin 24, but FastFloppy just required the S0 jumper. 
 
