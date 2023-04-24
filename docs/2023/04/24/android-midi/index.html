@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Back in the mid 1980s Atari STs met our MIDI needs. Later PC soundcards included MIDI adaptor sockets and now PCs and Macs all support USB MIDI. There’s loads of MIDI software for desktop including DA">
+    <meta name="description" content="Back in the mid 1980s Atari STs met our MIDI needs by having built in MIDI ports. Later on, PC soundcards included MIDI adaptor sockets and now PCs and Macs support MIDI via USB. Better, there’s now l">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android MIDI">
 <meta property="og:url" content="https://fullmeasure.uk/2023/04/24/android-midi/index.html">
 <meta property="og:site_name" content="FullMeasure Blog">
-<meta property="og:description" content="Back in the mid 1980s Atari STs met our MIDI needs. Later PC soundcards included MIDI adaptor sockets and now PCs and Macs all support USB MIDI. There’s loads of MIDI software for desktop including DA">
+<meta property="og:description" content="Back in the mid 1980s Atari STs met our MIDI needs by having built in MIDI ports. Later on, PC soundcards included MIDI adaptor sockets and now PCs and Macs support MIDI via USB. Better, there’s now l">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://fullmeasure.uk/images/android-midi.jpg">
 <meta property="article:published_time" content="2023-04-24T15:47:00.000Z">
-<meta property="article:modified_time" content="2023-04-24T17:51:08.001Z">
+<meta property="article:modified_time" content="2023-04-24T18:36:23.173Z">
 <meta property="article:author" content="Steve Lee">
 <meta property="article:tag" content="music,technology,education">
 <meta name="twitter:card" content="summary">
@@ -148,45 +148,45 @@
   
 
   <div class="content" itemprop="articleBody">
-    <p>Back in the mid 1980s Atari STs met our MIDI needs. Later PC soundcards included MIDI adaptor sockets and now PCs and Macs all support USB MIDI. There’s loads of MIDI software for desktop including DAWs and even web browsers support Web MIDI. </p>
-<p>But what about Android phones (I have no interest or knowledge of iPhones)? They are easily more powerful that those old Atari boxes. And much more portable, if you can live a touch interface on a small screen (of course there are also larger tablets).</p>
-<p>It turns out there are two main issues:</p>
+    <p>Back in the mid 1980s Atari STs met our MIDI needs by having built in MIDI ports. Later on, PC soundcards included MIDI adaptor sockets and now PCs and Macs support MIDI via USB. Better, there’s now loads of MIDI software for desktop including DAWs and even web browsers support <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API">Web MIDI</a>. </p>
+<p>But what about Android phones (I have no interest or knowledge of iPhones)? They are easily more powerful that those original Atari boxes. And much more portable, if you can live with a touch interface on a small screen. Though of course there are also larger tablets and keyboards.</p>
+<p>It turns out MIDI can work on Android though there are two main issues:</p>
 <ul>
 <li>Apps that support midi</li>
 <li>Connectivity</li>
 </ul>
-<p>I thought I’d try a really simple MIDI setup to support my ear training with Improvise for Real (IFR). Extrnal MIDI keyboard playing sounds on the phone.</p>
+<p>I thought I’d try a really simple MIDI setup to support my ear training using a MIDI keyboard playing sounds on the phone. I need to sing along to audio files from the Improvise for Real (IFR) website (though they can also be downloaded, I have a random selection web app) The setup is: </p>
 <ul>
 <li>Samsung Galaxy S22+</li>
-<li>AKAI MPK mini keyboard + USB-C to A adapter</li>
+<li>AKAI MPK mini keyboard with USB-C to A adapter</li>
 <li><a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=umito.android.minipiano_pro&pli=1">Mini Piano Pro app</a></li>
-<li>IFR audio tracks played with Firefox, my default browser</li>
+<li>Audio tracks played with Firefox, my default browser</li>
 </ul>
-<p>The piano app supports MIDI, listening on all channels by default. So that just works. No drums sounds for the pads though even though the AKAI sends them on channel 10.</p>
+<p>The piano app supports MIDI in, listening on all channels by default. It plays the sounds and highlights the key on a virtual piano. That just works. There’s no support for drum sounds for the pads even though the AKAI sends them on channel 10 as usual.</p>
 <p>A couple of issues here:</p>
 <ul>
-<li>Phone is acting as USB host and powering the AKAI, but is not powered itself</li>
+<li>Phone is acting as USB host and powering the AKAI USB device, but is not powered itself</li>
 <li>Phone sound is rubbish</li>
-<li>No audio mixer or volume controls on piano app or Firefox</li>
+<li>No audio mixer for app levels, or volume controls on piano app or Firefox</li>
 </ul>
-<p>I’ve yet to sort out a mixer but the sounds levels are just OK fortunately.</p>
+<p>I’ve yet to sort out a mixer but the sounds levels are just OK, fortunately.</p>
 <p>For the power and sound, chucking some hardware at the problem should work: </p>
 <ul>
 <li>Headphones or powered speaker with wired aux for decent sound with low latency</li>
-<li>USB-C to 3.5mm stereo adapter </li>
-<li>Anker 7-way media hub with pass-through power</li>
+<li>Anker 8195 USB-C to 3.5mm stereo adapter </li>
+<li><a target="_blank" rel="noopener" href="https://www.anker.com/uk/products/a8346">Anker 8346 7 in 1 hub</a> with pass-through power</li>
 </ul>
 <p><img src="/images/android-midi.jpg" alt="Android MIDI setup"></p>
-<figcaption>MIDI keyboard, phones and hub</figcaption>
+<figcaption>MIDI keyboard, headphones and hub (phone missing)</figcaption>
 
 <p>This works, mostly.</p>
 <p>In practice this suffers from intermittent lack of sound until replugging leads brings it back.</p>
 <p>The root cause appears to be the fact that like many phone manufacturers Samsung have ditched the 3.5mm analog audio jack, forcing us to use the single USB-C connector for analog audio, power and digital MIDI in. </p>
-<p>I guess this is partly as USB-C audio seems to be a mess with many options including analog and digital audio and different versions of the specs. When you buy phones or USB-C to audio adapters you don’t know what options are available or being used and have no control over what’s going on. With a hub in the middle working sound is hit and miss. Plus either the powered hub or the phone can be the USB host, adding another level of complexity.</p>
-<p>I found unplugging and replugging leads from the hub or phone is required more often than not to get any sound out. For example plug in the audio adapter and phone to the hub and you get sound, until you plug in the power adapter to the hub. It seems pretty indeterminate to be honest. At least I’ve not found a sequence on connections that always works. It’s possible the phone is the problem, not expecting power in and audio out the same connector. Or perhaps having the hub in the middle breaks what every detection is used for audio output. </p>
-<p>I updated by cheap-o USB-C audio adapter to an Anker one but it only improves things a little.</p>
-<p>This is manageable, if really annoying. At some time I’ll try to dig into the USB-C spec and find tools to give some visibility on just what’s going on. For now I just swear a lot!</p>
-<p>And this is only MIDI in so far. Having full bidirectional MIDI is probably going to be fun. I have ideas for a simple Web app to record MIDI.</p>
+<p>I guess this is largely due to <a target="_blank" rel="noopener" href="https://www.soundguys.com/usb-audio-explained-18563/">USB-C audio</a> being a mess with many options including analog and digital audio and different versions of the specs. When you buy phones or USB-C to audio adapters you don’t know what options are available or being used and have no control over what’s going on. With a hub in the middle working sound is hit and miss. Plus either the powered hub or the phone can be the USB host, adding another level of complexity. I expect the audio is digital to the 3.5mm adapter in this config.</p>
+<p>I found unplugging and replugging leads from the hub or phone is required more often than not to get any sound out. For example plug in the audio adapter and phone to the hub and you get sound, until you plug in the power adapter to the hub. It seems pretty indeterminate to be honest. At least I’ve not found a sequence of connections that always works. It’s possible the phone is the problem by not expecting power in and audio out the same connector. Or perhaps having the hub in the middle breaks whatever detection is used for audio output. </p>
+<p>I even updated my cheap-o USB-C audio adapter to an Anker one but it only improved things a little, maybe not at all given the intermittent nature of the issue.</p>
+<p>This is manageable, if annoying. At some time I’ll try to dig into the USB-C spec and find tools to give some visibility on just what’s going on. For now I just swear a lot!</p>
+<p>And this is only MIDI in. Having full bidirectional MIDI is probably going to be fun. I have ideas for a simple Web app to record MIDI.</p>
 
   </div>
 </article>
