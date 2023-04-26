@@ -57,4 +57,4 @@ This is manageable, if annoying. At some time I'll try to dig into the USB-C spe
 
 And this is only MIDI in. Having full bidirectional MIDI is probably going to be fun. I have ideas for a simple Web app to record MIDI.
 
-PS. One good point is I tried Web Midi test page in Firefox and it saw the incoming MIDI messages.
+PS. One good point is I tried this [Web Midi test page](https://www.onlinemusictools.com/webmiditest/) in Chrome and it saw the incoming MIDI messages. Firefox still doesn't work.
