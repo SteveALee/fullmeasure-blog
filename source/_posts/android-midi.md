@@ -4,6 +4,8 @@ date: 2023-04-24 16:47:00
 tags:
 ---
 
+*Note: In this post I was deliberately rather pushing the envelope to see how Android might perform. In general iOS has many more MIDI music apps than Android, perhaps due to the complexities of supporting the hardware and software fragmenation of Android. Plus I picked a pretty complex configuration rather than a simpler audio mixer for the output of phone and keyboard say.*
+
 Back in the mid 1980s Atari STs met our MIDI needs by having built in MIDI ports. Later on, PC soundcards included MIDI adaptor sockets and now PCs and Macs support MIDI via USB. Better, there's now loads of MIDI software for desktop including DAWs and even web browsers support [Web MIDI](https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API). 
 
 But what about Android phones (I have no interest in or knowledge of iPhones)? They are easily more powerful than those original Atari boxes. And much more portable, if you can live with a touch interface on a small screen. Though of course there are also larger tablets and keyboards.
