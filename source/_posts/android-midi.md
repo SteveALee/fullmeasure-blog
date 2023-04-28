@@ -4,7 +4,7 @@ date: 2023-04-24 16:47:00
 tags:
 ---
 
-[Update 2024-04-28: The [Sound Assistant app](https://galaxystore.samsung.com/detail/com.samsung.android.soundassistant) provides individual app volume control, AKA mixing, as well as  other useful features]
+[Update 2023-04-28: The [Sound Assistant app](https://galaxystore.samsung.com/detail/com.samsung.android.soundassistant) provides individual app volume control, AKA mixing, as well as  other useful features]
 
 *Note: In this post I was deliberately pushing the envelope to see how well Android might perform at running a synth with external MIDI controller and audio out. In general iOS has many more MIDI music apps than Android, perhaps due to the complexities of supporting the hardware and software fragmentation of Android. Plus I picked a pretty complex configuration rather than a simpler audio mixer for the output of phone and keyboard say.*
 
