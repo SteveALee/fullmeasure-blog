@@ -14,14 +14,14 @@ But more than that, I've found it develops a familiarity and comfort with the no
 
 IFR uses interval numbers rather than Solfeg, but there is an easy conversion to be made. The key exercises in the course lessons are:
 
- - Sing the Numbers - echo singing of short phrases in context
- - Creative Exploration - explore the notes in content on instrument or acapella
-  - Playing and singing the numbers
-  - Playing and humming the sounds
-  - Playing while imagining the numbers
-  - Singing the numbers without our instrument
- - Feel the Numbers - identify the note numbers
- - Song analysis - identify the notes (and so be able to play in any key)
+- Sing the Numbers - echo singing of short phrases in context
+- Creative Exploration - explore the notes in content on instrument or acapella
+ - Playing and singing the numbers
+ - Playing and humming the sounds
+ - Playing while imagining the numbers
+ - Singing the numbers without our instrument
+- Feel the Numbers - identify the note numbers
+- Song analysis - identify the notes (and so be able to play in any key)
 
  So far I've concentrated on Sing the Numbers, working through all the lessons. I've found this takes less energy and is fun and satisfying. I'm definitely going through stages of increased familiarity in singing, hearing and audiation. To start with I could easily repeat phrases but it seemed to be based on the intervals between notes. Now I've started to feel each notes characteristics relative to the key and thinking of the number before singing it. I've extended the exercises a little by sometimes audiating only and sometimes humming and thinking the numbers.
  
