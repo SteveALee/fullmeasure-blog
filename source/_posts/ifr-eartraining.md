@@ -16,10 +16,10 @@ IFR uses interval numbers rather than Solfeg, but there is an easy conversion to
 
 - Sing the Numbers - echo singing of short phrases in context
 - Creative Exploration - explore the notes in content on instrument or acapella
- - Playing and singing the numbers
- - Playing and humming the sounds
- - Playing while imagining the numbers
- - Singing the numbers without our instrument
+  - Playing and singing the numbers
+  - Playing and humming the sounds
+  - Playing while imagining the numbers
+  - Singing the numbers without our instrument
 - Feel the Numbers - identify the note numbers
 - Song analysis - identify the notes (and so be able to play in any key)
 
