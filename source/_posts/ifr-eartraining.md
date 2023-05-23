@@ -1,5 +1,5 @@
 ---
-title: Improvise for Real Ear Training ourse
+title: Improvise for Real Ear Training Course
 date: 2023-05-23 12:01:00
 tags:
 ---
