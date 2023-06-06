@@ -5,7 +5,7 @@
   - name: Styles
     values:
       - [Strumming Guitars, Strumming_Guitars]
-      - [Country Walz, Country_Walz]
+      - [Country Waltz, Country_Waltz]
       - [Dreamy, Dreamy]
       - [Jazz Guitar Trio, Jazz Guitar Trio]
   - name: Tonal Centre
