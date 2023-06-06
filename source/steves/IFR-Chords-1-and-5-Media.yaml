@@ -1,0 +1,24 @@
+# Improvise for Real Chords Backing Tracks
+- set: IFR Ear Training Tracks
+  mediaTemplate: "https://${mediaRoot}/Chords_1_and_5_${Styles}_(key_of_${Tonal Centre}).mp3"
+  params:
+  - name: Styles
+    values:
+      - [Strumming Guitars, Strumming_Guitars]
+      - [Country Walz, Country_Walz]
+      - [Dreamy, Dreamy]
+      - [Jazz Guitar Trio, Jazz Guitar Trio]
+  - name: Tonal Centre
+    values:
+      - [A♭, Ab]
+      - A
+      - [B♭, Bb]
+      - B
+      - C
+      - [D♭, Db]
+      - D
+      - [E♭, Eb]
+      - E
+      - F
+      - [G♭, Gb]
+      - G
