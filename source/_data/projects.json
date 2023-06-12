@@ -1,17 +1,22 @@
 [
-    {
-       "name":"youtube-current-time",
-       "url":"https://github.com/music-practice-tools/youtube-current-time",
-       "desc":"Displays current youtube video time as the page is scrolled"
-    },
-    {
-       "name":"Build Audacity with ASIO drivers",
-       "url":"https://gist.github.com/SteveALee/da24c2be633340b8791066dd98eb5d0b",
-       "desc":"Instructions and script to simplify building Audacity with ASIO driver"
-    },
-    {
-      "name":"Music Practice Tools",
-      "url":"https://musicpracticetools.net",
-      "desc":"An experimental set of tools to help with practicing. Also subdomains [chords](https://chords.musicpracticetools.net) and [parameters](https://parameters.musicpracticetools.net)"
-   }
+  {
+    "name": "Musical Parameters",
+    "url": "https://parameters.musicpracticetools.net",
+    "desc": "Generates random values for a set of parameters. Ideal for practicing or composing"
+  },
+  {
+    "name": "Music Practice Tools",
+    "url": "https://musicpracticetools.net",
+    "desc": "An experimental set of tools to help with practicing. Also subdomains [chords](https://chords.musicpracticetools.net)"
+  },
+  {
+    "name": "youtube-current-time",
+    "url": "https://github.com/music-practice-tools/youtube-current-time",
+    "desc": "Displays current youtube video time as the page is scrolled"
+  },
+  {
+    "name": "Build Audacity with ASIO drivers",
+    "url": "https://gist.github.com/SteveALee/da24c2be633340b8791066dd98eb5d0b",
+    "desc": "Instructions and script to simplify building Audacity with ASIO driver"
+  }
 ]
