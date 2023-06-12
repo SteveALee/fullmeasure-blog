@@ -43,6 +43,9 @@ For the power and sound, chucking some hardware at the problem should work:
 ![Android MIDI setup](/images/android-midi.jpg)
 <figcaption>MIDI keyboard, headphones and hub (phone missing)</figcaption>
 
+![Ear Training Heaven](/images/lakeside-ear-training.jpg)
+<figcaption>In the field</figcaption>
+
 This works, mostly.
 
 In practice this suffers from intermittent lack of sound until replugging leads brings it back.

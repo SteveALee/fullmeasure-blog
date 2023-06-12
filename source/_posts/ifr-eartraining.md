@@ -8,6 +8,9 @@ During the last 6 months of post concussion syndrome I've really not touched my 
 
 However I found I have been able to perform much of the [Improvise for Real Ear Training for Musical Creativity course](https://improviseforreal.com/products/ear-training-musical-creativity). What's more I'm both seeing benefits and am really thoroughly enjoying it.
 
+![Ear Training Heaven](/images/lakeside-ear-training.jpg)
+<figcaption>In the field</figcaption>
+
 In this course Mireia carefully builds on several key IFR resources to create a fantastic complete ear training package. The main learning outcome is "being able to listen to a song and recognize every note by ear". Eventually, the unique character of each note (scale degree) should be felt within the musical context (key) being played. 
 
 But more than that, I've found it develops a familiarity and comfort with the notes of the major scale, both hearing, singing, playing and audiating. While the focus is on melody (and so also basslines) it is all done within a musical context or key and I'm identifying more when listening to music in harmonic contexts (not chords themselves yet, that's the next course). 
