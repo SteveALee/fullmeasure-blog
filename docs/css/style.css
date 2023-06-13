@@ -329,6 +329,16 @@ body .h1 {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+body h1 a,
+body .h1 a {
+  font-size: 1rem;
+  font-weight: 700;
+}
+body figcaption {
+  color: #2bbc8a;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
 body h2,
 body .h2 {
   position: relative;
