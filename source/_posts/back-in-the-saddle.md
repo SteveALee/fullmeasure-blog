@@ -29,7 +29,7 @@ Well in a little serendipity, Alexa misunderstood me this morning and played an 
 
 And then Alexa played the wonderful [Autumn Leaves by Adderly et al](https://www.youtube.com/watch?v=u37RF5xKNq8). The very tune I was working on before my crash but seem to have forgotten about (I'm not fully recovered yet)! So that's the second piece to work on.
 
-I'll start off with small sections and pizz, learning by ear using my slightly improved ear thanks to IFR. Hopefully building up and then adding a bit of arco for melody. It's probably a good time to use [musicpracticetools.net](https://musicpracticetools.net) again for accessing youtube, transcriptions, recordings etc but I've decided I prefer pen and ink for journaling.
+I'll start off with small sections and pizz, learning by ear using my improved ear thanks to Improvise for Real. I've also gained from the latest neuroscience based techniques for music skills learning picked up from BrainJo and Musical U (eg desirable difficulty). Hopefully I'll be building up from there and then adding a bit of arco for melody or drone. It's probably a good time to use [musicpracticetools.net](https://musicpracticetools.net) again for accessing youtube, transcriptions, recordings etc but I've decided I prefer pen and ink for journaling.
 
 And then hopefully I'll soon be ready to get back together with my guitar playing jam partner for some music making!
 
