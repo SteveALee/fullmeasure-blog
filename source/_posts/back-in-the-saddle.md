@@ -11,7 +11,7 @@ Finally! After some six months of recovery from my bicycle crash I've felt like 
 
 Well, initially I got a bit hung up on which practice strategies and exercises would be best. Which of the various courses or method books could I start on? Discover Double bass scales, Rufus Reid or Simandl? But re-reading the blog post [27 Ways to Get Inspired to Play Music Again](https://www.jazzadvice.com/lessons/27-ways-to-get-inspired-to-play-music-again/) from the JazzAdvice team reminded me I'm in this for the music, not the techniques. There's a lot of fantastic ideas in this post for getting your mojo back!
 
-And then All Swainger pointed me in the right direction in his response to my Facebook post sharing my predicament:
+And then [Al Swainger](https://www.alswainger.com/) pointed me in the right direction in his response to my Facebook post sharing my predicament:
 
 <blockquote>
 Think of a piece of music you'd like to play and work backwards from there to see what you should practice 😉
@@ -25,7 +25,7 @@ In addition you get to take control of your own practice trajectory. Self agency
 
 So, what tune?
 
-Well in a little serendipity, Alexa misunderstood me this morning and played an old favourite [Desafinado by Getz and Byrd](https://www.youtube.com/watch?v=L7lmMNweUVU). A nice gentle Bossa Nova which has a relatively simple bass line to get me back in the groove. A lovely Latin groove. Lots of techniques I need to work on there too. Perfect.
+Well in a little serendipity, Alexa misunderstood me this morning ("Alexa play some music from Plex") and played an old favourite [Desafinado by Getz and Byrd](https://www.youtube.com/watch?v=L7lmMNweUVU). A nice gentle Bossa Nova which has a relatively simple bass line to get me back in the groove. A lovely Latin groove. Lots of techniques I need to work on there too. Perfect.
 
 And then Alexa played the wonderful [Autumn Leaves by Adderly et al](https://www.youtube.com/watch?v=u37RF5xKNq8). The very tune I was working on before my crash but seem to have forgotten about (I'm not fully recovered yet)! So that's the second piece to work on.
 
