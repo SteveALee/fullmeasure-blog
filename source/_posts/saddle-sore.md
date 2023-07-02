@@ -30,10 +30,10 @@ Geoff provides a "Stand by Me" lesson video starting with him playing along to t
 - Break down ad isolate issues as required but keep singing clapping and playing along to the music as a preference
 - Play slowly building up more and more complexity. Eg start with chore root note Semibreve for each bar, then add two first root notes per bar etc.
 - Switch to the backing track at some point (usually better than Transcribe!'s bass removal)
-- At all stages fully focus but enjoy listening or playing along to the music and don't worry about how "good" your are
-- Think of creative way to make it harder - improvise and solo too
+- At all stages fully focus but enjoy listening or playing along to the music and don't worry about how "good" your are.
+- Think of creative ways to make it harder - improvise and solo too
 - Have many rest breaks and let the brain carry on working on it while you chill or interleave (esp when sleeping)
 
 That seems to work well and it's great to start playing along with the chord roots rather them working a bar at a time in isolation to the music. It definitely suites having a little post concussion syndrome, though that is mostly gone now.
 
-So as I result of a couple of short sessions I can reasonably play something musical on the bass again! Next we need to work on recall with spaced repetition.
+So as I result of a couple of short sessions I can reasonably play something musical on the bass again! Next we need to work on recall with spaced repetition. Record and review to fix any remaining issues.
