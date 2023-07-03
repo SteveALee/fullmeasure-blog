@@ -32,7 +32,7 @@ So the process I followed was:
 - Play slowly building up more and more complexity. Eg start with a root note Semibreve for each bar, then add two first root notes per bar etc.
 - Break down and isolate sticky areas as required but keep singing, clapping and playing along to the looped music as a preference
 - Switch to the backing track at some point (usually better than Transcribe!'s bass removal)
-- At all stages focus fully but enjoy listening or playing along to the music and don't worry about how "good" your are.
+- At all stages focus fully but enjoy listening or playing along to the music and don't worry about how "good" your are or stress about moving on.
 - Think of creative ways to make it harder (desirable difficulty) plus improvise and solo too
 - Have many rest breaks and let the brain carry on working on it while you chill or interleave (esp when sleeping)
 - Remember the Pareto principle (80-20 rule)
