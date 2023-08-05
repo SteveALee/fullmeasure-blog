@@ -87,3 +87,20 @@
       - F
       - [G♭, Gb]
       - G
+- set: IFR Chords I, IV and V
+  mediaTemplate: "https://${mediaRoot}/Lesson_05_Feel_the_Chords_${Track}.mp3"
+  params:
+  - name: Track
+    values:
+      - 01
+      - 02
+      - 03
+      - 04
+      - 05
+      - 06
+      - 07
+      - 08
+      - 09
+      - 10
+      - 11
+      - 12
