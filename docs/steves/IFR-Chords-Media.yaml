@@ -61,3 +61,29 @@
       - 10
       - 11
       - 12
+- set: IFR Chords I, IV & V
+  mediaTemplate: "https://${mediaRoot}/{Progression}_(key_of_{Tonal Centre}).mp3"
+  params:
+  - name: Progression
+    values:
+    - [Chords 1 1 4 5 Pop, Chords_1_1_4_5_Pop]
+    - [Chords 1 4 5 5 60s Rock, Chords_1_4_5_5_60s_Rock]
+    - [Chords 1 4 1 5 Strumming Guitars, Chords_1_4_1_5_Strumming_Guitars]
+    - [Chords 1 4 5 1 Roots Rocks, Chords_1_4_5_1_Roots_Rock]
+    - [Chords 1 5 4 4 British Rocks, Chords_1_5_4_4_British_Rock]
+    - [Chords 5 4 1 1 Southern Rocks, Chords_5_4_1_1_Southern_Rock]
+    - [Rock And Roll 12 Bar Form, Rock_and_Roll_12_bar_form]
+  - name: Tonal Centre
+    values:
+      - [A♭, Ab]
+      - A
+      - [B♭, Bb]
+      - B
+      - C
+      - [D♭, Db]
+      - D
+      - [E♭, Eb]
+      - E
+      - F
+      - [G♭, Gb]
+      - G
