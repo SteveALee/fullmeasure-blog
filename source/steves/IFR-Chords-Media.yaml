@@ -62,7 +62,7 @@
       - 11
       - 12
 - set: IFR Chords I, IV & V
-  mediaTemplate: "https://${mediaRoot}/{Progression}_(key_of_{Tonal Centre}).mp3"
+  mediaTemplate: "https://${mediaRoot}/${Progression}_(key_of_${Tonal Centre}).mp3"
   params:
   - name: Progression
     values:
