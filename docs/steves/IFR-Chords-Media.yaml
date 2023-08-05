@@ -72,7 +72,7 @@
     - [Chords 1 4 5 1 Roots Rocks, Chords_1_4_5_1_Roots_Rock]
     - [Chords 1 5 4 4 British Rocks, Chords_1_5_4_4_British_Rock]
     - [Chords 5 4 1 1 Southern Rocks, Chords_5_4_1_1_Southern_Rock]
-    - [Rock And Roll 12 Bar Form, Rock_and_Roll_12_bar_form]
+    - [Rock And Roll 12 Bar Form, Chords_1111_4411_5411_Rock_and_Roll_12_bar_form]
   - name: Tonal Centre
     values:
       - [A♭, Ab]
