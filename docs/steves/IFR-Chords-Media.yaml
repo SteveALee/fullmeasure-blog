@@ -1,5 +1,5 @@
 # Improvise for Real Chords Backing Tracks
-- set: IFR Chords I and IV
+- set: Lesson 1 - Chords I and IV
   mediaTemplate: "https://${mediaRoot}/Chords_1_and_4_${Styles}_(key_of_${Tonal Centre}).mp3"
   params:
   - name: Styles
@@ -21,7 +21,7 @@
       - F
       - [G♭, Gb]
       - G
-- set: IFR Chords I and V
+- set: Lesson 2 - Chords I and V
   mediaTemplate: "https://${mediaRoot}/Chords_1_and_5_${Styles}_(key_of_${Tonal Centre}).mp3"
   params:
   - name: Styles
@@ -44,7 +44,7 @@
       - F
       - [G♭, Gb]
       - G
-- set: IFR Chords I & IV or I & V
+- set: Lesson 3 - Chords I & IV or I & V
   mediaTemplate: "https://${mediaRoot}/Lesson_03_Feel_the_Chords_${Track}.mp3"
   params:
   - name: Track
@@ -61,7 +61,7 @@
       - "10"
       - "11"
       - "12"
-- set: IFR Chords I, IV & V
+- set: Lesson 4 - Chords I, IV & V
   mediaTemplate: "https://${mediaRoot}/${Progression}_(key_of_${Tonal Centre}).mp3"
   params:
   - name: Progression
@@ -87,7 +87,7 @@
       - F
       - [G♭, Gb]
       - G
-- set: IFR Chords I, IV and V
+- set: Lesson 5 - Chords I, IV and V
   mediaTemplate: "https://${mediaRoot}/Lesson_05_Feel_the_Chords_${Track}.mp3"
   params:
   - name: Track
