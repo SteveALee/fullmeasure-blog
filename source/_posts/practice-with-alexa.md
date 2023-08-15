@@ -52,7 +52,7 @@ In the following config 'voice' and 'command' are the two main values. The othee
 
 The result works well and even my Amazon Echo Spot (no longer made) works well enough  with its limited microphone when the music is playing.
 
-### The sendosc command - The Techy Bit
+## The sendosc command - The Techy Bit
 
 So we need a command to invoke Song Masters OSC support with the correct parameters.
 
@@ -69,7 +69,7 @@ I found a suitable program [sendosc]https://github.com/yoggy/sendosc) with MIT l
 
 The compiled C++ command works just fine and could possibly be extended to send Song Master text responses back to Alexa to be spoken. Im not yet sure if Song Master sends responses synchronously or asynchronously so a server may be required. Fortunately it looks like the Nodejs classes for OSC are of excellent quality.
 
-### Possible Next Steps
+## Possible Next Steps
 
 There are other useful Song Master commands to use and perhaps even other programs to control with Alexa. Maybe using AutoHotKey.
 
