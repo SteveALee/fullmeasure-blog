@@ -16,7 +16,7 @@ As an alternative there is the venerable Windows accessibility program Dragon Na
 
 So I was pleased to find the [TRIGGERcmd](https://www.triggercmd.com/en/) "cloud service that allows you to securely and remotely run commands on your computers". You install a small server on a PC (or other device) and commands can be triggered remotely over the interwebs in various ways, including with a provided Alexa skill.
 
-It turned out pretty straightforward to get basic Alexa control of playback of a backing track in the [Song Master](https://aurallysound.com/) "musician's learning assistant" program. This should scale and also work on platforms other thank Windows
+It turned out pretty straightforward to get basic Alexa control of playback of a backing track in the [Song Master](https://aurallysound.com/) "musician's learning assistant" program. This should scale and also work on platforms other than Windows
 
 ## Song Master
 
@@ -30,7 +30,7 @@ So the goal is to start and stop playing in Song Master with a voice Command via
 
 My overall impression of Trigger command is good. Maybe it lacks a little professional polish. For example the docs are hidden, requiring a web search. But I easily figured it out and configured it as I wanted. It appears to be a one man team behind it so the SLA is unknown, but size of company is no guarantee of stability or support :D. 
 
-The free version is limited ot one trigger a minute which is hopeless for debugging and limiting for practice. However, the subscription is cheap enough.
+The free version is limited to one trigger a minute which is hopeless for debugging and limiting for practice. Debugging largely a matter of locally invoking commands and the subscription is cheap enough anyway.
 
 Several Alexa skills are provided. Three provide differing skill invocation names: "Trigger Command", "Trigger C M D" (I had to work that out) and "TC". They alow a single parameter to be passed with "Alexa ask TC to run XXX with parameter YYY". The other skill uses Alexa home automation to create a virtual device per command that can be turned on and off by voice so that the command gets a parameter value of "on" or "off". Perhaps other parameter types will eventually become available, like percentage.
 
