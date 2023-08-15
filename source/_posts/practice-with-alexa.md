@@ -54,7 +54,7 @@ The result works well and even my Amazon Echo Spot (no longer made) works well e
 
 ## The sendosc command - The Techy Bit
 
-So we need a command to invoke Song Masters OSC support with the correct parameters.
+So we need a command to invoke Song Master's OSC support with the correct parameters.
 
 The OSC specification is just a data format and each command contains:
 
@@ -63,7 +63,7 @@ The OSC specification is just a data format and each command contains:
 
 The Song Master OSC command reference contains the details of all the available commands. Note that in this case I found I had to pass an integer of 1 even though the reference says no parameter is required (as I would expect).
 
-OSC doesn't specify how the commands are transported but Song Master is running the common service of a TCP/IP server that accepts UDP packets on the configured port (8000). So we just need some code to to take the command passed as a parameter, format it according to OSC and send the result as a UDP packet to Song Master on local host 127.0.0.1.
+OSC doesn't specify how the commands are transported but Song Master is running the common service of a TCP/IP server that accepts UDP packets on the configured port (8000). So we just need some code to to take the command passed as a parameter, format it according to OSC and send the result as a UDP packet to Song Master on localhost 127.0.0.1.
 
 I found a suitable program [sendosc]https://github.com/yoggy/sendosc) with MIT licence. This in turn uses some C++ OSC pack/unpack classes [oscpack](http://www.rossbencina.com/code/oscpack) also MIT licenced. A Windows binary is provided but for safety and future extensibility I prefer to build such things myself, which was straightforward using Visual Studio Community 2022 (free version).
 
