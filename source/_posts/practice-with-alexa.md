@@ -61,7 +61,7 @@ The OSC specification is just a data format and each command contains:
 - the command as a path: '/togglePlaying'
 - a list of parameters of type and value: 'i 1'
 
-The Song Master OSC command reference contains the details of all the available commands. Note that in this case I found I had to pass an integer of 1 even though the reference says no parameter is required (as I would expect).
+The [Song Master OSC command reference](https://aurallysound.com/blogs/quick-start/osc-commands) contains the details of all the available commands. Note that in this case I found I had to pass an integer of 1 even though the reference says no parameter is required (as I would expect).
 
 OSC doesn't specify how the commands are transported but Song Master is running the common service of a TCP/IP server that accepts UDP packets on the configured port (8000). So we just need some code to to take the command passed as a parameter, format it according to OSC and send the result as a UDP packet to Song Master on localhost 127.0.0.1.
 
