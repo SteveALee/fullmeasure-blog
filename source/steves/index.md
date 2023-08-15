@@ -2,7 +2,7 @@
 title: Steve's stuff
 ---
 
-- [IFR ](https://improviseforreal.com)
+* [IFR ](https://improviseforreal.com)
 
 ## IFR Ear Training Course
 
