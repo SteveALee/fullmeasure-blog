@@ -34,7 +34,7 @@ The free version is limited to one trigger a minute which is hopeless for debugg
 
 Several Alexa skills are provided. Three provide differing skill invocation names: "Trigger Command", "Trigger C M D" (I had to work that out) and "TC". They alow a single parameter to be passed with "Alexa ask TC to run XXX with parameter YYY". The other skill uses Alexa home automation to create a virtual device per command that can be turned on and off by voice so that the command gets a parameter value of "on" or "off". Perhaps other parameter types will eventually become available, like percentage.
 
-The Windows agent is configured using a text editor (kept locking up) or a GUI. For each command, the voice name to run from Alexa is defined as is the Windows command to run . The Windows command appears to be passed to cmd in a new shell, as you'd expect. A somewhat convoluted mechanism is also provided to return speech to Alexa via a call to a TRIGGERcmd endpoint. 
+The Windows agent is configured using a text editor (kept locking up) or a GUI. For each command, the voice name to run from Alexa is defined as is the Windows command to run. The Windows command appears to be passed to cmd in a new shell, as you'd expect. A somewhat convoluted mechanism is also provided to return speech to Alexa via a HTTP post to a TRIGGERcmd endpoint using curl (not part of Windows).
 
 In the following config 'voice' and 'command' are the two main values. The othees were set by the GUI editor when creating the command.
 
