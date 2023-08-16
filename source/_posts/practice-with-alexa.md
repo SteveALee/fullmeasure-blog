@@ -18,6 +18,8 @@ So I was pleased to find the [TRIGGERcmd](https://www.triggercmd.com/en/) "cloud
 
 It turned out pretty straightforward to get basic Alexa control of playback of a backing track in the [Song Master](https://aurallysound.com/) "musician's learning assistant" program. This should scale and also work on platforms other than Windows
 
+TRIGGERcmd seems to use winSockets on port 80 so avoids firewall and router config changes. I not sure if that would not clash with other HTML servers running on the PC.
+
 ## Song Master
 
 Song Master is a relatively new practice program with a lot of functionality. I recently discovered it when Brent Vaartstra of [Learn Jazz Standards](https://www.learnjazzstandards.com/) showcased it. It's similar to the well loved Transcribe!, allowing slowdown and pitch shifting for learning by ear. But like Moises it uses AI to analyse the music to find beats, bars, tempo, pitches, chords, section labels and the key. Also rather than relying on EQ to home in on specific instruments it extracts stems that can be individually controlled in a mixer. It also includes practice oriented tools like a metronome along with phrase and key trainers which auto level up. The main developer John Schnurrenber of Aurally Sound is very responsive too which is always important to me.
