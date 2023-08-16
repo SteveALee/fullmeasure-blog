@@ -4,7 +4,7 @@ date: 2023-08-14 12:01:00
 tags:
 ---
 
-***A way to control music practice tools on Windows using Alexa. Initially controlling Song Master playback of a backing track.***
+***A way to voice control music practice tools on Windows using Alexa. Initially controlling Song Master playback of a backing track.***
 
 ## The concept
 
@@ -52,28 +52,30 @@ In the following config 'voice' and 'command' are the two main values. The othee
 
 The result works well and even my Amazon Echo Spot (no longer made) works well enough  with its limited microphone when the music is playing.
 
-## The sendosc command - The Techy Bit
+## The "sendosc" Command - The Techy Bit
 
 So we need a command to invoke Song Master's OSC support with the correct parameters.
 
-The OSC specification is just a data format and each command contains:
+The [OSC specification](https://opensoundcontrol.stanford.edu/) is a message data format and each message contains binary data:
 
-- the command as a path: '/togglePlaying'
+- the address as an ASCII encoded path: '/togglePlaying'
 - a list of parameters of type and value: 'i 1'
 
-The [Song Master OSC command reference](https://aurallysound.com/blogs/quick-start/osc-commands) contains the details of all the available commands. Note that in this case I found I had to pass an integer of 1 even though the reference says no parameter is required (as I would expect).
+The [Song Master OSC command reference](https://aurallysound.com/blogs/quick-start/osc-commands) contains the details of all the available commands it can send or receive. Note that in this case I found I had to pass an integer of 1 even though the reference says no parameter is required (as I would expect).
 
-OSC doesn't specify how the commands are transported but Song Master is running the common service of a TCP/IP server that accepts UDP packets on the configured port (8000). So we just need some code to to take the command passed as a parameter, format it according to OSC and send the result as a UDP packet to Song Master on localhost 127.0.0.1.
+OSC doesn't specify how the commands are transported (as clarified in version 1.1) but Song Master is running the common pattern of a TCP/IP server that accepts UDP packets on the configured port (8000). So we just need some code to to take the command passed as a parameter, format it according to OSC and send the result as a UDP packet to Song Master on localhost 127.0.0.1.
 
-I found a suitable program [sendosc]https://github.com/yoggy/sendosc) with MIT licence. This in turn uses some C++ OSC pack/unpack classes [oscpack](http://www.rossbencina.com/code/oscpack) also MIT licenced. A Windows binary is provided but for safety and future extensibility I prefer to build such things myself, which was straightforward using Visual Studio Community 2022 (free version).
+I found a suitable program [sendosc](https://github.com/yoggy/sendosc) with MIT licence. This in turn uses some C++ OSC pack/unpack and classes with minumal UDP network classes [oscpack](http://www.rossbencina.com/code/oscpack) also MIT licenced. A Windows binary is provided but for safety and future extensibility I prefer to build such things myself, which was straightforward using ```cmake``` and ```Visual Studio Community 2022``` (free version).
 
-The compiled C++ command works just fine and could possibly be extended to send Song Master text responses back to Alexa to be spoken. Im not yet sure if Song Master sends responses synchronously or asynchronously so a server may be required. Fortunately it looks like the Nodejs classes for OSC are of excellent quality.
+The compiled C++ command works just fine but could be improved to handle errors and return OSC server responses (via stdout I guess).
 
 ## Possible Next Steps
 
 There are other useful Song Master commands to use and perhaps even other programs to control with Alexa. Maybe using AutoHotKey.
 
 Control of soloing and muting bass is a good next step for Song Master. Here we might hit a limitation of TRIGGERcmd, it only supports a single parameter and Song Master needs two: mixer channel number and state (on or off). So we need to get creative to hack a solution. The simplest would be to only support channel 1 and always make that bass to be soloed or muted.
+
+We could return Song Master OSC responses back to Alexa to be spoken. I'm not yet sure if Song Master sends responses synchronously or asynchronously so a server may be required. Fortunately it looks like the Nodejs classes for OSC are of excellent quality.
 
 Of course if we wrote our own skill and possibly a web service we could overcome all the limitations. But we'd then need to solve the extra complications mentioned at the start of this post and that TRIGGERcmd addresses for us (it appears to use webSockets from the web service to the Windows agent given some Python code that is supplied).
 
