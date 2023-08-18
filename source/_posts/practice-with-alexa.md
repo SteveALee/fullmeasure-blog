@@ -6,6 +6,8 @@ tags:
 
 ***A way to voice control music practice tools on Windows using Alexa. Initially controlling Song Master playback of a backing track.***
 
+[UPDATE 2023/08/18 I removed my comment on TRIGGERcmd "lacking a little professional polish" as unfair. I just couldn't easily find the docs and Russ the developer is VERY responsive and made some updates.]
+
 ## The concept
 
 For sometime now I've been thinking about using Amazon [Alexa](https://developer.amazon.com/en-GB/alexa/) voice control for music practice. At a minimum, voice activation would make stopping and starting play-along-tracks on a PC easier than my current use of computer keyboard or USB foot switch with [Transcribe!](https://www.seventhstring.com/xscribe/overview.html). The double bass is big, awkward and risky to manoeuver. Going further, I wondered what other options might be available. For example, controlling any other music program or interacting with my music practice webs apps. Finally, Echo devices with a screen include a web browser of sorts so that might give another deployment option for my practice web apps.
@@ -26,19 +28,19 @@ Song Master is a relatively new practice program with a lot of functionality. I 
 
 Like Transcribe!, Song Master has excellent keyboard control, meaning we could use venerable [AutoHotkey](https://www.autohotkey.com/) to automate it. But what makes Song Master even more interesting for Alexa control is it has remote control features with MIDI or OSC (Open Source Control) connectivity. In particular, OSC is ideal for programmatic control in a software and internet context. BTW Transcribe! has scripting and that might provide an alternative mechanism for control, if it can be triggered and parameterised.
 
-## "Alexa ask Trigger Command to run toggle playing"
+## "Alexa ask Trigger Command to run toggle playing" with TRIGGERcmd
 
 So the goal is to start and stop playing in Song Master with a voice Command via its OSC support. TRIGGERcmd can provide the Alexa skill and system integration. I then only need to create a way to talk OSC to Song Master
 
-My overall impression of Trigger command is good. Maybe it lacks a little professional polish. For example the docs are hidden, requiring a web search. But I easily figured it out and configured it as I wanted. It appears to be a one man team behind it so the SLA is unknown, but size of company is no guarantee of stability or support :D. 
+My overall impression of Trigger command is good. The control panel is easy to use and contains useful features for dubugging and sharing. I easily figured it out and configured it as I wanted. It appears to be a one man team behind it so the SLA is unknown, but size of company is no guarantee of stability or support :D.
 
-The free version is limited to one trigger a minute which is hopeless for debugging and limiting for practice. Debugging largely a matter of locally invoking commands and the subscription is cheap enough anyway.
+The free version is limited to one trigger a minute which is hopeless for debugging and limiting for practice. That said, debugging largely a matter of locally invoking commands and the subscription is cheap enough anyway ($20).
 
 Several Alexa skills are provided. Three provide differing skill invocation names: "Trigger Command", "Trigger C M D" (I had to work that out) and "TC". They alow a single parameter to be passed with "Alexa ask TC to run XXX with parameter YYY". The other skill uses Alexa home automation to create a virtual device per command that can be turned on and off by voice so that the command gets a parameter value of "on" or "off". Perhaps other parameter types will eventually become available, like percentage.
 
-The Windows agent is configured using a text editor (kept locking up) or a GUI. For each command, the voice name to run from Alexa is defined as is the Windows command to run. The Windows command appears to be passed to cmd in a new shell, as you'd expect. A somewhat convoluted mechanism is also provided to return speech to Alexa via a HTTP post to a TRIGGERcmd endpoint using curl (not part of Windows).
+The Windows agent is configured using a text editor (kept locking up, but you can edit the config file directly) or a GUI. For each command, the voice name to run from Alexa is defined as is the Windows command line to run. The Windows command appears to be passed to cmd in a new shell, as you'd expect. A somewhat convoluted mechanism is also provided to return speech to Alexa via a HTTP post to a TRIGGERcmd endpoint using curl (which is still not part of Windows).
 
-In the following config 'voice' and 'command' are the two main values. The othees were set by the GUI editor when creating the command.
+In the following config 'voice' and 'command' are the two main values. The others were set by the GUI editor when creating the command.
 
 ```json
  {
@@ -83,8 +85,8 @@ Of course if we wrote our own skill and possibly a web service we could overcome
 
 ## Summary
 
-It is certainly possible to get Alexa to control music practice tools running on a PC. It just required the TRIGGERcmd service and a small open source Windows program.
+It is certainly possible to get Alexa to control music practice tools running on a PC. It just required the TRIGGERcmd service and a small open source Windows program to format and send OSC commands to Song Master.
 
-If many commands are required the maintenance could get to be a bit of a handfull. Though a batch file could be used to abstract some of the common code. Having a text file makes life much easer of course (assuming we can edit in our own tool and cause a refresh after saving).
+If many commands are required the maintenance could get to be a bit of a handful. Though a batch file could be used to abstract some of the common code. Having direct editing access to the TRIGGERcmd config file will help as we can edit in our own tools.
 
 It works well enough for hands free control when practicing, though the spoken utterances are a little long winded. Perhaps Alexa routines might help make them shorter.
