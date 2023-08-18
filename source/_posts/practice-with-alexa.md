@@ -10,7 +10,9 @@ tags:
 
 ## The concept
 
-For sometime now I've been thinking about using Amazon [Alexa](https://developer.amazon.com/en-GB/alexa/) voice control for music practice. At a minimum, voice activation would make stopping and starting play-along-tracks on a PC easier than my current use of computer keyboard or USB foot switch with [Transcribe!](https://www.seventhstring.com/xscribe/overview.html). The double bass is big, awkward and risky to manoeuver. Going further, I wondered what other options might be available. For example, controlling any other music program or interacting with my music practice webs apps. Finally, Echo devices with a screen include a web browser of sorts so that might give another deployment option for my practice web apps.
+For sometime now I've been thinking about using Amazon [Alexa](https://developer.amazon.com/en-GB/alexa/) voice control for music practice. At a minimum, voice activation would make stopping and starting play-along-tracks on a PC easier than my current use of computer keyboard or USB foot switch with [Transcribe!](https://www.seventhstring.com/xscribe/overview.html). 
+
+The double bass is big, awkward and risky to manoeuver. Going further, I wondered what other options might be available. For example, controlling any other music program or interacting with my music practice webs apps. Finally, Echo devices with a screen include a web browser of sorts so that might give another deployment option for my practice web apps.
 
 For Alexa control to work we'd need an Alex skill to recognise utterances and remotely trigger a program running on PC that will run PC commands to do what ever is required. That's quite a bit of development work. In addition to the coding, local configuration would probably be required for the internet router and Windows firewall to allow triggers to come in from outside. If only the Windows Alexa App had been extended to provide customisable local control to replace the lackluster Cortana, but that never happened.
 
@@ -24,13 +26,19 @@ TRIGGERcmd seems to use winSockets on port 80 so avoids firewall and router conf
 
 ## Song Master
 
-Song Master is a relatively new practice program with a lot of functionality. I recently discovered it when Brent Vaartstra of [Learn Jazz Standards](https://www.learnjazzstandards.com/) showcased it. It's similar to the well loved Transcribe!, allowing slowdown and pitch shifting for learning by ear. But like Moises it uses AI to analyse the music to find beats, bars, tempo, pitches, chords, section labels and the key. Also rather than relying on EQ to home in on specific instruments it extracts stems that can be individually controlled in a mixer. It also includes practice oriented tools like a metronome along with phrase and key trainers which auto level up. The main developer John Schnurrenber of Aurally Sound is very responsive too which is always important to me.
+![Song Master](/images/SongMaster.png)
+<figcaption>Song Master playing the stems</figcaption>
+
+Song Master is a relatively new practice program with a lot of functionality. I recently discovered it when Brent Vaartstra of [Learn Jazz Standards](https://www.learnjazzstandards.com/) showcased it. It's similar to the well loved Transcribe!, allowing slowdown and pitch shifting for learning by ear. But like Moises it uses AI to analyse the music to find beats, bars, tempo, pitches, chords, the key and section labels. Also rather than relying on EQ to home in on specific instruments it extracts stems that can be individually controlled in a mixer. It also includes practice oriented tools like a metronome along with phrase and key trainers which auto level up. The main developer John Schnurrenber of Aurally Sound is very responsive too which is always important to me.
 
 Like Transcribe!, Song Master has excellent keyboard control, meaning we could use venerable [AutoHotkey](https://www.autohotkey.com/) to automate it. But what makes Song Master even more interesting for Alexa control is it has remote control features with MIDI or OSC (Open Source Control) connectivity. In particular, OSC is ideal for programmatic control in a software and internet context. BTW Transcribe! has scripting and that might provide an alternative mechanism for control, if it can be triggered and parameterised.
 
 ## "Alexa ask Trigger Command to run toggle playing" with TRIGGERcmd
 
 So the goal is to start and stop playing in Song Master with a voice Command via its OSC support. TRIGGERcmd can provide the Alexa skill and system integration. I then only need to create a way to talk OSC to Song Master
+
+![TRIGGERcmd](/images/TRIGGERcmd.png)
+<figcaption>TRIGGERcmd control panel</figcaption>
 
 My overall impression of Trigger command is good. The control panel is easy to use and contains useful features for dubugging and sharing. I easily figured it out and configured it as I wanted. It appears to be a one man team behind it so the SLA is unknown, but size of company is no guarantee of stability or support :D.
 
