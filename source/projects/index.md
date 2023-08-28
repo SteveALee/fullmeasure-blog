@@ -5,6 +5,10 @@ date: 2019-09-24 16:17:06
 
 Various projects designed to help musical development and practice. 
 
+## Alexa Control Of Song Master
+
+Speech control of some of the features of Song Master music practice program. See the blog post [Practicing with Alexa and a PC Part Two](/2023/08/28/practice-with-alexa_part_two).
+
 ## Music Practice Tools
 
 An experimental set of tools to help with practicing and remote music lessons. Basically a blog (static web site) with some interactive widgets supporting common musical needs such as ABC notation and metronomes.
