@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="*** Voice control of Song Master for music practice using Alexa *** In the previous post I introduced the concept of using Alexa to control Song Master for hands free music practice. Since then I’ve b">
+    <meta name="description" content="*** Voice control of Song Master for music practice using Alexa *** In the previous post I introduced the concept of using Alexa to control Song Master for hands free music practice on Windows. Since">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Music Practice with Alexa and Song Master">
 <meta property="og:url" content="https://fullmeasure.uk/2023/08/28/music-practice-with-alexa-and-song-master/index.html">
 <meta property="og:site_name" content="FullMeasure Blog">
-<meta property="og:description" content="*** Voice control of Song Master for music practice using Alexa *** In the previous post I introduced the concept of using Alexa to control Song Master for hands free music practice. Since then I’ve b">
+<meta property="og:description" content="*** Voice control of Song Master for music practice using Alexa *** In the previous post I introduced the concept of using Alexa to control Song Master for hands free music practice on Windows. Since">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-08-28T11:01:00.000Z">
-<meta property="article:modified_time" content="2023-08-29T20:40:05.131Z">
+<meta property="article:modified_time" content="2023-08-29T20:46:04.921Z">
 <meta property="article:author" content="Steve Lee">
 <meta property="article:tag" content="music,technology,education">
 <meta name="twitter:card" content="summary">
@@ -147,7 +147,7 @@
 
   <div class="content" itemprop="articleBody">
     <p>*** Voice control of Song Master for music practice using Alexa ***</p>
-<p>In the <a href="../../14/practice-with-alexa">previous post</a> I introduced the concept of using Alexa to control Song Master for hands free music practice. Since then I’ve built out a solution that covers all my basic requirements with room to expand.</p>
+<p>In the <a href="../../14/practice-with-alexa">previous post</a> I introduced the concept of using Alexa to control Song Master for hands free music practice on Windows. Since then I’ve built out a solution that covers all my basic requirements with room to expand.</p>
 <p>This involved digging deep into the technologies behaviour and creating the following:</p>
 <ul>
 <li><code>cosc.exe</code> command line tool based on sendosc which also displays received OSC packets</li>
@@ -160,6 +160,7 @@
 <p>It’s been over 30 years since I last did some serious C++ programming but fortunately it was like riding a bike. Visual Studio seemed like an old friend as it’s really not changed much. I took the simple architectural approach of starting to receive as soon as we have sent. While this introduces a small potential race condition where ‘response’ messages might be missed, it works fine in practice and avoided more complex multi-thread code.</p>
 <p>I was pleased to find the versions of C++ supported by Visual Studio Community 2022 include lambda functions. These allows functional programming (FP) which made the code much easier (and with far less boilerplate the OOP). The lambda syntax is straight forward and the “functional” standard library allows them to be easily passed to functions (and returned) as first class data, a basic feature of FP called higher order functions. Note, pointers to functions are really not the same thing, though similar in some ways. It’s nice to see the C++ language evolving.</p>
 <p>I found being able to receive OSC packets from Song Master to be invaluable for learning and debugging. Currently though, Song Master messages are not fed back to Alexa, as explained below.</p>
+<p>For simplicity I only built a Windows version by creating a Visual Studio solution. The original <code>sendosc</code> and <code>oscpack</code> both use <code>cmake</code> to also build for Linux and Mac and it should be possible to adapt my code to do the same,  </p>
 <h2 id="Still-Crazy-After-All-these-Years"><a href="#Still-Crazy-After-All-these-Years" class="headerlink" title="Still Crazy After All these Years"></a>Still Crazy After All these Years</h2><p>I have kept my hand in with Windows cmd scripting by maintaining a script I created to build a version of Audacity with ASIO support on Windows. It’s still a maddening thing to develop with, having so many half baked features and nasty gotchas guaranteed to waste time. I probably should have learnt PowerShell which is now portable but I never liked the syntax. Fun fact: the chief maintainer of PowerShell has the same name as me. Give me clunky old bash script any day.</p>
 <p>The <code>songmaster.cmd</code> script simply provides a slightly abstracted set of commands that use <code>cosc</code> to send OSC messages to Song Master. Here they are:</p>
 <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">play &#123; on off &#125;</span><br><span class="line">speed &#123; <span class="number">20</span> <span class="number">40</span> <span class="number">50</span> <span class="number">60</span> <span class="number">70</span> <span class="number">80</span> <span class="number">90</span> <span class="number">100</span> <span class="number">120</span> &#125;</span><br><span class="line">pitch &#123; up down key&#125; &#123; octave <span class="number">1</span>...n &#125;</span><br><span class="line">mute &#123; on off &#125; &#123; <span class="number">1</span> - <span class="number">5</span> &#125;</span><br><span class="line">solo &#123; <span class="number">1</span> - <span class="number">5</span> off &#125;</span><br><span class="line">metronome &#123; on off &#125;</span><br><span class="line">loop &#123; on off bar section note track &#125;</span><br><span class="line"><span class="keyword">goto</span> &#123; <span class="built_in">start</span> end next previous &#125; [&#123;bar section note &#125;]</span><br><span class="line">playlist &#123; <span class="number">1</span>...n info songs next previous &#125;</span><br></pre></td></tr></table></figure>

@@ -6,7 +6,7 @@ tags:
 
 *** Voice control of Song Master for music practice using Alexa ***
 
-In the [previous post](../../14/practice-with-alexa) I introduced the concept of using Alexa to control Song Master for hands free music practice. Since then I've built out a solution that covers all my basic requirements with room to expand.
+In the [previous post](../../14/practice-with-alexa) I introduced the concept of using Alexa to control Song Master for hands free music practice on Windows. Since then I've built out a solution that covers all my basic requirements with room to expand.
 
 This involved digging deep into the technologies behaviour and creating the following:
 
@@ -27,6 +27,8 @@ It's been over 30 years since I last did some serious C++ programming but fortun
 I was pleased to find the versions of C++ supported by Visual Studio Community 2022 include lambda functions. These allows functional programming (FP) which made the code much easier (and with far less boilerplate the OOP). The lambda syntax is straight forward and the "functional" standard library allows them to be easily passed to functions (and returned) as first class data, a basic feature of FP called higher order functions. Note, pointers to functions are really not the same thing, though similar in some ways. It's nice to see the C++ language evolving.
 
 I found being able to receive OSC packets from Song Master to be invaluable for learning and debugging. Currently though, Song Master messages are not fed back to Alexa, as explained below.
+
+For simplicity I only built a Windows version by creating a Visual Studio solution. The original `sendosc` and `oscpack` both use `cmake` to also build for Linux and Mac and it should be possible to adapt my code to do the same,  
 
 ## Still Crazy After All these Years
 
