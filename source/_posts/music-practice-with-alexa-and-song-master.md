@@ -105,9 +105,15 @@ alexa mac setlist { on 1...n } on = next
 alexa ask tc to run mac setlist with parameter { 1...n info songs next previous }
 ```
 
+## Alexa Notes
+
+Alexa runs on many devices and I've used an old Echo Dot, a new Echo Flex and the Android App. The obvious requirement is that Alexa can easily hear you when music is playing. 
+I've had reasonable success with practice volume levels. Perhaps the best success would be using the phone app with a wireless mic such as a bluetooth headset so that it's close to your mouth. Of course, if your instrument is you singing you might have fun.
+
 ## Setup Instructions
 
 - Install [Song Master](https://aurallysound.com/)
+- Set up Alexa.
 - Signup for [TRIGGERcmd](https://www.triggercmd.com/en/), install the Windows Agent, the TRIGGERcmd Alexa Skill and possibly the TC skill as decsribed in the [instructions](https://www.triggercmd.com/user/computer/create). You'll need a subscription so you can send more that one trigger a minute.
 - Save the TRIGGERcmd [commands.json](https://github.com/music-practice-tools/cosc/blob/main/commands.json) file to C:\Users\[your-user-name]steve\.TRIGGERcmdData\commands.json.
 - Save the [songmaster.cmd](https://github.com/music-practice-tools/cosc/blob/main/songmaster.cmd) script file to your computer. You'll need to edit `commands.json` to access `songmaster.cmd` where you located it (ie replace all occurances of "C:\\projects\\cosc\\songmaster.cmd")
