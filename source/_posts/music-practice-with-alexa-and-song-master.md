@@ -14,7 +14,9 @@ This involved digging deep into the technologies behaviour and creating the foll
 - `songmaster.cmd` script to abstract Song Master OSC commands for easy command line use
 - `commands.json` configuration file for TRIGGERcmd use with Alexa skills
 
-These items are available on GitHub in the [music-practice-tools/cosc](https://github.com/music-practice-tools/cosc) repository, should you want to play. I'll soon add a tutorial to explain how to install the various parts.
+These items are available on GitHub in the [music-practice-tools/cosc](https://github.com/music-practice-tools/cosc) repository, should you want to play. 
+
+Setup instructions are located at the end of this post.
 
 ## In C
 
@@ -26,7 +28,7 @@ I was pleased to find the versions of C++ supported by Visual Studio Community 2
 
 I found being able to receive OSC packets from Song Master to be invaluable for learning and debugging. Currently though, Song Master messages are not fed back to Alexa, as explained below.
 
-## Still Crazy After All the Years
+## Still Crazy After All these Years
 
 I have kept my hand in with Windows cmd scripting by maintaining a script I created to build a version of Audacity with ASIO support on Windows. It's still a maddening thing to develop with, having so many half baked features and nasty gotchas guaranteed to waste time. I probably should have learnt PowerShell which is now portable but I never liked the syntax. Fun fact: the chief maintainer of PowerShell has the same name as me. Give me clunky old bash script any day.
 
@@ -46,11 +48,11 @@ playlist { 1...n info songs next previous }
 
 The parameters have been chosen to for simplicity and also to match the way TRIGGERcmd invokes them. There's room for some improvement yet.
 
-## Commands.json
+## Do Nothin' Till You Hear from Me
 
-This file invokes configures TRIGGERcmd to invoke the `songmaster.cmd` script with suitable parameters according to how it passes on Alexa parameters from the provided skills. This needs a little explanation.
+The `commands.json` file configures TRIGGERcmd to invoke the `songmaster.cmd` script with suitable parameters according to how Alexa parameters are passed from the skills from the provided skills. This needs a little explanation.
 
-TRIGGERcmds provides two types of Alexa skill. The Smart Home skill and the basic skill with several aliases. Of the two types, the Smart Home skill affords easier voice control, but has limitations with possible parameters.
+TRIGGERcmd provides two types of Alexa skill. The Smart Home skill and the basic skill with several aliases. Of the two types, the Smart Home skill affords easier voice control, but has limitations with possible parameters.
 
 The Smart Home skill adds an Alexa device for each command defined in `commands.json`. The advantage of this is that devices have a predefined set of actions that can easily be invoked by speaking to Alexa to cause parameters to be passed to the script.
 
@@ -83,7 +85,7 @@ I hope something might improve here. Ie custom Smart Home skill parameter lexico
 
 To get Alexa to speak a response, TRIGGERcmd supports a "Voice Reply" field. This can also be set to the contents of a file that is filled in by the command. But this is not available for the Smart Home commands which always just speak "OK". I wish this could be turned off for individual commands while others always spoke the response text. The only Alexa option is to make a noise instead of speaking anything, including "OK".
 
-But for now the common actions I require are mostly available with the simpler invocation style. And the longer style can be spoken for the others. I do plan to revisit the speech design and defaults in the hope of smoothing it out a bit.
+But for now the common actions I require are mostly available with the simpler invocation style. And the longer style can be spoken for the others. I do plan to revisit the speech design and defaults in the hope of smoothing it out a bit. But for now thw chosen words seem to work fairly reliably without Alexa getting excited and triggering built in actions.
 
 ```cmd
 alexa mac play { on off }
@@ -93,10 +95,17 @@ alexa mac down { 0...n }
 alexa mac mute { on off } { 1 - 5 }
 alexa mac solo { 1 - 5 off }
 alexa mac metronome { on off }
-alexa mac loop { on off } { 0=note 1=bar 2=section }
+alexa mac loop { on off } { 0=bar 1=note 2=section }
 alexa ask tc to run mac loop with parameter { bar note section }
-alexa mac advance { 0=note 1=bar 2=section 100=end }
-alexa mac retreat { 0=note 1=bar 2=section 100=start }
+alexa mac advance { 0=bar 1=note 2=section 100=end }
+alexa mac retreat { 0=bar 1=note 2=section 100=start }
 alexa mac setlist { on 1...n } on = next
 alexa ask tc to run mac setlist with parameter { 1...n info songs next previous }
 ```
+
+## Setup Instructions
+
+- Install [Song Master](https://aurallysound.com/)
+- Signup for TRIGGERcmd, install the Windows Agent, the TRIGGERcmd Alexa Skill and possibly the TC skill as decsribed in the [instructions](https://www.triggercmd.com/user/computer/create). You'll need a subscription so you can send more that one trigger a minute.
+- Save the TRIGGERcmd [commands.json](https://github.com/music-practice-tools/cosc/blob/main/commands.json) file to C:\Users\[your-user-name]steve\.TRIGGERcmdData\commands.json.
+- Save the [songmaster.cmd](https://github.com/music-practice-tools/cosc/blob/main/songmaster.cmd) script file to your computer. You'll need to edit `commands.json` to access `songmaster.cmd` where you located it (ie replace all occurances of "C:\\projects\\cosc\\songmaster.cmd")
