@@ -123,7 +123,7 @@ I experience a latency of less than 1 second from the end of a command being spo
 
 ## Setup Instructions
 
-- Install [Song Master](https://aurallysound.com/)
+- Install [Song Master](https://aurallysound.com/). Ensure Edit External Connections -> Receive OSC is on for port 8000. For debugging Receive OSC can be enabled and SM checked.
 - Set up Alexa.
 - Signup for [TRIGGERcmd](https://www.triggercmd.com/en/), install the Windows Agent, the TRIGGERcmd Smart Home Alexa skill and possibly the TC skill as described in the [instructions](https://www.triggercmd.com/user/computer/create). You'll need a subscription so you can send more that one trigger a minute.
 - Save the TRIGGERcmd [commands.json](https://github.com/music-practice-tools/cosc/blob/main/commands.json) file to `C:\Users\[your-user-name]steve\.TRIGGERcmdData\commands.json`.
