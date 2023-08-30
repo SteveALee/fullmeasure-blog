@@ -113,7 +113,7 @@ Alexa runs on many devices and I've used an obsolete Echo Spot, a new Echo Flex 
 
 Perhaps a successful approach would be to use the phone app with a wireless mic such as a bluetooth headset that can be close to your mouth. Assuming the Alexa app will work with any audio input device. If your "instrument" is singing you might have some fun.
 
-I do plan to revisit the speech lexicon design and defaults in the hope of smoothing it out a bit. But for now, the chosen words seem to work fairly reliably without Alexa getting excited and triggering built in actions like playing on Amazon music, which is horribly keen to do.
+I do plan to revisit the speech lexicon design and defaults in the hope of smoothing it out a bit. But for now, the chosen words seem to work fairly reliably without Alexa getting excited and triggering built in actions like playing on Amazon music, which it is horribly keen to do.
 
 ## Latency
 
@@ -125,6 +125,6 @@ I experience a latency of less than 1 second from the end of a command being spo
 
 - Install [Song Master](https://aurallysound.com/)
 - Set up Alexa.
-- Signup for [TRIGGERcmd](https://www.triggercmd.com/en/), install the Windows Agent, the TRIGGERcmd Alexa Skill and possibly the TC skill as decsribed in the [instructions](https://www.triggercmd.com/user/computer/create). You'll need a subscription so you can send more that one trigger a minute.
-- Save the TRIGGERcmd [commands.json](https://github.com/music-practice-tools/cosc/blob/main/commands.json) file to C:\Users\[your-user-name]steve\.TRIGGERcmdData\commands.json.
-- Save the [songmaster.cmd](https://github.com/music-practice-tools/cosc/blob/main/songmaster.cmd) script file to your computer. You'll need to edit `commands.json` to access `songmaster.cmd` where you located it (ie replace all occurances of "C:\\projects\\cosc\\songmaster.cmd")
+- Signup for [TRIGGERcmd](https://www.triggercmd.com/en/), install the Windows Agent, the TRIGGERcmd Smart Home Alexa skill and possibly the TC skill as described in the [instructions](https://www.triggercmd.com/user/computer/create). You'll need a subscription so you can send more that one trigger a minute.
+- Save the TRIGGERcmd [commands.json](https://github.com/music-practice-tools/cosc/blob/main/commands.json) file to `C:\Users\[your-user-name]steve\.TRIGGERcmdData\commands.json`.
+- Save the [songmaster.cmd](https://github.com/music-practice-tools/cosc/blob/main/songmaster.cmd) script file to your computer. You'll need to edit TRIGGERcmd `commands.json` to access `songmaster.cmd` where you located it (ie replace all occurrences of `"C:\\projects\\cosc\\songmaster.cmd"`)
