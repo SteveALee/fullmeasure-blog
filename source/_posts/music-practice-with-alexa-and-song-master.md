@@ -8,7 +8,7 @@ tags:
 
 In the [previous post](../../14/practice-with-alexa) I introduced the concept of using Alexa to control Song Master for hands free music practice on Windows. Since then I've built out a solution that covers all my basic requirements with room to expand.
 
-This involved digging deep into the technologies behaviour and creating the following:
+This involved digging deep into the various technologies behaviour and creating the following:
 
 - `cosc.exe` command line tool based on sendosc which also displays received OSC packets
 - `songmaster.cmd` script to abstract Song Master OSC commands for easy command line use
@@ -81,13 +81,15 @@ Commands with multiple parameters or named parameters not supported by Alexa Sma
 
 - "alexa ask TC to run mac goto with parameter next section"
 
-Where "next" and "section" are passed to the TRIGGERcmd command as parameters. Rather a mouthful and a touch unreliable compared to the Smart Home device invocations. Unfortunately Alexa keeps hearing "perimeter" even though I've been providing feedback in the Alexa app.
+Where "next" and "section" are passed to the TRIGGERcmd command as parameters. Rather a mouthful and a touch unreliable compared to the Smart Home device invocations. Unfortunately Alexa keeps hearing "perimeter" even though I've been providing feedback in the Alexa app. Fortunately, the TRIGGERcmd developer has offered to add "argument" as an alternative.
 
-I hope something might improve here. Ie custom Smart Home skill parameter lexicons that can be configured in commands.json. We could use numbers (or colours) to indicate named parameter values but that would be just too much of a cognitive load for me.
+I hope something might improve here. Ie custom Smart Home skill parameter lexicons that can be configured in commands.json. We could use numbers (or colours) to indicate named parameter values but that would be just too much of a cognitive load for me. I have added numeric alternatives for a couple commands which have an enumerated parameter but I'm not happy with it.
 
 To get Alexa to speak a response, TRIGGERcmd supports a "Voice Reply" field. This can also be set to the contents of a file that is filled in by the command. But this is not available for the Smart Home commands which always just speak "OK". I wish this could be turned off for individual commands while others always spoke the response text. The only Alexa option is to make a noise instead of speaking anything, including "OK".
 
-But for now the common actions I require are mostly available with the simpler invocation style. And the longer style can be spoken for the others. I do plan to revisit the speech design and defaults in the hope of smoothing it out a bit. But for now thw chosen words seem to work fairly reliably without Alexa getting excited and triggering built in actions.
+But for now the common actions I require are mostly available with the simpler invocation style. And the longer style can be spoken for the others.
+
+Here are the current Alexa invocations:
 
 ```cmd
 alexa mac play { on off }
@@ -105,10 +107,19 @@ alexa mac setlist { on 1...n } on = next
 alexa ask tc to run mac setlist with parameter { 1...n info songs next previous }
 ```
 
-## Alexa Notes
+## Alexa Use
 
-Alexa runs on many devices and I've used an old Echo Dot, a new Echo Flex and the Android App. The obvious requirement is that Alexa can easily hear you when music is playing. 
-I've had reasonable success with practice volume levels. Perhaps the best success would be using the phone app with a wireless mic such as a bluetooth headset so that it's close to your mouth. Of course, if your instrument is you singing you might have fun.
+Alexa runs on many devices and I've used an obsolete Echo Spot, a new Echo Flex and the Android App. The obvious requirement is that Alexa can easily hear you when music is playing so you might need to work on positioning. I've had reasonable success with practice volume levels including when playing along to music.
+
+Perhaps a successful approach would be to use the phone app with a wireless mic such as a bluetooth headset that can be close to your mouth. Assuming the Alexa app will work with any audio input device. If your "instrument" is singing you might have some fun.
+
+I do plan to revisit the speech lexicon design and defaults in the hope of smoothing it out a bit. But for now, the chosen words seem to work fairly reliably without Alexa getting excited and triggering built in actions like playing on Amazon music, which is horribly keen to do.
+
+## Latency
+
+As both TRIGGERcmd and Alexa are both web services hosted at unknown geographic locations there is latency. I assume the speech recognition is server based rather than running in the Alexa device so that will be a delay. Then the service has to invoke the Skill code, which then triggers the command running on the PC. This could only be avoided if the PC version of Alexa did local voice recognition and could invoke local commands. I'm not holding my breath for that.
+
+I experience a latency of less than 1 second from the end of a command being spoken to action. That has not been a real problem when using in my practice, given the type of interactions. The trick is to set up as much as possible in Song Master at the PC and then use Alexa for simple actions during practice.
 
 ## Setup Instructions
 
