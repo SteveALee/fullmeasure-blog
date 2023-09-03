@@ -14,7 +14,7 @@
 <meta property="og:description" content="*** Voice control of Song Master for music practice using Alexa *** In the previous post I introduced the concept of using Alexa to control Song Master for hands free music practice on Windows. Since">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-08-28T11:01:00.000Z">
-<meta property="article:modified_time" content="2023-08-30T10:07:08.813Z">
+<meta property="article:modified_time" content="2023-09-03T12:26:27.731Z">
 <meta property="article:author" content="Steve Lee">
 <meta property="article:tag" content="music,technology,education">
 <meta name="twitter:card" content="summary">
@@ -148,6 +148,8 @@
   <div class="content" itemprop="articleBody">
     <p>*** Voice control of Song Master for music practice using Alexa ***</p>
 <p>In the <a href="../../14/practice-with-alexa">previous post</a> I introduced the concept of using Alexa to control Song Master for hands free music practice on Windows. Since then I’ve built out a solution that covers all my basic requirements with room to expand.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zSoyVTqE1ck?si=mA3ko-2wnRklpVQv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <p>This involved digging deep into the various technologies behaviour and creating the following:</p>
 <ul>
 <li><code>cosc.exe</code> command line tool based on sendosc which also displays received OSC packets</li>
@@ -206,8 +208,10 @@
 <li>Set up Alexa.</li>
 <li>Signup for <a target="_blank" rel="noopener" href="https://www.triggercmd.com/en/">TRIGGERcmd</a>, install the Windows Agent, the TRIGGERcmd Smart Home Alexa skill and possibly the TC skill as described in the <a target="_blank" rel="noopener" href="https://www.triggercmd.com/user/computer/create">instructions</a>. You’ll need a subscription so you can send more that one trigger a minute.</li>
 <li>Save the TRIGGERcmd <a target="_blank" rel="noopener" href="https://github.com/music-practice-tools/cosc/blob/main/commands.json">commands.json</a> file to <code>C:\Users\[your-user-name]steve\.TRIGGERcmdData\commands.json</code>.</li>
-<li>Save the <a target="_blank" rel="noopener" href="https://github.com/music-practice-tools/cosc/blob/main/songmaster.cmd">songmaster.cmd</a> script file to your computer. You’ll need to edit TRIGGERcmd <code>commands.json</code> to access <code>songmaster.cmd</code> where you located it (ie replace all occurrences of <code>&quot;C:\\projects\\cosc\\songmaster.cmd&quot;</code>)</li>
+<li>Save the <a target="_blank" rel="noopener" href="https://github.com/music-practice-tools/cosc/blob/main/songmaster.cmd">songmaster.cmd</a> script file to your computer. You’ll need to edit TRIGGERcmd <code>commands.json</code> to access <code>songmaster.cmd</code> where you located it (ie replace all occurrences of <code>&quot;C:\\projects\\cosc\\songmaster.cmd&quot;</code>).</li>
 </ul>
+<p>Now you can try any of the Alexa commands listed above. Song Master must be Running. The possible Alexa commands can also be worked out from <code>commands.json</code>. If you need to debug, try running <code>songmaster.cmd</code> with various options from the command line. To see what commands are available run <code>songmaster usage</code>. If you still have problems try <code>cosc</code> with the commands and in receive mode to view any responses from Song Master.</p>
+<p>If you have any questions or suggestions then please feel free to add <a target="_blank" rel="noopener" href="https://github.com/music-practice-tools/cosc/issues">issues on the GitHub project</a>.</p>
 
   </div>
 </article>

@@ -8,6 +8,8 @@ tags:
 
 In the [previous post](../../14/practice-with-alexa) I introduced the concept of using Alexa to control Song Master for hands free music practice on Windows. Since then I've built out a solution that covers all my basic requirements with room to expand.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zSoyVTqE1ck?si=mA3ko-2wnRklpVQv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 This involved digging deep into the various technologies behaviour and creating the following:
 
 - `cosc.exe` command line tool based on sendosc which also displays received OSC packets
@@ -127,4 +129,8 @@ I experience a latency of less than 1 second from the end of a command being spo
 - Set up Alexa.
 - Signup for [TRIGGERcmd](https://www.triggercmd.com/en/), install the Windows Agent, the TRIGGERcmd Smart Home Alexa skill and possibly the TC skill as described in the [instructions](https://www.triggercmd.com/user/computer/create). You'll need a subscription so you can send more that one trigger a minute.
 - Save the TRIGGERcmd [commands.json](https://github.com/music-practice-tools/cosc/blob/main/commands.json) file to `C:\Users\[your-user-name]steve\.TRIGGERcmdData\commands.json`.
-- Save the [songmaster.cmd](https://github.com/music-practice-tools/cosc/blob/main/songmaster.cmd) script file to your computer. You'll need to edit TRIGGERcmd `commands.json` to access `songmaster.cmd` where you located it (ie replace all occurrences of `"C:\\projects\\cosc\\songmaster.cmd"`)
+- Save the [songmaster.cmd](https://github.com/music-practice-tools/cosc/blob/main/songmaster.cmd) script file to your computer. You'll need to edit TRIGGERcmd `commands.json` to access `songmaster.cmd` where you located it (ie replace all occurrences of `"C:\\projects\\cosc\\songmaster.cmd"`).
+
+Now you can try any of the Alexa commands listed above. Song Master must be Running. The possible Alexa commands can also be worked out from `commands.json`. If you need to debug, try running `songmaster.cmd` with various options from the command line. To see what commands are available run `songmaster usage`. If you still have problems try `cosc` with the commands and in receive mode to view any responses from Song Master.
+
+If you have any questions or suggestions then please feel free to add [issues on the GitHub project](https://github.com/music-practice-tools/cosc/issues).
