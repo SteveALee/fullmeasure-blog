@@ -3,6 +3,11 @@ title: Steve's stuff
 permalink: _steves/
 ---
 
+## Danny Ziemann
+
+- [FCM Hub](https://www.fcmprogram.com/)
+- [Facebook Group](https://www.facebook.com/groups/860510985645705/)
+
 ## IFR
 
 - [Site](https://improviseforreal.com)
@@ -19,11 +24,6 @@ permalink: _steves/
 - [Lesson 4 - Chords I, IV and V](https://open.spotify.com/playlist/3VdfqgnIYuviPoCPT9QIIZ?si=4a7289aedec247b0)
 - [Lesson 5 - Chords I, IV and V Basic](https://open.spotify.com/playlist/683o5zq6JdlCD3dXAqA67t?si=GlPDA1-0SeGj_ayFOg14zA)
 - [Lesson 1 - Chords I, IV and V Advanced](https://open.spotify.com/playlist/2Sac9SRTwJtksjJsnScqXq?si=yDIQC63DQFKlasvVp4gUsA)
-
-## Danny Ziemann
-
-- [FCM Hub](https://www.fcmprogram.com/)
-- [Facebook Group](https://www.facebook.com/groups/860510985645705/)
 
 ## Become a Bassist
 
