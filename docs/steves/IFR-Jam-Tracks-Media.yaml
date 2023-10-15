@@ -1,0 +1,28 @@
+# Improvise for Real Jam Tracks
+
+- set: IFR Jam Tracks
+  mediaTemplate: "https://d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp3/IFR_Seven_Worlds_1_jazz_key_of_Ab.mp3"
+  mediaTemplate2: "https://${mediaRoot}/IFR_Seven_Worlds_${Style}_key_of_${Key}.mp3"
+  params:
+  - name: Harmonic Environment
+    values:
+      - "1"
+  - name: Style
+    values:
+      - [Meditative, meditative]
+      - [Modern, modern]
+      - [Jazz, jazz]
+  - name: Key
+    values:
+      - [A♭, Ab]
+      - A
+      - [B♭, Bb]
+      - B
+      - C
+      - [D♭, Db]
+      - D
+      - [E♭, Eb]
+      - E
+      - F
+      - [G♭, Gb]
+      - G
