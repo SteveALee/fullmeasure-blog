@@ -14,7 +14,6 @@ title: Steve's stuff
 - [Unofficial Forum](https://improviseforum.com/)
 
 ### Playlists
-https://d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp3/IFR_Seven_Worlds_1_jazz_key_of_Ab.mp3"
 - [Jam Tracks MPT](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Jam-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp3)
 - [Sing The Numbers MPT](https://parameters.musicpracticetools.net/?file=/examples/IFR-Ear-Training-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/et1_mp3)
 - [Chords Backing MPT](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Chords-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/rc1_mp3)
