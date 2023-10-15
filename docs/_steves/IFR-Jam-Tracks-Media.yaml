@@ -1,8 +1,8 @@
 # Improvise for Real Jam Tracks
 
 - set: IFR Jam Tracks
-  mediaTemplate: "https://${mediaRoot}/IFR_Seven_Worlds_${Style}_key_of_${Key}.mp3"
-  params:
+  mediaTemplate: "https://${mediaRoot}/IFR_Seven_Worlds_${Harmonic Environment}_${Style}_key_of_${Key}.mp3"
+  params:\\
   - name: Harmonic Environment
     values:
       - "1"
