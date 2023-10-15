@@ -1,6 +1,5 @@
 ---
 title: Steve's stuff
-permalink: _steves/
 ---
 
 ## Danny Ziemann
