@@ -7,7 +7,7 @@ tags:
 A brief summary of IFR principles for Deep Foundations:
 
 - Slow down and smell the flowers - quiet, relaxed contemplation
-- The harmonic map numbers are key
+- The tonal map numbers are key
   - Think the number as you play
   - Aim to sing them as often as possible when playing (if can)
   - Focus on meditative awareness of feelings invoked by each note in the harmonic environment
