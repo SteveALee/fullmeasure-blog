@@ -20,3 +20,4 @@ A brief summary of IFR principles for Deep Foundations:
 - Use Musical Parameter files for random practice
   - [Tonal Map](https://parameters.musicpracticetools.net/?file=/examples/IFR-Tonal-Map-Start.yaml)
   - [Jam Tracks](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Jam-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp3)
+- Watch Jelske's [Melodic Instruments Lessons](https://forum.improviseforreal.com/c/melodic-instruments-lessons/) for fantastic musical ideas, whatever instrument you play
