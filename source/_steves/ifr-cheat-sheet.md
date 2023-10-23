@@ -19,4 +19,4 @@ A brief summary of IFR principles for Deep Foundations:
 - Use Mireia's [Singing Tracks](https://forum.improviseforreal.com/c/audio-tracks/) and [Jam Tracks](https://forum.improviseforreal.com/c/jam-tracks/)
 - Use Musical Parameter files for random practice
   - [Tonal Map](https://parameters.musicpracticetools.net/?file=/examples/IFR-Tonal-Map-Start.yaml)
-  - [Jam Tracks](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Jam-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp30)
+  - [Jam Tracks](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Jam-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp3)
