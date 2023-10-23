@@ -9,8 +9,9 @@ title: Steve's stuff
 
 ## IFR
 
+- [Deep Foundations](https://forum.improviseforreal.com)
+- [Cheat Sheet](ifr-cheat-sheet)
 - [Site](https://improviseforreal.com)
-- [Forum](https://forum.improviseforreal.com)
 - [Unofficial Forum](https://improviseforum.com/)
 
 ### Playlists
