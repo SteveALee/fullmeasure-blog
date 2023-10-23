@@ -11,7 +11,7 @@ A brief summary of IFR principles for Deep Foundations:
   - Visualise the tonal map at first - later recall the rules it encapsulates
   - Think the number as you play
   - Aim to sing the numbers as often as possible when playing (if can)
-  - Focus on meditative awareness of feelings invoked by each note in the harmonic environment
+  - Focus on meditative awareness of feelings invoked by each number in the harmonic environment
   - Use the [Sing the Numbers](https://improviseforreal.com/products/sing-numbers-1-ifr-tonal-map) exercises (and Feel the Numbers from the ear training course)
 - Audiate before playing - slow down so you can do so
 - Play in all twelve keys
