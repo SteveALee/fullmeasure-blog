@@ -18,6 +18,7 @@ A brief summary of IFR principles for Deep Foundations:
 - Mentally overlay the tonal map on your instrument (if possible)
 - Use Mireia's [Singing Tracks](https://forum.improviseforreal.com/c/audio-tracks/) and [Jam Tracks](https://forum.improviseforreal.com/c/jam-tracks/)
 - Watch Jelske's [Melodic Instruments Lessons](https://forum.improviseforreal.com/c/melodic-instruments-lessons/) for fantastic musical ideas, whatever instrument you play
-- Use Musical Parameter files for random practice
+- Use tools for random practice
   - [Tonal Map](https://parameters.musicpracticetools.net/?file=/examples/IFR-Tonal-Map-Start.yaml)
   - [Jam Tracks](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Jam-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp3)
+  - [Spinner App](https://spinner.fullmeasure.uk/)
