@@ -17,9 +17,9 @@ A brief summary of IFR principles for Deep Foundations:
 - Play in all twelve keys
 - Mentally overlay the tonal map on your instrument (if possible)
 - Watch [David's Main Lessons](https://forum.improviseforreal.com/c/main-lessons/) for the details of IFR and Mireia's [Ear Training Lessons](https://forum.improviseforreal.com/c/ear-training-lessons/) to embark on your journey. 
-- All videos in the Instrument Room offer powerful insights, whatever you play, but definitely watch Jelske's [Melodic Instruments Lessons](https://forum.improviseforreal.com/c/melodic-instruments-lessons/) for fantastic musical ideas.
+- All videos in the Instrument Room offer powerful insights, whatever you play, but definitely watch Jelske's [Melodic Instruments Lessons](https://forum.improviseforreal.com/c/melodic-instruments-lessons/) for musical ideas to complement instrument techniques.
 - Make the most of Mireia's [Singing Tracks](https://forum.improviseforreal.com/c/audio-tracks/) and [Jam Tracks](https://forum.improviseforreal.com/c/jam-tracks/)
-- Embrace Jelske's "Trading 4s" tracks as they are especially valuable for practicing all aspects of IFR in one fun activity.
+- Embrace Jelske's [Trading 4s](https://forum.improviseforreal.com/c/melodic-instruments-lessons/) tracks as they are especially valuable for practicing many aspects of IFR in one fun activity.
 - Use tools for random practice.
   - [Tonal Map](https://parameters.musicpracticetools.net/?file=/examples/IFR-Tonal-Map-Start.yaml)
   - [Jam Tracks](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Jam-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp3)
