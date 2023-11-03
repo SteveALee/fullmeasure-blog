@@ -1,7 +1,7 @@
 # Improvise for Real Deep Foundation
 
 - set: IFR Vicki's HE1 Audio Flashcards
-  mediaTemplate: "https://drive.google.com/file/d/${Note}/view?usp=drive_link"
+  mediaTemplate: "https://drive.google.com/file/d/${Note}/view"
   params:
   - name: Note
     values:
