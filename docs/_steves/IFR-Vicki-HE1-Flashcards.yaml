@@ -1,4 +1,5 @@
 # Improvise for Real Deep Foundation
+# doesn't work as files are m4a and encoding is sniffed when setting src via javascript nit mime-type as when URL opened
 
 - set: IFR Vicki's HE1 Audio Flashcards
   mediaTemplate: "https://drive.google.com/file/d/${Note}/view"
