@@ -14,10 +14,15 @@ title: Steve's stuff
 - [Site](https://improviseforreal.com)
 - [Unofficial Forum](https://improviseforum.com/)
 
+### Musical Parameters
+
+- [Jam Tracks 1 - 7 Worlds](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Jam-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp3)
+- [Ear Training 1 StN](https://parameters.musicpracticetools.net/?file=/examples/IFR-Ear-Training-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/et1_mp3)
+- [Sing The Numbers 2](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Sing-the-Numbers-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/stn2_mp3)
+- [Chords Backing](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Chords-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/rc1_mp3)
+
 ### Playlists
-- [Jam Tracks MPT](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Jam-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp3)
-- [Sing The Numbers MPT](https://parameters.musicpracticetools.net/?file=/examples/IFR-Ear-Training-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/et1_mp3)
-- [Chords Backing MPT](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Chords-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/rc1_mp3)
+
 - [Lesson 1 - Chords I and IV](https://open.spotify.com/playlist/5Cekt4aIqvqHKzeK7AJ9AB?si=6fc3f16a7fbd4428)
 - [Lesson 2 - Chords I and V](https://open.spotify.com/playlist/4YjIuZpAn8L233A4eUJMKu?si=8bea2042505f4b25)
 - [Lesson 3 - Chords I & IV or I & V](https://open.spotify.com/playlist/4eBfUWSR04gW00pOHp9Mpb?si=DTAivBhYSvOxBegU9K74iA)
