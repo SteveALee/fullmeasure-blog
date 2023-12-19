@@ -3,17 +3,17 @@
   params:
     - name: Note
       values:
-        - G♯/A♭
+        - A♭
         - A
         - B♭
-        - B/C♭
+        - B
         - C
-        - C♯/D♭
+        - D♭
         - D
-        - D♯/E♭
+        - E♭
         - E
         - F
-        - F♯/G♭
+        - G♭
         - G
     - name: Starting Map Number
       values:
@@ -28,65 +28,69 @@
       values:
         - 'Ascending'
         - 'Descending'
+    - name: Step
+      values:
+        - 'Semitone'
+        - 'Tone'
 - set: Sing the Numbers
   mediaTemplate: "https://${mediaRoot}/stn2_mp3/ifr_sing_the_numbers_2_track_${calcIndexFromTwo(Harmonic Environment,Style,2)}.mp3"
   noteTemplate: "Track ${calcIndexFromTwo(Harmonic Environment,Style,2)}"
   params:
-  - name: Harmonic Environment
-    values:
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-  - name: Style
-    values:
-      - [Meditative, 1]
-      - [Chords, 2]
-      - [Advanced, 3]
-- set: IFR Jam Tracks
+    - name: Harmonic Environment
+      values:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+    - name: Style
+      values:
+        - [Meditative, 1]
+        - [Chords, 2]
+        - [Advanced, 3]
+- set: Jam Tracks
   mediaTemplate: "https://${mediaRoot}/j1_7w_mp3/IFR_Seven_Worlds_${Harmonic Environment}_${Style}_key_of_${Key}.mp3"
   noteTemplate: "Tonal Centre: ${tonalCentre(Key,Harmonic Environment)}"
   params:
-  - name: Harmonic Environment
-    values:
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-  - name: Style
-    values:
-      - [Meditative, meditative]
-      - [Modern, modern]
-      - [Jazz, jazz]
-  - name: Key
-    values:
-      - [A♭, Ab]
-      - A
-      - [B♭, Bb]
-      - B
-      - C
-      - [D♭, Db]
-      - D
-      - [E♭, Eb]
-      - E
-      - F
-      - [G♭, Gb]
-      - G
-  - name: Notes
-    values:
-      - "Scale"
-      - "Chord Tones"
-  - name: Range
-    values:
-      - "Modal"
-      - "Tonal"
-      - "Unlimited"
+    - name: Harmonic Environment
+      values:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+    - name: Style
+      values:
+        - [Meditative, meditative]
+        - [Modern, modern]
+        - [Jazz, jazz]
+    - name: Key
+      values:
+        - [A♭, Ab]
+        - A
+        - [B♭, Bb]
+        - B
+        - C
+        - [D♭, Db]
+        - D
+        - [E♭, Eb]
+        - E
+        - F
+        - [G♭, Gb]
+        - G
+    - name: Notes
+      values:
+        - "Scale"
+        - "Chord Tones"
+    - name: Range
+      values:
+        - "Modal"
+        - "Tonal"
+        - "Unlimited"
 - set: Jelske Trading 4s
   mediaTemplate: 'https://${mediaRoot}/df_mp3/Jelske_playalong_lesson_${Track}.mp3'
   params:
@@ -131,3 +135,17 @@
         - F
         - [G♭, Gb]
         - G
+    - name: Notes
+      values:
+        - "Scale"
+        - "Chord Tones"
+- set: Activity Picker
+  params:
+    - name: Activity
+      values:
+        - Tonal Map
+        - Sing the Numbers
+        - Sing the Numbers Improv
+        - Jam Tracks
+        - Jelske Trading 4s
+        - Drone 
