@@ -15,23 +15,23 @@
         - F
         - G♭
         - G
-    - name: Starting Map Number
+    - name: Map Number
       values:
-        - '1'
-        - '2'
-        - '3'
-        - '4'
-        - '5'
-        - '6'
-        - '7'
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
     - name: Direction
       values:
-        - 'Ascending'
-        - 'Descending'
+        - Ascending
+        - Descending
     - name: Step
       values:
-        - 'Semitone'
-        - 'Tone'
+        - Semitone
+        - Tone
 - set: Sing the Numbers
   mediaTemplate: "https://${mediaRoot}/stn2_mp3/ifr_sing_the_numbers_2_track_${calcIndexFromTwo(Harmonic Environment,Style,2)}.mp3"
   noteTemplate: "Track ${calcIndexFromTwo(Harmonic Environment,Style,2)}"
@@ -50,6 +50,10 @@
         - [Meditative, 1]
         - [Chords, 2]
         - [Advanced, 3]
+    - name: Action
+      values:
+        - Echo
+        - Improvise
 - set: Jam Tracks
   mediaTemplate: "https://${mediaRoot}/j1_7w_mp3/IFR_Seven_Worlds_${Harmonic Environment}_${Style}_key_of_${Key}.mp3"
   noteTemplate: "Tonal Centre: ${tonalCentre(Key,Harmonic Environment)}"
@@ -84,40 +88,40 @@
         - G
     - name: Notes
       values:
-        - "Scale"
-        - "Chord Tones"
+        - Scale
+        - Chord Tones
     - name: Range
       values:
-        - "Modal"
-        - "Tonal"
-        - "Unlimited"
+        - Modal
+        - Tonal
+        - Unlimited
 - set: Jelske Trading 4s
   mediaTemplate: 'https://${mediaRoot}/df_mp3/Jelske_playalong_lesson_${Track}.mp3'
   params:
     - name: Track
       values:
-        - ["HE1 C", "04_1st_HE_key_of_C"]
-        - ["HE1 G", "04_1st_HE_key_of_G"]
-        - ["HE1 C Chord tones", "04a_1st_HE_chord_tones_key_of_C"]
-        - ["HE2 B♭", "05_2nd_HE_key_of_Bb"]
-        - ["HE2 F", "05_2nd_HE_key_of_F"]
-        - ["HE2 B♭", "05a_2nd_HE_chord_tones_key_of_Bb"]
-        - ["HE2 E♭ Chord tones", "05a_2nd_HE_chord_tones_key_of_Eb"]
-        - ["HE3 A♭", "06_3rd_HE_key_of_Ab"]
-        - ["HE3 C", "06_3rd_HE_key_of_C"]
-        - ["HE3 A♭", "06a_3rd_HE_chord_tones_key_of_Ab"]
-        - ["HE3 D♭", "06a_3rd_HE_chord_tones_key_of_Db"]
-        - ["HE4 E", "07_4th_HE_key_of_E"]
-        - ["HE4 G", "07_4th_HE_key_of_G"]
-        - ["HE4 G Chord tones", "07a_4th_HE_chord_tones_key_of_G"]
-        - ["HE5 A♭", "08_5th_HE_key_of_Ab"]
-        - ["HE5 D", "08_5th_HE_key_of_D"]
-        - ["HE5 D Chord tones", "08a_5th_HE_chord_tones_key_of_D"]
-        - ["HE5 C Chord tones ", "08a_5th_HE_chord_tones_key_of_C"]
-        - ["HE6 A", "09_6th_HE_key_of_A"]
-        - ["HE6 B♭", "09_6th_HE_key_of_Bb"]
-        - ["HE6 B♭ Chord tones", "09a_6th_HE_chord_tones_key_of_Bb"]
-        - ["HE6 B Chord tones", "09a_6th_HE_chord_tones_key_of_B"]
+        - [HE1 C, 04_1st_HE_key_of_C]
+        - [HE1 G, 04_1st_HE_key_of_G]
+        - [HE1 C Chord tones, 04a_1st_HE_chord_tones_key_of_C]
+        - [HE2 B♭, 05_2nd_HE_key_of_Bb]
+        - [HE2 F, 05_2nd_HE_key_of_F]
+        - [HE2 B♭, 05a_2nd_HE_chord_tones_key_of_Bb]
+        - [HE2 E♭ Chord tones, 05a_2nd_HE_chord_tones_key_of_Eb]
+        - [HE3 A♭, 06_3rd_HE_key_of_Ab]
+        - [HE3 C, 06_3rd_HE_key_of_C]
+        - [HE3 A♭, 06a_3rd_HE_chord_tones_key_of_Ab]
+        - [HE3 D♭, 06a_3rd_HE_chord_tones_key_of_Db]
+        - [HE4 E, 07_4th_HE_key_of_E]
+        - [HE4 G, 07_4th_HE_key_of_G]
+        - [HE4 G Chord tones, 07a_4th_HE_chord_tones_key_of_G]
+        - [HE5 A♭, 08_5th_HE_key_of_Ab]
+        - [HE5 D, 08_5th_HE_key_of_D]
+        - [HE5 D Chord tones, 08a_5th_HE_chord_tones_key_of_D]
+        - [HE5 C Chord tones , 08a_5th_HE_chord_tones_key_of_C]
+        - [HE6 A, 09_6th_HE_key_of_A]
+        - [HE6 B♭, 09_6th_HE_key_of_Bb]
+        - [HE6 B♭ Chord tones, 09a_6th_HE_chord_tones_key_of_Bb]
+        - [HE6 B Chord tones, 09a_6th_HE_chord_tones_key_of_B]
 - set: Drones - major
   mediaTemplate: 'https://${mediaRoot}/et1_mp3/Drone_(${Tonal Centre}).mp3'
   params:
@@ -137,15 +141,14 @@
         - G
     - name: Notes
       values:
-        - "Scale"
-        - "Chord Tones"
+        - Scale
+        - Chord Tones
 - set: Activity Picker
   params:
     - name: Activity
       values:
         - Tonal Map
         - Sing the Numbers
-        - Sing the Numbers Improv
         - Jam Tracks
         - Jelske Trading 4s
         - Drone 
