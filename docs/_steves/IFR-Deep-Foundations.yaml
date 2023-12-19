@@ -147,8 +147,8 @@
   params:
     - name: Activity
       values:
-        - Tonal Map
-        - Sing the Numbers
-        - Jam Tracks
-        - Jelske Trading 4s
-        - Drone 
+        - [Tonal Map, 0]
+        - [Sing the Numbers, 1]
+        - [Jam Tracks, 2]
+        - [Jelske Trading 4s, 3]
+        - [Drone, 4 ]
