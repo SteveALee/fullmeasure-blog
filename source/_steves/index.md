@@ -16,9 +16,9 @@ title: Steve's stuff
 
 ### Musical Parameters
 
-- [Jam Tracks 1 - 7 Worlds](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Jam-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/j1_7w_mp3)
+
+- [Deep Foundations](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Deep-Foundations.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net)
 - [Ear Training 1 StN](https://parameters.musicpracticetools.net/?file=/examples/IFR-Ear-Training-Tracks-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/et1_mp3)
-- [Sing The Numbers 2](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Sing-the-Numbers-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/stn2_mp3)
 - [Chords Backing](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Chords-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/rc1_mp3)
 
 ### Playlists
