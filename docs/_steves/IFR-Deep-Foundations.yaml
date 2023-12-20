@@ -145,7 +145,7 @@
 - set: Activity Picker
   isPicker: true
   params:
-    - name: Activity
+    - name: \[Pick Random\]
       values:
         - [Tonal Map, 0]
         - [Sing the Numbers, 1]
