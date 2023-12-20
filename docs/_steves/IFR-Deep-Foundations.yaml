@@ -1,4 +1,4 @@
-# Improvise for Real Deep Foundations workshop
+title: IFR Deep Foundations
 - set: Tonal Map
   params:
     - name: Note
@@ -144,6 +144,7 @@
         - Scale
         - Chord Tones
 - set: Activity Picker
+  isPicker: true
   params:
     - name: Activity
       values:
