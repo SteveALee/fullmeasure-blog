@@ -142,10 +142,10 @@
       values:
         - Scale
         - Chord Tones
-- set: Activity Picker
+- set: \[Activity Picker\]
   isPicker: true
   params:
-    - name: \[Pick Random\]
+    - name: Activity
       values:
         - [Tonal Map, 0]
         - [Sing the Numbers, 1]
