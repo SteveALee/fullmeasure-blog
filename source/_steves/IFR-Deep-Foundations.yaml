@@ -142,7 +142,7 @@
       values:
         - Scale
         - Chord Tones
-- set: \[Activity Picker\]
+- set: \[Pick Random\]
   isPicker: true
   params:
     - name: Activity
