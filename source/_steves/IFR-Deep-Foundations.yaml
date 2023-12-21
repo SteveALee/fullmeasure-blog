@@ -110,7 +110,7 @@
     - name: Action
       values:
         - Play
-        - Play and Play
+        - Play and Sing
         - Sing
         - Sing then Play
 - set: Jelske Trading 4s
