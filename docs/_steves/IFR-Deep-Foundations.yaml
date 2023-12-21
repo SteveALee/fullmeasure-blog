@@ -142,13 +142,3 @@
       values:
         - Scale
         - Chord Tones
-- set: "[Pick Random]"
-  isPicker: true
-  params:
-    - name: Activity
-      values:
-        - [Tonal Map, 0]
-        - [Sing the Numbers, 1]
-        - [Jam Tracks, 2]
-        - [Jelske Trading 4s, 3]
-        - [Drone, 4 ]
