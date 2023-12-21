@@ -23,14 +23,19 @@
         - "5"
         - "6"
         - "7"
-    - name: Direction
-      values:
-        - Ascending
-        - Descending
     - name: Step
       values:
         - Semitone
         - Tone
+    - name: Direction
+      values:
+        - Ascending
+        - Descending
+    - name: Frtboard
+      values:
+        - Across
+        - Along
+        - Mixed
 - set: Sing the Numbers
   mediaTemplate: "https://${mediaRoot}/stn2_mp3/ifr_sing_the_numbers_2_track_${calcIndexFromTwo(Harmonic Environment,Style,2)}.mp3"
   noteTemplate: "Track ${calcIndexFromTwo(Harmonic Environment,Style,2)}"
@@ -101,6 +106,11 @@
         - Bass Line
         - Melodic
         - Solo
+    - name: Singing
+      values:
+        - Sing
+        - Sing and Play
+        - Sing then Play
 - set: Jelske Trading 4s
   mediaTemplate: 'https://${mediaRoot}/df_mp3/Jelske_playalong_lesson_${Track}.mp3'
   params:
