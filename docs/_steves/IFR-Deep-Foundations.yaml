@@ -57,6 +57,7 @@
     - name: Action
       values:
         - Echo
+        - Echo and Play
         - Improvise
 - set: Jam Tracks
   mediaTemplate: "https://${mediaRoot}/j1_7w_mp3/IFR_Seven_Worlds_${Harmonic Environment}_${Style}_key_of_${Key}.mp3"
@@ -106,10 +107,11 @@
         - Bass Line
         - Melodic
         - Solo
-    - name: Singing
+    - name: Action
       values:
+        - Play
+        - Play and Play
         - Sing
-        - Sing and Play
         - Sing then Play
 - set: Jelske Trading 4s
   mediaTemplate: 'https://${mediaRoot}/df_mp3/Jelske_playalong_lesson_${Track}.mp3'
@@ -138,6 +140,15 @@
         - [HE6 B♭, 09_6th_HE_key_of_Bb]
         - [HE6 B♭ Chord tones, 09a_6th_HE_chord_tones_key_of_Bb]
         - [HE6 B Chord tones, 09a_6th_HE_chord_tones_key_of_B]
+    - name: Notes
+      values:
+        - Scale
+        - Chord Tones
+    - name: Action
+      values:
+        - Play
+        - Play and Sing
+        - Sing
 - set: Drones - major
   mediaTemplate: 'https://${mediaRoot}/et1_mp3/Drone_(${Tonal Centre}).mp3'
   params:
@@ -159,3 +170,8 @@
       values:
         - Scale
         - Chord Tones
+    - name: Action
+      values:
+        - Play
+        - Play and Sing
+        - Sing
