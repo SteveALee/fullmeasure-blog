@@ -89,8 +89,8 @@
       values:
         - Scale
         - Intervals
-        - Chords
-        - Chords Inversions
+        - Chord
+        - Chord Inversions
         - Broken Tones
         - Broken Inversions
         - Walk Chord
