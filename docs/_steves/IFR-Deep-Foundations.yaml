@@ -23,6 +23,12 @@
         - "5"
         - "6"
         - "7"
+    - name: Finger
+      values:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
     - name: Step
       values:
         - Semitone
