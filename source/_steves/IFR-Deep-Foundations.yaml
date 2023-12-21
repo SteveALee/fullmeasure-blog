@@ -31,7 +31,7 @@
       values:
         - Ascending
         - Descending
-    - name: Frtboard
+    - name: Instrument
       values:
         - Across
         - Along
