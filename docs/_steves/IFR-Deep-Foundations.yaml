@@ -88,12 +88,19 @@
     - name: Notes
       values:
         - Scale
-        - Chord Tones
-    - name: Range
+        - Intervals
+        - Chords
+        - Chords Inversions
+        - Broken Tones
+        - Broken Inversions
+        - Walk Chord
+        - Walk Scale
+        - Walk Chromatic
+    - name: Function
       values:
-        - Modal
-        - Tonal
-        - Unlimited
+        - Bass Line
+        - Melodic
+        - Solo
 - set: Jelske Trading 4s
   mediaTemplate: 'https://${mediaRoot}/df_mp3/Jelske_playalong_lesson_${Track}.mp3'
   params:
