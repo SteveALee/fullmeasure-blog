@@ -37,6 +37,7 @@
       values:
         - Ascending
         - Descending
+        - Mixed
     - name: Fretboard
       values:
         - Across
@@ -108,10 +109,11 @@
         - Walk Chord
         - Walk Scale
         - Walk Chromatic
+        - Mixed
     - name: Function
       values:
         - Bass Line
-        - Melodic
+        - Melody
         - Solo
     - name: Action
       values:
