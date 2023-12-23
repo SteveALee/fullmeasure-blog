@@ -157,7 +157,7 @@
         - [HE6 B♭ Chord tones, 09a_6th_HE_chord_tones_key_of_Bb]
         - [HE6 B Chord tones, 09a_6th_HE_chord_tones_key_of_B]
         - [HE7 C, 10_7th_HE_key_of_C]
-        - [HE7 D♭ Chord tones, 10_7th_HE_chord_tones_key_of_D♭]
+        - [HE7 D♭ Chord tones, 10a_7th_HE_chord_tones_key_of_D♭]
     - name: Action
       values:
         - Play
