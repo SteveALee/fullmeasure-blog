@@ -30,20 +30,26 @@
         - "2"
         - "3"
         - "4"
-    - name: Step
+    - name: Interval
       values:
         - Semitone
         - Tone
+        - Third
+        - Fourth
+        - Fifth
+        - Sixth
+        - Seventh
     - name: Direction
       values:
         - Ascending
         - Descending
-        - Mixed
-    - name: Fretboard
+        - Free Style
+    - name: Constraints
       values:
-        - Across
-        - Along
-        - Mixed
+        - Five Notes
+        - Across Strings
+        - Along String
+        - Whatever
 - set: Sing the Numbers
   mediaTemplate: "https://${mediaRoot}/stn2_mp3/ifr_sing_the_numbers_2_track_${calcIndexFromTwo(Harmonic Environment,Style,2)}.mp3"
   noteTemplate: "Track ${calcIndexFromTwo(Harmonic Environment,Style,2)}"
@@ -101,9 +107,10 @@
         - G
     - name: Notes
       values:
-        - Scale
         - Intervals
+        - Scale
         - Chord
+        - Scale then Chords
         - Chord Inversions
         - Broken Tones
         - Broken Inversions
