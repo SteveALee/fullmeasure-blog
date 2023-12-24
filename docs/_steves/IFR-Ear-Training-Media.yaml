@@ -1,3 +1,4 @@
+- title: IFR Ear Training
 - set: "1: Notes 1, 2 ,3"
   mediaTemplate: 'https://${mediaRoot}/et1_mp3/${Track}.mp3'
   params:
