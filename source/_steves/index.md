@@ -9,16 +9,15 @@ title: Steve's stuff
 
 ## IFR
 
-- [Deep Foundations](https://forum.improviseforreal.com)
+- [Ear Training](https://forum.improviseforreal.com)
 - [Cheat Sheet](ifr-cheat-sheet)
 - [Site](https://improviseforreal.com)
 - [Unofficial Forum](https://improviseforum.com/)
 
 ### Musical Parameters
 
-
 - [Deep Foundations](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Deep-Foundations.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net)
-- [Ear Training Course](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Ear-Training-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net)
+- [Ear Training Course](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Ear-Training-Media-All.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net)
 - [Chords Backing](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Chords-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/rc1_mp3)
 
 ### Playlists
@@ -33,3 +32,25 @@ title: Steve's stuff
 ## Become a Bassist
 
 - [Courses](https://students.becomeabassist.com/)
+
+## YouTube
+
+- [Incredible Useful Exercises](https://www.youtube.com/@incrediblyusefulexercises)
+
+## Warm Up
+
+- Tuning/Simple movements(2 min)
+  - Long bow
+  - Low Down Pizz
+- Slow Scales/Arpeggios (10 min)
+  - With drone + metronome
+  - Chromatic scale
+  - Low Down chromatic arpeggios
+  - [Tetrachord](https://www.youtube.com/watch?v=K_xLQGTASeU)
+- Shifting/Intonation Work (2 min)
+  - With drone
+  - [vomit](https://youtu.be/7OFA6b8BOBA?si=1NCEQxMf3ULXodXM)
+  - 1-234
+- Exercise/excerpt practicing both left hand & right hand at velocity (5 min)
+  - [4 note progressive scale (HEs)](https://youtu.be/WHp2Uwm7q-w?si=rylqm_tcEX_5fY_M)
+  - Music excerpt
