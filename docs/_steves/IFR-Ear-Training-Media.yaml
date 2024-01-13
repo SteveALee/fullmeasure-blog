@@ -10,18 +10,18 @@
         - ["F01 C 1, 2, 3 meditative", feel_the_numbers_1_track_01]
         - ["F02 B♭ 1, 2, 3 rhythmic", feel_the_numbers_1_track_02]
         - ["F03 B 1, 2, 3 melodic", feel_the_numbers_1_track_03]
-#- set: "2: Adding Note 4"
-#  mediaTemplate: 'https://${mediaRoot}/et1_mp3/${Track}.mp3'
-#  params:
-#    - name: Track
-#      values:
-#        - ["S04 1, 3, 4 meditative", sing_the_numbers_1_track_04]
-#        - ["S05 1, 2, 3, 4 melodic", sing_the_numbers_1_track_05]
-#        - ["F Drone C", feel_the_numbers_1_drone]
-#        - ["F04 B 1, 2, 3, 4 meditative", feel_the_numbers_1_track_04]
-#        - ["F05 B♭, 1, 3, 4 meditative", feel_the_numbers_1_track_05]
-#        - ["F06 B♭ 1, 2, 3, 4 melodic", feel_the_numbers_1_track_06]
-#        - [Acapella, ""]
+- set: "2: Adding Note 4"
+  mediaTemplate: 'https://${mediaRoot}/et1_mp3/${Track}.mp3'
+  params:
+    - name: Track
+      values:
+        - ["S04 1, 3, 4 meditative", sing_the_numbers_1_track_04]
+        - ["S05 1, 2, 3, 4 melodic", sing_the_numbers_1_track_05]
+        - ["F Drone C", feel_the_numbers_1_drone]
+        - ["F04 B 1, 2, 3, 4 meditative", feel_the_numbers_1_track_04]
+        - ["F05 B♭, 1, 3, 4 meditative", feel_the_numbers_1_track_05]
+        - ["F06 B♭ 1, 2, 3, 4 melodic", feel_the_numbers_1_track_06]
+        - [Acapella, ""]
 #- set: "3: Note 5 + Major Triad"
 #  mediaTemplate: 'https://${mediaRoot}/et1_mp3/${Track}.mp3'
 #  params:
