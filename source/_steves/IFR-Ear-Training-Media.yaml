@@ -54,16 +54,16 @@
         - ["F12 A♭ 1, 3, 5, 6", feel_the_numbers_1_track_12]
         - ["F13 C 1, 2, 5, 6", feel_the_numbers_1_track_13]
         - [Acapella, ""]
-#- set: "6: Notes 1, 2, 3, 4, 5, 6"
-#  mediaTemplate: 'https://${mediaRoot}/et1_mp3/${Track}.mp3'
-#  params:
-#    - name: Track
-#      values:
-#        - ["S12 1, 2, 3, 5, 6", sing_the_numbers_1_track_12]
-#        - ["S13 1, 2, 3, 4, 5, 6", sing_the_numbers_1_track_13]
-#        - ["F14 B♭ 1, 2, 3, 5, 6", feel_the_numbers_1_track_14]
-#        - ["F15 A 1, 2, 3, 4, 5, 6", feel_the_numbers_1_track_15]
-#        - [Acapella, ""]
+- set: "6: Notes 1, 2, 3, 4, 5, 6"
+  mediaTemplate: 'https://${mediaRoot}/et1_mp3/${Track}.mp3'
+  params:
+    - name: Track
+      values:
+        - ["S12 1, 2, 3, 5, 6", sing_the_numbers_1_track_12]
+        - ["S13 1, 2, 3, 4, 5, 6", sing_the_numbers_1_track_13]
+        - ["F14 B♭ 1, 2, 3, 5, 6", feel_the_numbers_1_track_14]
+        - ["F15 A 1, 2, 3, 4, 5, 6", feel_the_numbers_1_track_15]
+        - [Acapella, ""]
 #- set: "7: Adding Note 7"
 #  mediaTemplate: 'https://${mediaRoot}/et1_mp3/${Track}.mp3'
 #  params:
