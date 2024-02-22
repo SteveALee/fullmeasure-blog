@@ -1,0 +1,23 @@
+- title: FCM Bill's Jukebox
+- set: Tunes
+  params:
+    - name: Tune
+      values:
+        - Fly Me to The Moon
+        - The Christmas Song
+        - Marianne
+        - I Did It Again
+    - name: Tonal Centre
+      values:
+        - A♭
+        - A
+        - B♭,
+        - B
+        - C
+        - D♭
+        - D
+        - E♭
+        - E
+        - F
+        - G♭
+        - G
