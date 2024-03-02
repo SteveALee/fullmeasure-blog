@@ -83,16 +83,16 @@
         - ["F18 D♭ 5, 6, 7 and 1 meditative", feel_the_numbers_1_track_18]
         - ["F19 D♭ 5, 6, 7 and 1 rhythmic", feel_the_numbers_1_track_19]
         - [Acapella, ""]
-#- set: "9: Converging to 1"
-#  mediaTemplate: 'https://${mediaRoot}/et1_mp3/${Track}.mp3'
-#  params:
-#    - name: Track
-#      values:
-#        - ["S17 around 1", sing_the_numbers_1_track_17]
-#        - ["S18 around 1", sing_the_numbers_1_track_18]
-#        - ["F20 D 5, 6, 7, 1, 2, 3", feel_the_numbers_1_track_20]
-#        - ["F21 E♭ 5, 6, 7, 1, 2, 3 faster", feel_the_numbers_1_track_21]
-#        - [Acapella, ""]
+- set: "9: Converging to 1"
+  mediaTemplate: 'https://${mediaRoot}/et1_mp3/${Track}.mp3'
+  params:
+    - name: Track
+      values:
+        - ["S17 around 1", sing_the_numbers_1_track_17]
+        - ["S18 around 1", sing_the_numbers_1_track_18]
+        - ["F20 D 5, 6, 7, 1, 2, 3", feel_the_numbers_1_track_20]
+        - ["F21 E♭ 5, 6, 7, 1, 2, 3 faster", feel_the_numbers_1_track_21]
+        - [Acapella, ""]
 #- set: "10: From 1 to 1"
 #  mediaTemplate: 'https://${mediaRoot}/et1_mp3/${Track}.mp3'
 #  params:
