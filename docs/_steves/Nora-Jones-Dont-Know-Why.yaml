@@ -1,0 +1,15 @@
+- title: Learn By Ear 
+- set: NoraJones - Don't Know Why 
+  mediaTemplate: YouTube
+  params:
+    - name: Sections
+      values:
+        - [A, [tO4dxvguQDk, 0, 38]]
+        - [A', [tO4dxvguQDk, 38, 59]]
+        - [B, [tO4dxvguQDk, 59, 81]]
+        - [A'', [tO4dxvguQDk, 81, 103]]
+        - [B', [tO4dxvguQDk, 103, 125]]
+        - [Piano, [tO4dxvguQDk, 125, 146]]
+        - [A''', [tO4dxvguQDk, 146, 167]]
+        - [Outro, [tO4dxvguQDk, 167]]
+        - [All, [tO4dxvguQDk]]
