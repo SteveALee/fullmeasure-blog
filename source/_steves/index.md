@@ -19,7 +19,7 @@ title: Steve's stuff
 - [Deep Foundations](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Deep-Foundations.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net)
 - [Ear Training Course](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Ear-Training-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net)
 - [Chords Backing](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Chords-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/rc1_mp3)
-- [Nora Jones - Don't Know Why]((https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/Nora-Jones-Dont-Know-Why.yaml)
+- [Nora Jones - Don't Know Why](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/Nora-Jones-Dont-Know-Why.yaml)
 
 ### Playlists
 
