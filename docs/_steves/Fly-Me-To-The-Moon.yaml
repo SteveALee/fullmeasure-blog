@@ -1,0 +1,20 @@
+# Steve's FCM project
+- title: Fly Me To The Moon
+- set: Covers
+  mediaTemplate: YouTube   # indicates youTube video ids in values
+  noteTemplate: "Video: ${Video Sections}"  # Optional note
+  params:
+    - name: Versions
+      values:
+        - [Kay Ballard, [vpC_N19UlIk]]
+        - [Frank Sinatra, C Bassie Orch, Quincy (4/4), [ZEcqHA7dbwM]]
+        - [Julie London, [MeLVCeErypY]]
+        - [Tony Bennett, [HJuZUBJtWUo]]
+        - [Doris Day, [M_CRJNKvWsk]]
+        - [Bobby Womack, [dnKxtNt19uA]]
+        - [Sarah Vaughan, [PUMtCF8QJ8]]
+        - [Diana Krall, [xdzkMDacvUY]]
+        - [Joe Harnell, [GEnl3cAMNcc]]
+        - [Vince Guaraldi, [9K57IARhi6Q]]
+        - [Nat King Cole, [KLvLo6-XOnI]]
+        - [Astrud Gilberto, [ldt_ylbAqe4]]

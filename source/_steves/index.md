@@ -20,6 +20,7 @@ title: Steve's stuff
 - [Ear Training Course](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Ear-Training-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net)
 - [Chords Backing](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/IFR-Chords-Media.yaml&mediaRoot=d3rl7arpgnbsx6.cloudfront.net/rc1_mp3)
 - [Nora Jones - Don't Know Why](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/Nora-Jones-Dont-Know-Why.yaml)
+- [Fly Me To The Moon](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/Fly-Me-To-The-Moon.yaml)
 
 ### Playlists
 
