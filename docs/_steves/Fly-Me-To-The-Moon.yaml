@@ -1,13 +1,13 @@
 # Steve's FCM project
 - title: Fly Me To The Moon
-- set: My Selection
+- set: Fly Me To The Moon
   mediaTemplate: YouTube   # indicates youTube video ids in values
 #  noteTemplate: "Video: ${Video Sections}"  # Optional note
   params:
-    - name: Versions
+    - name: Version
       values:
         - [Kay Ballard 3/4, [vpC_N19UlIk]]
-        - [Frank Sinatra Bassie Orc, [ZEcqHA7dbwM]]
+        - [Frank Sinatra + Basie Orc, [ZEcqHA7dbwM]]
         - [Julie London, [MeLVCeErypY]]
         - [Tony Bennett, [HJuZUBJtWUo]]
         - [Doris Day, [M_CRJNKvWsk]]
