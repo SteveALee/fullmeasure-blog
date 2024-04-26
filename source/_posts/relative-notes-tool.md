@@ -8,8 +8,7 @@ If your musical life is largely score driven then there's a fair chance you've n
 
 Alternatively, musicians who tend to play by ear or work with other musicians in variable adhoc groups, like in jam or recording sessions, need a flexible approach to musical pitch. After all, they may be called on to play a tune in any key at the drop of a hat. Systems such as Nashville numbering, relative Do Solfege and Roman numerals provide the necessary framework to support learning and playing melodies in a more flexible way.
 
-![Relative Notes with Dubler](/images/RelativeNotes.png)
-<figcaption>Relative Notes with Dubler</figcaption>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4kNCYW4tiGQ?si=zVuWIzZrZl2W5lUL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In fact, many musicians do dabble with Solfege as when young, but it usually gets forgotten as working with scores takes precedence in later musical education and life. That's a shame because Solfege is a powerful tool for both learning and performance.
 
@@ -34,9 +33,5 @@ The required features are few:
 - Alow the tonic to be set, including to the current note
 
 Technically I used the excellent [SvelteKit](https://kit.svelte.dev/) JavaScript web framework in Static Site Generator (SSG) mode and hosted on [Netlify](https://www.netlify.com/). I've had it working on Windows (Edge and Firefox) and Android (Chrome not Firefox). If Safari supports the Web MIDI spec it should work on Apple platforms too.
-
-Here's a short video demonstrating how it works:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4kNCYW4tiGQ?si=zVuWIzZrZl2W5lUL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Do give it a go and see what you think. Is it at all useful? What other tools would be useful for using Relative Pitch?
