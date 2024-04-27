@@ -14,7 +14,7 @@
 <meta property="og:description" content="The Relative Notes concept is simple: monitor what notes are being played and display the syllable or number that represents the played note relative to a reference tonic note (key centre). Ideally it">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-04-25T11:01:00.000Z">
-<meta property="article:modified_time" content="2024-04-26T17:49:42.456Z">
+<meta property="article:modified_time" content="2024-04-27T09:29:38.238Z">
 <meta property="article:author" content="Steve Lee">
 <meta property="article:tag" content="music,technology,education">
 <meta name="twitter:card" content="summary">
@@ -156,7 +156,7 @@
 <p>One thing that soon become apparent though is the lack of tools that support relative pitch. There are ear training apps that use intervals or solfege. In addition, MuseScore supports putting Solfege syllables in note heads, an interesting addition though not not so effective. As an notable aside, my first ever foray into contributing to open source projects was with GNU Solfege, a little Linux app designed to help learn Solfege.</p>
 <p>Recently I spotted the lack of ability to import a chord sheet from iReal Pro into a scoring tool and get the chords changed to Roman numerals relative notation. With MuseScore the labels are just text and there is no musical knowledge that could be used to swap the displayed text. Fundamentally, whilst scores have a key signature, these are ambiguous in defining the key. For example, a key signature with no accidentals can indicate C major or A minor, or even one of the other 5 modal keys.</p>
 <p>When I’m practicing solfege exercises I sometimes sing or play the correct pitch yet use the wrong syllable. I wanted something to help me recognise that situation when it occurs. One solution is recording oneself as mistakes can often be spotted when listening back. But I wanted to try something a little more immediate, so I created a new musical companion app:</p>
-<p><a href="https://relative.musicpracticetools.net/"><strong>Relative Notes</strong></a></p>
+<p>Here it is: <a href="https://relative.musicpracticetools.net/"><strong>Relative Notes App</strong></a></p>
 <p>When it came to researching software components that I could use I found that whilst open source pitch recognition libraries do exist they really are not that effective in a range of applications. However, the recently released commercial pitch-to-MIDI program <a href="https://vochlea.com/">Dubler</a> has proven itself to be excellent since I bought it on a whim. Furthermore, <a href="https://en.wikipedia.org/wiki/MIDI">MIDI</a> enabling the app makes it more flexible.</p>
 <p>The feature requirements are few:</p>
 <ul>
@@ -165,7 +165,7 @@
 <li>Alow the tonic to be set, including to the current note</li>
 </ul>
 <p>Technically I used the excellent <a href="https://kit.svelte.dev/">SvelteKit</a> JavaScript web framework in Static Site Generator (SSG) mode in conjunction with <a href="https://webmidijs.org/">WebMIDI</a> and <a href="https://tonaljs.github.io/tonal/docs/">tonal</a>. Hosting is on the wonderful <a href="https://www.netlify.com/">Netlify</a>. I’ve had the app working on Windows (Edge and Firefox) and Android (Chrome not Firefox). If Safari supports the Web MIDI spec it should work on Apple platforms too.</p>
-<p>Do give it a go and see what you think. Is it at all useful? What other tools would be useful for using Relative Pitch?</p>
+<p>Do <a href="https://relative.musicpracticetools.net/">give it a go</a>and see what you think. Is it at all useful? What other tools would be useful for using Relative Pitch?</p>
 
   </div>
 </article>

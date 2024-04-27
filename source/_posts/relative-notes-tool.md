@@ -22,7 +22,7 @@ Recently I spotted the lack of ability to import a chord sheet from iReal Pro in
 
 When I'm practicing solfege exercises I sometimes sing or play the correct pitch yet use the wrong syllable. I wanted something to help me recognise that situation when it occurs. One solution is recording oneself as mistakes can often be spotted when listening back. But I wanted to try something a little more immediate, so I created a new musical companion app:
 
-[**Relative Notes**](https://relative.musicpracticetools.net/)
+Here it is: [**Relative Notes App**](https://relative.musicpracticetools.net/)
 
 When it came to researching software components that I could use I found that whilst open source pitch recognition libraries do exist they really are not that effective in a range of applications. However, the recently released commercial pitch-to-MIDI program [Dubler](https://vochlea.com/) has proven itself to be excellent since I bought it on a whim. Furthermore, [MIDI](https://en.wikipedia.org/wiki/MIDI) enabling the app makes it more flexible.
 
@@ -34,4 +34,4 @@ The feature requirements are few:
 
 Technically I used the excellent [SvelteKit](https://kit.svelte.dev/) JavaScript web framework in Static Site Generator (SSG) mode in conjunction with [WebMIDI](https://webmidijs.org/) and [tonal](https://tonaljs.github.io/tonal/docs/). Hosting is on the wonderful [Netlify](https://www.netlify.com/). I've had the app working on Windows (Edge and Firefox) and Android (Chrome not Firefox). If Safari supports the Web MIDI spec it should work on Apple platforms too.
 
-Do give it a go and see what you think. Is it at all useful? What other tools would be useful for using Relative Pitch?
+Do [give it a go](https://relative.musicpracticetools.net/)and see what you think. Is it at all useful? What other tools would be useful for using Relative Pitch?
