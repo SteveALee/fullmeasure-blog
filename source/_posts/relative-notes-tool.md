@@ -4,7 +4,7 @@ date: 2024-04-25 12:01:00
 tags:
 ---
 
-**The Relative Notes concept is simple: monitor what notes are being played and display the syllable or number that represents the played note relative to a reference tonic note (key centre). Ideally it will work with singing as this is a fundamental skill in developing relative musicality on any instrument.**
+**The Relative Notes companion app concept is simple: monitor which MIDI notes are being played and display the syllable or number that represents the played note relative to a reference tonic note (key centre). It will even work with singing when using with the Dubler pitch-to-MIDI program**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4kNCYW4tiGQ?si=zVuWIzZrZl2W5lUL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -26,16 +26,17 @@ Here it is: [**Relative Notes App**](https://relative.musicpracticetools.net/)
 
 (Sorry Safari Users but it still does not support WebMIDI so you'll need to us another browser)
 
-When it came to researching software components that I could use I found that whilst open source JavaScript pitch recognition libraries do exist they really are not that effective in a range of applications. However, the recently released commercial pitch-to-MIDI program [Dubler](https://vochlea.com/) has proven itself to be excellent since I bought it on a whim. Furthermore, [MIDI](https://en.wikipedia.org/wiki/MIDI) enabling the app makes it more flexible (unless you use Safari).
-
 The feature requirements are few:
 
 - Web based - naturally
 - Monitor MIDI traffic from a MIDI device, either external hardware or virtual software
 - Display the syllable or number
 - Alow the tonic to be set, including to the current note
+- Ideally support singing as is a key to ear training
 
 Technically I used the excellent [SvelteKit](https://kit.svelte.dev/) JavaScript web framework in Static Site Generator (SSG) mode in conjunction with [WebMIDI](https://webmidijs.org/) and [tonal](https://tonaljs.github.io/tonal/docs/). Hosting is on the wonderful [Netlify](https://www.netlify.com/). I've had the app working on Windows (Edge and Firefox) and Android (Chrome not Firefox). As mentioned earlier Safari users are out of luck but as the dev team have recently become better at supporting web standards there is some hope.
+
+When it came to researching software components that I could use I found that whilst open source JavaScript pitch recognition libraries do exist they really are not that effective in a range of applications. However, the recently released commercial pitch-to-MIDI program [Dubler](https://vochlea.com/) has proven itself to be excellent since I bought it on a whim. Furthermore, [MIDI](https://en.wikipedia.org/wiki/MIDI) enabling the app makes it more flexible (unless you use Safari).
 
 I've been happily using Relative Notes with Danny's solfege warmups and find it useful. Though I really do need to ensure I keep listening as my primary sense and don't rely on visuals too much.
 
