@@ -37,4 +37,6 @@ The feature requirements are few:
 
 Technically I used the excellent [SvelteKit](https://kit.svelte.dev/) JavaScript web framework in Static Site Generator (SSG) mode in conjunction with [WebMIDI](https://webmidijs.org/) and [tonal](https://tonaljs.github.io/tonal/docs/). Hosting is on the wonderful [Netlify](https://www.netlify.com/). I've had the app working on Windows (Edge and Firefox) and Android (Chrome not Firefox). As mentioned earlier Safari users are out of luck but as the dev team have recently become better at supporting web standards there is some hope.
 
+I've been happily using for Danny's solfege warmups and find it useful. Though I really do need to ensure I keep listening as my primary sense and don't rely on visuals too much.
+
 Do [give it a go](https://relative.musicpracticetools.net/) and see what you think. Is it at all useful? Can it [be improved](https://github.com/music-practice-tools/relative-notes/issues), while keeping it simple. What other tools could support for using Relative Pitch?
