@@ -1,32 +1,27 @@
 <!DOCTYPE html>
-<html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
-<%- partial('_partial/head') %>
-<body class="max-width mx-auto px3 <%- theme.direction -%>">
-    <% if (is_post()) { %>
-      <%- partial('_partial/post/actions_desktop') %>
-    <% } %>
-    <div class="content index py4">
-        <% if (!is_post()) { %>
-          <%- partial('_partial/header') %>
-        <% } %>
-        <%- body %>
-        <% if (is_post()) { %>
-          <%- partial('_partial/post/actions_mobile') %>
-        <% } %>
-        <%- partial('_partial/footer') %>
-    </div>
-    <%- partial('_partial/styles') %>
-    <%- partial('_partial/scripts') %>
+<html<%= config.language ? " lang=" + config.language.substring(0, 2) : "" %>>
+  <%- partial('_partial/head') %>
 
-<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js' ></script>
-<script>
-  kofiWidgetOverlay.draw('stevelee1084', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#794bc4',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
-  
-</body>
-</html>
+    <body class="max-width mx-auto px3 <%- theme.direction -%>">
+      <% if (is_post()) { %>
+        <%- partial('_partial/post/actions_desktop') %>
+          <% } %>
+            <div class="content index py4">
+              <% if (!is_post()) { %>
+                <%- partial('_partial/header') %>
+                  <% } %>
+                    <%- body %>
+                      <% if (is_post()) { %>
+                        <%- partial('_partial/post/actions_mobile') %>
+                          <% } %>
+                            <a href="https://ko-fi.com/T6T3OX3K9" target="_blank"><img height="36"
+                                style="border: 0px; height: 36px" src=/images/KoFi.png
+                                alt="Support Steve at ko-fi.com" /></a>
+                            <%- partial('_partial/footer') %>
+            </div>
+            <%- partial('_partial/styles') %>
+              <%- partial('_partial/scripts') %>
+
+    </body>
+
+    </html>
