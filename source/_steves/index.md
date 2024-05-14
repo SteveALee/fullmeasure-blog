@@ -6,6 +6,7 @@ title: Steve's stuff
 
 - [FCM Hub](https://www.fcmprogram.com/)
 - [Facebook Group](https://www.facebook.com/groups/860510985645705/)
+- [Ear Ladders](https://parameters.musicpracticetools.net/?file=https://blog.fullmeasure.uk/_steves/FCM-Ear-Ladders.yaml)
 
 ## IFR
 
