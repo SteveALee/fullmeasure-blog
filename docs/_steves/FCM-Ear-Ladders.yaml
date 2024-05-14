@@ -1,0 +1,63 @@
+- title: FCM Ear Ladders
+- set: Ladders
+  params:
+    - name: Key 1
+      values:
+        - A♭
+        - A
+        - B♭
+        - B
+        - C
+        - D♭
+        - D
+        - E♭
+        - E
+        - F
+        - G♭
+        - G
+    - name: Key 2
+      values:
+        - A♭
+        - A
+        - B♭
+        - B
+        - C
+        - D♭
+        - D
+        - E♭
+        - E
+        - F
+        - G♭
+        - G
+    - name: Key 3
+      values:
+        - A♭
+        - A
+        - B♭
+        - B
+        - C
+        - D♭
+        - D
+        - E♭
+        - E
+        - F
+        - G♭
+        - G
+    - name: Start Syllable
+      values:
+        - "Do"
+        - "Re"
+        - "Mi"
+        - "Fa"
+        - "Sol"
+        - "La"
+        - "Te"
+    - name: Start Finger
+      values:
+        - "1"
+        - "2"
+        - "4"
+    - name: Direction
+      values:
+        - Ascending
+        - Descending
