@@ -45,4 +45,4 @@ Once I got the hang of basic looper technique I started having fun. Mareia caref
 
 I stopped here for a while, enjoying the freedom a looper provides, and saving anything I really liked to the loopers memory.
 
-A final observation of thia lesson is we get to hear a small snippet of Mireia's beautiful playing as she provides an example.
+A final observation on this lesson is we get to hear a small snippet of Mireia's beautiful playing as she provides an example.
