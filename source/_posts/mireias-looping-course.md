@@ -4,7 +4,7 @@ date: 2024-09-08 12:01:00
 tags:
 ---
 
-** My experience with Mireia Clua's Violin looping course: Learn to compose your own music with your violin and a looper pedal - but on bass guitar **
+**My experience with Mireia Clua's Violin looping course: Learn to compose your own music with your violin and a looper pedal - but on bass guitar**
 
 I first brought [this course](https://mireiaclua.com/violin-looping-course/) back in '22 after a promotion by the musicality development folks over at [Musical U](https://www.musical-u.com/). My desire was to get some pointers on how to get creative on my double bass with a looper as a nice simple solution to expressive recording. Being hands free is a definite advantage with a double bass and bow!
 
