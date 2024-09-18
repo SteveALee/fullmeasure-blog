@@ -8,12 +8,12 @@ tags:
 
 I first brought [this course](https://mireiaclua.com/violin-looping-course/) back in '22 after a promotion by the musicality development folks over at [Musical U](https://www.musical-u.com/). My desire was to get some pointers on how to be creative on my double bass with a looper as a nice simple solution to expressive recording. Being hands free is a definite advantage with a double bass and bow!
 
+![Super Loopy Nuts ia Me](/images/superloopynuts.jpg)
+<figcaption>Super loopy nuts is me</figcaption>
+
 Mireia is co-founder of [Improvise For Real](https://improviseforreal.com/) (IFR) who also provide resources to develop "a simple understanding of how music [harmony] really works and how to connect with your own musical creativity". As the course is for violin, Mireia's main instrument, I checked with her the suitability for my plans and she confirmed it should apply to any stringed instrument, especially one that is also bowed.
 
 So roll forward a couple of years to our month long stay in Annecy, France where I planned some musical exploration time while my wife works. Due to limited space in our transport I brought an ultra light setup of electric bass, looper, headphone amp and speaker, plus Android phone. So despite a lack of double bass and bow I still hoped to enjoy some creative freedom and finally explore the course. 
-
-![Super Loopy Nuts ia Me](/images/superloopynuts.jpg)
-<figcaption>Super loopy nuts is me</figcaption>
 
 ![Travel rig](/images/travel-rig.jpg)
 <figcaption>My ultra light travel bass rig</figcaption>
