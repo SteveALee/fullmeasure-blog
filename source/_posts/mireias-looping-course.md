@@ -12,8 +12,11 @@ Mireia is co-founder of [Improvise For Real](https://improviseforreal.com/) (IFR
 
 So roll forward a couple of years to our month long stay in Annecy, France where I planned some musical exploration time while my wife works. Due to limited space in our transport I brought an ultra light setup of electric bass, looper, headphone amp and speaker, plus Android phone. So despite a lack of double bass and bow I still hoped to enjoy some creative freedom and finally explore the course. 
 
+![Super Loopy Nuts ia Me](/images/superloopynuts.jpg)
+<figcaption>Super loopy nuts is me</figcaption>
+
 ![Travel rig](/images/travel-rig.jpg)
-<figcaption>My Ultra light travel bass rig</figcaption>
+<figcaption>My ultra light travel bass rig</figcaption>
 
 ## The Course
 
