@@ -55,5 +55,5 @@ Here's a quick list of possible "gotchas" I found whilst learning.
 - ECM module imports cannot be reassigned - use an object or array and mutate it in the importing module.
 - As a result of the last two, objects might be the best general type for reactive variables.
 - You can have a promise as state and use the template #async support for async DOM updates. Otherwise integration of async and reactivity can require care. Stores might be easier if you are familiar with them.
-- Getters and setters could be used for side effects but it's almost certainly better to keep them pure and use use $effect as intended.
+- Getters and setters could be used for side effects but it's almost certainly better to keep them pure and use $effect as intended.
 - When you bind a property or an attribute to a class instance with a $state member the compiler provides the getter and setter required for the reactivity to work. If you use a POJO you need to provide the getters and setters explicitly.
