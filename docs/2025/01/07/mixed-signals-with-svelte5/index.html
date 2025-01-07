@@ -14,7 +14,7 @@
 <meta property="og:description" content="Svelte 5 has changed it’s reactivity architecture from compiler based to run-time signals. Here’s some observations Updating to Svelte 5I took a bit of a break from web app development after crashing">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-01-07T12:01:00.000Z">
-<meta property="article:modified_time" content="2025-01-07T23:12:07.243Z">
+<meta property="article:modified_time" content="2025-01-07T23:14:36.803Z">
 <meta property="article:author" content="Steve Lee">
 <meta property="article:tag" content="music,technology,education">
 <meta name="twitter:card" content="summary">
@@ -168,8 +168,9 @@
 <h2 id="Points-to-Watch"><a href="#Points-to-Watch" class="headerlink" title="Points to Watch"></a>Points to Watch</h2><p>Here’s a quick list of possible “gotchas” I found whilst learning.</p>
 <ul>
 <li>Keep in mind the distinction between object or array variable reassignment and mutation.</li>
-<li>Also remember numbers and strings get passed by value, objects and arrays by reference. This can effect the upwards reactivity chain out of functions. Objects might be the best general solution for reactive variables.</li>
+<li>Also remember numbers and strings get passed by value, objects and arrays by reference. This can effect the upwards reactivity chain out of functions.</li>
 <li>ECM module imports cannot be reassigned - use an object or array and mutate it in the importing module.</li>
+<li>As a result of the last two, objects might be the best general type for reactive variables.</li>
 <li>You can have a promise as state and use the template #async support for async DOM updates. Otherwise integration of async and reactivity can require care. Stores might be easier if you are familiar with them.</li>
 <li>Getters and setters could be used for side effects but it’s almost certainly better to keep them pure and use use $effect as intended.</li>
 <li>When you bind a property or an attribute to a class instance with a $state member the compiler provides the getter and setter required for the reactivity to work. If you use a POJO you need to provide the getters and setters explicitly.</li>
