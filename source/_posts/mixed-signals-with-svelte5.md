@@ -1,5 +1,5 @@
 ---
-title: Mixed Signals with Svlete 5
+title: Mixed Signals with Svelte 5
 date: 2025-01-07 12:01:00
 tags:
 ---
@@ -40,7 +40,7 @@ In addition, $derived runes are a sort of pure (in a functional sense) effect, m
 
 The Svelte compiler provides some syntatic sugar to simplify the common patterns of mapping received data to DOM updates, with additional user events. And the documentation talks about using the sugar, thus rather hiding the underlying signals.
 
-While the declaration of an observable is explicit with $state() or $derived(), their use is implicit with no need to reference any value members. Rich stated that it was a design decision for Svelte 5 reactivity, making it "Magical but not magic". In contrast stores require a $ prefix at use so making reactive variable references explicit, which to be honest I like. I'm toying with the idea of using $ to prefix all rune variables.
+While the declaration of an observable is explicit with $state() or $derived(), their use is implicit with no need to reference any value members. Rich Harris stated that it was a design decision for Svelte 5 reactivity, making it "Magical but not magic". In contrast stores require a $ prefix at use so making reactive variable references explicit, which to be honest I like. I'm toying with the idea of using $ to prefix all rune variables.
 
 As always, this best intentioned hiding can be a bit of a barrier to doing more complex things. In the worst cases causing a so called leaky abstraction. I think Svelte just avoids this mistake but the docs could clarify the Signal model for the (not so uncommon) cases when you need to understand it. Especially as now the reactivity is no long restricted to the component initialisation and can provide more "universal reactivity" across modules, possibly replacing stores.
 
