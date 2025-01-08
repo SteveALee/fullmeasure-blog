@@ -32,32 +32,35 @@ One of the pain points with using Observables and that Signals attempt to addres
 
 The Svelte compiler provides syntactic sugar to simplify common patterns of mapping received data to DOM updates, with additional user events. The documentation describes using the sugar, thus rather hiding the underlying Signals and their use.
 
-As always, this best intentioned detail hiding can be a bit of a barrier to doing more complex things. Rich Harris stated that it was a design decision for Svelte 5 reactivity, making it "Magical but not magic". In the worst cases this approach can cause so called leaky abstractions, where you are forced to use internal details. I think Svelte just about avoids this mistake but the docs could clarify the Signal model for the (not so uncommon) cases when you need to understand it. Especially as now the reactivity is no long restricted to the component initialisation and can provide more "universal reactivity" across modules, possibly replacing stores.
+As always, this best intentioned detail hiding can be a bit of a barrier to doing more complex things. Rich Harris stated that it was a design decision for Svelte 5 reactivity, making it "Magical but not magic". In the worst cases this approach can cause so called leaky abstractions, where you are forced to use internal details. I think Svelte just about avoids this mistake but the docs could clarify the Signal model for the (not so uncommon) cases when you need to understand it. Especially as now the reactivity is no longer restricted to the component initialisation and can provide more "universal reactivity" across modules, possibly replacing stores.
 
 It seems the Svelte Signals are rolled in a particular Svelty way, using JavaScript Proxy objects for the observables and getters and setters to pass changes in and out of effect functions, class instances and POJOs. But I've not looked too close into the details (yet}. I'm happy to have a usable conceptual model that lets me perform reliable work. And anyway, stores are still available if their reactive architectural model seems preferable.
 
-The $state rune creates a Signal observable either for simple javascript type (numbers or strings) or deep reactivity for mutations to compound types (object and array). Other types like Set are not handled but Svelte provides reactive version of this. This seems like a reasonable design decision.
+The $state rune creates a Signal observable either for simple javascript types (numbers or strings) which can only be reassigned, or deep reactivity to mutations of compound types (object and array). Other types like Set and Map are not handled but Svelte does provides reactive versions of these. This seems like a reasonable design decision.
 
 In addition, $derived runes are a sort of pure (in a functional sense) effect, more like Stream functional operators. They let a value be generated from others as they change, and with strictly no side effects.
 
-Finally the $bind provides several mechanisms to link elements and components to observables.
+Finally the $bind rune provides several mechanisms to link elements and components to observables.
 
 The Svelte compiler generates targeted effect functions for updating parts of the DOM based on the svelte source code. These subscribe to observables created with the $state rune. In other words, each reference to a $props, $state or $derived observable in the Svelte template causes a subscription to it and the template code manipulates the dom according to the data then received. Neat.
 
-You can also provide your own effect functions as well using the Svelte $effect rune. Ideal for integrating other non DOM side effects, whether input or output. These can also be bound to DOM elements using Actions, allowing you to replace or extend the built in template effect behaviour. There is also the CreateSubscriber() helper function for more complex integration into an $effect. The Svelte docs sensibly advise not using effects when other approaches work better, but it doesn't take much more than very basic DOM updates before you need side effects to do real work.
+You can also provide your own effect functions using the Svelte $effect rune. This is required for integrating other non DOM side effects, whether input or output. These can also be bound to DOM elements using Actions, allowing you to replace or extend the built in template behaviour. There is also the CreateSubscriber() helper function for more complex integration into an $effect.
 
-While the declaration of an observable is explicit with $state() or $derived(), their use is implicit with no need to reference any internal value members. In contrast stores require a $ prefix at use so making reactive variable references explicit, which to be honest I like. I'm toying with the idea of using $ to prefix all rune variables.
+The Svelte docs sensibly advise not using effects when other approaches work better, but it doesn't take much more than very basic DOM updates before you need side effects to do real work.
+
+While the declaration of an observable is explicit with $state() or $derived(), their use is implicit with no need to reference any internal value members. In contrast stores require a $ prefix at use so making reactive variable subscription explicit, which to be honest I like. I'm toying with the idea of using $ to prefix all rune variables.
 
 All in all, I do like the Svelte 5 reactivity model based as it is on Signals with the core $state, $derived and $effect runes.
 
 ## Points to Watch
 
-Here's a quick list of possible "gotchas" I found whilst learning.
+Here's a short list of "gotchas" that I found whilst learning to use Svelete 5 reactivity
 
 - Keep in mind the distinction between object or array variable reassignment and mutation.
 - Also remember numbers and strings get passed by value, objects and arrays by reference. This can effect the upwards reactivity chain out of functions.
-- ECM module imports cannot be reassigned - use an object or array and mutate it in the importing module.
-- As a result of the last two, objects might be the best general type for reactive variables.
+- ECM module imports cannot be reassigned - for imported runes use an object or array so you can mutate it in the importing module.
+- As a result of the last two, objects might be the best general type for reactive $state variables.
 - You can have a promise as state and use the template #async support for async DOM updates. Otherwise integration of async and reactivity can require care. Stores might be easier if you are familiar with them.
+- Closures provide flexibility in accessing runes from getters and setters in POJOs
 - Getters and setters could be used for side effects but it's almost certainly better to keep them pure and use $effect as intended.
 - When you bind a property or an attribute to a class instance with a $state member the compiler provides the getter and setter required for the reactivity to work. If you use a POJO you need to provide the getters and setters explicitly.
