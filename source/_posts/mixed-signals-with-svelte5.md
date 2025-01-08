@@ -36,7 +36,7 @@ As always, this best intentioned detail hiding can be a bit of a barrier to doin
 
 It seems the Svelte Signals are rolled in a particular Svelty way, using JavaScript Proxy objects for the observables and getters and setters to pass changes in and out of effect functions, class instances and POJOs. But I've not looked too close into the details (yet}. I'm happy to have a usable conceptual model that lets me perform reliable work. And anyway, stores are still available if their reactive architectural model seems preferable.
 
-The $state rune creates a Signal observable either for simple javascript types (numbers or strings) which can only be reassigned, or deep reactivity to mutations of compound types (object and array). Other types like Set and Map are not handled but Svelte does provides reactive versions of these. This seems like a reasonable design decision.
+The $state and $prop runes create a Signal observable either for simple javascript types (numbers or strings) which can only be reassigned, or deep reactivity to mutations of compound types (object and array). Other types like Set and Map are not handled but Svelte does provides reactive versions of these. This seems like a reasonable design decision.
 
 In addition, $derived runes are a sort of pure (in a functional sense) effect, more like Stream functional operators. They let a value be generated from others as they change, and with strictly no side effects.
 
@@ -50,7 +50,7 @@ The Svelte docs sensibly advise not using effects when other approaches work bet
 
 While the declaration of an observable is explicit with $state() or $derived(), their use is implicit with no need to reference any internal value members. In contrast stores require a $ prefix at use so making reactive variable subscription explicit, which to be honest I like. I'm toying with the idea of using $ to prefix all rune variables.
 
-All in all, I do like the Svelte 5 reactivity model based as it is on Signals with the core $state, $derived and $effect runes.
+All in all, I do like the Svelte 5 reactivity model based as it is on Signals with the core $state/$props, $derived and $effect runes.
 
 ## Points to Watch
 
