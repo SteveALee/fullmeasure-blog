@@ -14,7 +14,7 @@
 <meta property="og:description" content="Svelte 5 has changed it’s reactivity architecture from compiler based to run-time signals. Here’s some observations on the intended “Magical” experience Updating to Svelte 5I took a bit of a break fro">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-01-07T12:01:00.000Z">
-<meta property="article:modified_time" content="2025-01-08T12:53:06.825Z">
+<meta property="article:modified_time" content="2025-01-08T12:54:00.721Z">
 <meta property="article:author" content="Steve Lee">
 <meta property="article:tag" content="music,technology,education">
 <meta name="twitter:card" content="summary">
@@ -175,9 +175,9 @@
 <li>ECM module imports cannot be reassigned - for imported runes use an object or array so you can mutate it in the importing module.</li>
 <li>As a result of the last two, objects might be the best general type for reactive $state variables.</li>
 <li>You can have a promise as state and use the template #async support for async DOM updates. Otherwise integration of async and reactivity can require care. Stores might be easier if you are familiar with them.</li>
-<li>Closures provide flexibility in accessing runes from getters and setters in POJOs</li>
 <li>Getters and setters could be used for side effects but it’s almost certainly better to keep them pure and use $effect as intended.</li>
 <li>When you bind a property or an attribute to a class instance with a $state member the compiler provides the getter and setter required for the reactivity to work. If you use a POJO you need to provide the getters and setters explicitly.</li>
+<li>Closures provide flexibility in accessing runes from getters and setters in POJOs</li>
 </ul>
 
   </div>

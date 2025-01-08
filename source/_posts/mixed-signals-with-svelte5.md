@@ -61,6 +61,6 @@ Here's a short list of "gotchas" that I found whilst learning to use Svelete 5 r
 - ECM module imports cannot be reassigned - for imported runes use an object or array so you can mutate it in the importing module.
 - As a result of the last two, objects might be the best general type for reactive $state variables.
 - You can have a promise as state and use the template #async support for async DOM updates. Otherwise integration of async and reactivity can require care. Stores might be easier if you are familiar with them.
-- Closures provide flexibility in accessing runes from getters and setters in POJOs
 - Getters and setters could be used for side effects but it's almost certainly better to keep them pure and use $effect as intended.
 - When you bind a property or an attribute to a class instance with a $state member the compiler provides the getter and setter required for the reactivity to work. If you use a POJO you need to provide the getters and setters explicitly.
+- Closures provide flexibility in accessing runes from getters and setters in POJOs
