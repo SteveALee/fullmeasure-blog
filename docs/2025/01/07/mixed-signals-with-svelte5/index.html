@@ -14,7 +14,7 @@
 <meta property="og:description" content="Svelte 5 has changed it’s reactivity architecture from compiler based to run-time signals. Here’s some observations on the intended “Magical” experience Updating to Svelte 5I took a bit of a break fro">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-01-07T12:01:00.000Z">
-<meta property="article:modified_time" content="2025-01-13T11:34:06.065Z">
+<meta property="article:modified_time" content="2025-01-13T11:35:00.194Z">
 <meta property="article:author" content="Steve Lee">
 <meta property="article:tag" content="music,technology,education">
 <meta name="twitter:card" content="summary">
@@ -162,7 +162,7 @@
 <p>It seems the Svelte Signals are rolled in a particular Svelty way, using JavaScript Proxy objects for the observables and getters and setters to pass changes in and out of effect functions, class instances and POJOs. But I’ve not looked too close into the details (yet}. I’m happy to have a usable conceptual model that lets me perform reliable work. And anyway, stores are still available if their reactive architectural model seems preferable.</p>
 <p>The $state and $props runes create a Signal observable either for simple javascript types (numbers or strings) which can only be reassigned, or deep reactivity to mutations of compound types (object and array). Other types like Set and Map are not handled this way but Svelte does provides reactive versions of these. This seems like a reasonable design decision. You have to stop somewhere.</p>
 <p>In addition, $derived runes let a derived value be computed from others as they change, and with strictly no side effects. They are a sort of pure (in a functional sense) effect, like Stream functional operators. They</p>
-<p>The $bind rune provides several mechanisms to readily link elements and components to observables. FOr example so component prop change withing a component result in an Single update in parent code.</p>
+<p>The $bind rune provides several mechanisms to link elements and components to observables. For example so component prop change within a component result in an Single update in parent code.</p>
 <p>To update the DOM the Svelte compiler generates targeted effect functions for updating small parts of the DOM based on the svelte source code. These subscribe to observables created with the $state rune. In other words, each reference to a $props, $state or $derived Observable in the Svelte template causes a subscription to it and the template code them manipulates the DOM according to the data as it is received. Neat.</p>
 <p>You can also provide your own effect functions using the Svelte $effect rune. This is required for integrating other non DOM side effects, whether input or output. Effects can also be bound to DOM elements using Actions, allowing you to replace or extend the built in template behaviour. There is also the CreateSubscriber() helper function for more complex integration into an $effect.</p>
 <p>The Svelte docs sensibly advise not using effects when other approaches like $derived are more appropriate , but it doesn’t take much more than very basic DOM updates before you need side effects to do real work.</p>

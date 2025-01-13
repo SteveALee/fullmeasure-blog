@@ -40,7 +40,7 @@ The $state and $props runes create a Signal observable either for simple javascr
 
 In addition, $derived runes let a derived value be computed from others as they change, and with strictly no side effects. They are a sort of pure (in a functional sense) effect, like Stream functional operators. They
 
-The $bind rune provides several mechanisms to readily link elements and components to observables. FOr example so component prop change withing a component result in an Single update in parent code.
+The $bind rune provides several mechanisms to link elements and components to observables. For example so component prop change within a component result in an Single update in parent code.
 
 To update the DOM the Svelte compiler generates targeted effect functions for updating small parts of the DOM based on the svelte source code. These subscribe to observables created with the $state rune. In other words, each reference to a $props, $state or $derived Observable in the Svelte template causes a subscription to it and the template code them manipulates the DOM according to the data as it is received. Neat.
 
