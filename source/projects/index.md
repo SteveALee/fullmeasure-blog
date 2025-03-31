@@ -24,15 +24,21 @@ Web app to generates random values for a set of parameters. Either one or all. W
 
 ## youtube-current-time
 
-Displays current youtube video time as you scroll the page containing the video.
+Displays current youtube video time as you scroll the page containing the video. A version of this is used by [MusicalU](https://www.musical-u.com/).
 
 [youtube-current-time on GitHub](https://github.com/music-practice-tools/youtube-current-times)
 
-## spinner
+## Spinner
 
 A random number spinner, including a musical notes option
 
-[spinner.fullmeasure.uk](spinner.fullmeasure.uk)
+[spinner.fullmeasure.uk](https://spinner.fullmeasure.uk)
+
+## Relative Notes
+
+Music Companion app to show Solfege or numbers for MIDI notes
+
+[relative.musicpracticetools.net/](https://relative.musicpracticetools.net/)
 
 ## Build Audacity with ASIO drivers
 
