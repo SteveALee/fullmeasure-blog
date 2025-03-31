@@ -3,7 +3,7 @@ title: projects
 date: 2019-09-24 16:17:06
 ---
 
-Various projects designed to help musical development and practice. 
+Various projects designed to help musical development and practice.
 
 ## Alexa Control Of Song Master
 
@@ -18,7 +18,7 @@ An experimental set of tools to help with practicing and remote music lessons. B
 
 ## Generate Musical Parameters
 
-Web app to generates random values for a set of parameters. Either one  or all. Will also play audio media for values. Ideal for practicing or composing. Thanks to Al Swainger.
+Web app to generates random values for a set of parameters. Either one or all. Will also play audio media for values. Ideal for practicing or composing. Thanks to Al Swainger.
 
 - [parameters.musicpracticetools.net - random selection of parameters](https://parameters.musicpracticetools.net)
 
@@ -27,6 +27,12 @@ Web app to generates random values for a set of parameters. Either one  or all. 
 Displays current youtube video time as you scroll the page containing the video.
 
 [youtube-current-time on GitHub](https://github.com/music-practice-tools/youtube-current-times)
+
+## spinner
+
+A random number spinner, including a musical notes option
+
+[spinner.fullmeasure.uk](spinner.fullmeasure.uk)
 
 ## Build Audacity with ASIO drivers
 
